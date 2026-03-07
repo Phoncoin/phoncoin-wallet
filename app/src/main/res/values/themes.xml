@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Thème principal de l'application
+        ✔ Nom inchangé
+        ✔ Style visuel inchangé
+        ✔ Compatible AppCompat / FragmentActivity
+        ✔ Requis pour biométrie + sécurité
+    -->
+    <style name="Theme.WALLET" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Full-screen window -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!-- Default background color (does not break Compose) -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!-- Navigation / status bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+
+        <!-- Disable forceDark mode to preserve the exact rendering -->
+    </style>
+
+</resources>

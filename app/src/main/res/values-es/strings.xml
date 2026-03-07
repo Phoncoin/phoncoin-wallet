@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">«Un teléfono para el mundo.»</string>
+
+    <!-- Global -->
+    <string name="back">Atrás</string>
+    <string name="close">Cerrar</string>
+    <string name="copy">Copiar</string>
+    <string name="view">Ver</string>
+    <string name="refresh">Actualizar</string>
+    <string name="refreshing">Actualizando…</string>
+    <string name="online">EN LÍNEA</string>
+    <string name="offline">SIN CONEXIÓN</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Logotipo de Phoncoin</string>
+    <string name="cd_settings">Ajustes</string>
+    <string name="cd_refresh">Actualizar</string>
+    <string name="cd_lock">Bloquear</string>
+    <string name="cd_back">Atrás</string>
+    <string name="cd_scan_qr">Escanear QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Wallet • Minar • Explorer</string>
+    <string name="home_wallet_detected">Wallet detectada</string>
+    <string name="home_setup_wallet">Configurar tu wallet</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">Desbloquea para acceder a tu wallet y activar la minería PoP.</string>
+    <string name="home_setup_desc">Crea o importa tu frase de recuperación. Tus claves permanecen en tu teléfono.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">Desbloquea para acceder a tu wallet y activar la minería PoP.</string>
+    <string name="home_desc_not_initialized">Crea o importa tu frase de recuperación. Tus claves permanecen en tu teléfono.</string>
+
+    <string name="home_unlock">Desbloquear</string>
+    <string name="home_create_wallet">Crear wallet</string>
+    <string name="home_import_seed">Importar seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">Atrás</string>
+    <string name="explorer_reload">Recargar</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">Importar seed</string>
+    <string name="import_wallet_hint">Pega tu frase de recuperación (12 o 24 palabras).</string>
+    <string name="import_seed_label">Frase de recuperación</string>
+    <string name="import_clipboard_empty">El portapapeles está vacío</string>
+    <string name="import_paste_button">Pegar desde el portapapeles</string>
+    <string name="import_public_key_preview_title">Vista previa de la clave pública</string>
+    <string name="import_confirm_checkbox">Confirmo que esta seed es correcta</string>
+    <string name="import_invalid_seed_words_fmt">Seed inválida: se requieren 12 o 24 palabras (actual: %1$d).</string>
+    <string name="import_invalid_seed_format">Seed inválida (formato incorrecto).</string>
+    <string name="import_confirm_before_import">Confirma la seed antes de importar</string>
+    <string name="import_wallet_imported">Wallet importada ✅</string>
+    <string name="import_button_import">Importar</string>
+    <string name="import_warning">⚠️ No hagas capturas de pantalla. Nunca compartas tu seed.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">Importar seed</string>
+    <string name="import_seed_desc">Pega tu frase de recuperación (12 o 24 palabras).</string>
+    <string name="import_seed_paste">Pegar desde el portapapeles</string>
+    <string name="import_seed_clipboard_empty">El portapapeles está vacío</string>
+    <string name="import_seed_pubkey_preview">Vista previa de la clave pública</string>
+    <string name="import_seed_confirm_checkbox">Confirmo que esta seed es correcta</string>
+    <string name="import_seed_confirm_required_toast">Confirma la seed antes de importar</string>
+    <string name="import_seed_imported_toast">Wallet importada ✅</string>
+    <string name="import_seed_warning">⚠️ No hagas capturas de pantalla. Nunca compartas tu seed.</string>
+    <string name="import_seed_action">Importar</string>
+    <string name="import_seed_error_words_fmt">Seed inválida: se requieren 12 o 24 palabras (actual: %1$d).</string>
+    <string name="import_seed_error_format">Seed inválida (formato incorrecto).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">Crear wallet</string>
+    <string name="create_wallet_seed_label">Frase de recuperación (12 palabras)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">Mostrar</string>
+    <string name="create_wallet_hide">Ocultar</string>
+    <string name="create_wallet_tip">Anota estas 12 palabras en papel. Nunca las compartas.</string>
+    <string name="create_wallet_confirm_saved">He guardado mi seed</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">He guardado mi seed</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">Wallet</string>
+    <string name="wallet_not_initialized">Wallet no inicializada</string>
+    <string name="address_generating">Dirección: generando…</string>
+    <string name="address_title">Dirección PHC</string>
+    <string name="address_copy_hint">Pulsa Copiar para usar la dirección.</string>
+    <string name="address_copied">Dirección copiada ✅</string>
+    <string name="address_new_or_not_indexed">Dirección nueva o no indexada</string>
+
+    <!-- Balance -->
+    <string name="available">Disponible</string>
+    <string name="pending">Pendiente</string>
+    <string name="pending_txs_fmt">Transacciones pendientes: %1$d</string>
+    <string name="balance_unavailable">Saldo no disponible</string>
+    <string name="balance_unavailable_node_offline">Saldo no disponible (nodo sin conexión)</string>
+    <string name="loading_balance">Cargando saldo…</string>
+
+    <!-- Network -->
+    <string name="network_title">Red</string>
+    <string name="node_fmt">Nodo: %1$s</string>
+    <string name="node_unreachable">Nodo inaccesible</string>
+    <string name="loading_network">Cargando red…</string>
+    <string name="tap_for_details">Pulsa para ver detalles ▼</string>
+    <string name="tap_to_collapse">Contraer ▲</string>
+    <string name="net_height">Altura</string>
+    <string name="net_miners_10m">Mineros (10 min)</string>
+    <string name="net_difficulty">Dificultad</string>
+    <string name="net_eff_difficulty">Dificultad efectiva</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">Bloque objetivo</string>
+    <string name="net_hb_threshold">Umbral HB</string>
+    <string name="net_issued">Emitido</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">Integridad: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">Minería</string>
+    <string name="mining_active_badge">● MINERÍA ACTIVA</string>
+    <string name="mining_pop">Minería PoP</string>
+    <string name="mining_pop_active">Minería PoP (activa)</string>
+    <string name="mining_rejected_fmt">Rechazadas: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">Minería PoP lista</string>
+    <string name="mining_started">Minería PoP iniciada</string>
+    <string name="mining_stopped">Minería PoP detenida</string>
+    <string name="mining_notif_channel_name">Minería PoP</string>
+    <string name="mining_notif_title">PHONCOIN • Minería PoP</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">Nodo</string>
+    <string name="mining_status">Estado</string>
+    <string name="mining_accepted">Aceptadas</string>
+    <string name="mining_rejected">Rechazadas</string>
+    <string name="mining_diff">Dificultad</string>
+    <string name="mining_last_submit">Último envío</string>
+    <string name="mining_last_reason">Última razón</string>
+    <string name="mining_start">Iniciar</string>
+    <string name="mining_stop">Detener</string>
+    <string name="mining_copy_payload">Copiar el último payload</string>
+    <string name="mining_running_foreground">MINERÍA (servicio en primer plano)</string>
+    <string name="mining_stopped_badge">DETENIDA</string>
+    <string name="mining_notif_perm_title">Se requieren notificaciones</string>
+    <string name="mining_notif_perm_text">Para minería PoP premium (servicio estable en segundo plano), Android 13+ requiere el permiso de notificaciones.</string>
+    <string name="mining_notif_perm_allow">Permitir</string>
+    <string name="mining_notif_perm_later">Más tarde</string>
+    <string name="mining_help_text">El servicio envía heartbeats PoP-S4 (PoW + firma + huella + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">Enviar</string>
+    <string name="receive">Recibir</string>
+    <string name="transactions">Transacciones</string>
+    <string name="explorer">Explorador</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_security">Seguridad (PIN / Biometría)</string>
+    <string name="settings_seed_backup">Frase de recuperación</string>
+    <string name="settings_network_node">Red (Nodo)</string>
+    <string name="settings_language">Idioma</string>
+
+    <!-- Language -->
+    <string name="language_title">Idioma</string>
+    <string name="language_english">Inglés</string>
+    <string name="language_french">Francés</string>
+
+    <!-- Security -->
+    <string name="security_title">Seguridad</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">Código de bloqueo (4 a 12 dígitos)</string>
+    <string name="security_create_pin_hint_toast">Crea tu PIN en la pantalla de bloqueo ✅</string>
+    <string name="security_biometrics_title">Biometría</string>
+    <string name="security_biometrics_unavailable_toast">Biometría no disponible</string>
+    <string name="security_enable_pin_first_toast">Activa primero el PIN ✅</string>
+    <string name="security_autolock_title">Bloqueo automático</string>
+    <string name="security_delay_label">Retardo</string>
+    <string name="security_delay_30s">30 s</string>
+    <string name="security_delay_1min">1 min</string>
+    <string name="security_delay_5min">5 min</string>
+    <string name="security_delay_15min">15 min</string>
+    <string name="security_privacy_mode_title">Modo privacidad</string>
+    <string name="security_privacy_mode_desc">Ocultar información sensible en la interfaz</string>
+    <string name="security_delete_pin">Eliminar PIN</string>
+    <string name="security_pin_deleted_toast">PIN eliminado ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">Frase de recuperación</string>
+    <string name="seed_backup_warning">⚠️ Nunca compartas tu frase. Cualquiera que la tenga puede vaciar tu wallet.</string>
+    <string name="seed_wallet_not_initialized">Wallet no inicializada.</string>
+    <string name="seed_show_phrase">Mostrar frase</string>
+    <string name="seed_phrase_label">Frase:</string>
+    <string name="seed_hide_phrase">Ocultar</string>
+    <string name="seed_backup_tip">Consejo: escríbela en papel y guarda 2 copias (separadas).</string>
+    <string name="seed_copied_toast">Frase copiada ✅</string>
+
+    <!-- ✅ ADDED (for SeedBackupScreen / errors) -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">Muestra primero la seed ✅</string>
+
+    <!-- ✅ Seed recovery (legacy embedded screen in MainActivity) -->
+    <string name="seed_recovery_title">Frase de recuperación</string>
+    <string name="seed_recovery_warning">⚠️ Nunca compartas esta frase. Da acceso total a tu wallet.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">Mostrar</string>
+    <string name="seed_recovery_hide">Ocultar</string>
+    <string name="seed_recovery_must_reveal_toast">Muestra primero la seed ✅</string>
+    <string name="seed_recovery_copied_toast">Seed copiada ✅</string>
+    <string name="seed_recovery_tip">Consejo: anótala sin conexión (papel). Evita capturas de pantalla.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">Nodo / VPS</string>
+    <string name="node_settings_url_label">URL del nodo</string>
+    <string name="node_settings_example">Ejemplo: https://api.phonchain.org</string>
+    <string name="node_settings_auto">Auto (recomendado)</string>
+    <string name="node_settings_save">Guardar</string>
+
+    <!-- Send -->
+    <string name="send_title">Enviar</string>
+    <string name="send_from">De</string>
+    <string name="send_recipient_label">Dirección del destinatario (pubkey hex)</string>
+    <string name="send_amount_label">Cantidad (PHC)</string>
+    <string name="send_sending">Enviando…</string>
+    <string name="send_qr_scanned_toast">Dirección escaneada ✅</string>
+    <string name="send_qr_invalid_toast">QR inválido (no es una dirección hex)</string>
+    <string name="send_scan_prompt">Escanear dirección (QR)</string>
+    <string name="send_error_recipient_invalid">Dirección del destinatario inválida</string>
+    <string name="send_error_self_send">Está prohibido enviarte a ti mismo</string>
+    <string name="send_error_amount_invalid">Cantidad inválida</string>
+    <string name="send_error_insufficient_fmt">Fondos insuficientes (disponible: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">Transacción enviada ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">Rechazada: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">Recibir PHC</string>
+    <string name="receive_qr_cd">QR de la dirección PHC</string>
+    <string name="receive_qr_unavailable">QR no disponible</string>
+    <string name="receive_address_unavailable">Dirección no disponible</string>
+    <string name="receive_open_explorer">Abrir explorador</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Seguridad</string>
+    <string name="lock_subtitle">Desbloquea tu wallet</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 a 12 dígitos</string>
+    <string name="lock_error_pin_too_short">PIN demasiado corto</string>
+    <string name="lock_pin_created_toast">PIN creado ✅</string>
+    <string name="lock_error_pin_incorrect">PIN incorrecto</string>
+    <string name="lock_create_pin">Crear PIN</string>
+    <string name="lock_unlock">Desbloquear</string>
+    <string name="lock_dialog_title">Desbloquear PHONCOIN</string>
+    <string name="lock_dialog_no_locking">No hay bloqueo activado (PIN/Biometría).</string>
+    <string name="lock_dialog_enable_hint">Activa PIN y biometría en Ajustes → Seguridad.</string>
+    <string name="lock_biometric_subtitle">Confirma con tu huella o tu rostro</string>
+    <string name="lock_biometric_label">Biometría</string>
+    <string name="lock_biometric_loading">Biometría (cargando…)</string>
+    <string name="lock_biometric_not_available">La biometría no está disponible en este dispositivo (o no está configurada).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">Pendientes (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">Confirmadas (%1$d)</string>
+    <string name="transactions_unavailable">Transacciones no disponibles (nodo sin conexión / formato)</string>
+    <string name="tx_empty_pending">No hay transacciones pendientes</string>
+    <string name="tx_empty_confirmed">No hay transacciones confirmadas</string>
+    <string name="tx_amount">Cantidad</string>
+    <string name="tx_from">De</string>
+    <string name="tx_to">A</string>
+    <string name="tx_time">Fecha</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">Copiar txid</string>
+    <string name="tx_copy_json">Copiar JSON</string>
+    <string name="tx_hint_open_explorer">Consejo: pulsa la tarjeta para abrir en el explorador.</string>
+    <string name="tx_txid_unavailable">Txid no disponible</string>
+    <string name="tx_txid_copied">Txid copiado ✅</string>
+    <string name="tx_json_unavailable">JSON no disponible</string>
+    <string name="tx_json_copied">JSON copiado ✅</string>
+    <string name="tx_status_confirmed">Confirmada</string>
+    <string name="tx_status_pending">Pendiente</string>
+    <string name="tx_direction_in">Entrante</string>
+    <string name="tx_direction_out">Saliente</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">Error: %1$s</string>
+	
+<string name="mining_bg_title">Actividad en segundo plano</string>
+<string name="mining_bg_body">Para una participación Proof-of-Phone estable, permite la actividad en segundo plano y desactiva las restricciones de batería para PHONCOIN en los ajustes del dispositivo. La participación puede pausarse si Android restringe la actividad en segundo plano.</string>
+<string name="mining_bg_open_settings">Abrir ajustes de la app</string>
+<string name="mining_bg_optimized">Restricciones en segundo plano: ACTIVADAS (la participación puede pausarse)</string>
+<string name="mining_bg_unrestricted">Restricciones en segundo plano: DESACTIVADAS</string>
+
+</resources>

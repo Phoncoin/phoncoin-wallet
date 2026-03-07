@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">「世界のための1台の電話。」</string>
+
+    <!-- Global -->
+    <string name="back">戻る</string>
+    <string name="close">閉じる</string>
+    <string name="copy">コピー</string>
+    <string name="view">表示</string>
+    <string name="refresh">更新</string>
+    <string name="refreshing">更新中…</string>
+    <string name="online">オンライン</string>
+    <string name="offline">オフライン</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Phoncoin ロゴ</string>
+    <string name="cd_settings">設定</string>
+    <string name="cd_refresh">更新</string>
+    <string name="cd_lock">ロック</string>
+    <string name="cd_back">戻る</string>
+    <string name="cd_scan_qr">QRをスキャン</string>
+
+    <!-- Home -->
+    <string name="home_tagline">ウォレット • マイニング • エクスプローラー</string>
+    <string name="home_wallet_detected">ウォレットを検出しました</string>
+    <string name="home_setup_wallet">ウォレットを設定</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">ウォレットにアクセスし、PoP マイニングを有効にするにはロックを解除してください。</string>
+    <string name="home_setup_desc">復元フレーズを作成またはインポートしてください。鍵は端末内に保持されます。</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">ウォレットにアクセスし、PoP マイニングを有効にするにはロックを解除してください。</string>
+    <string name="home_desc_not_initialized">復元フレーズを作成またはインポートしてください。鍵は端末内に保持されます。</string>
+
+    <string name="home_unlock">ロック解除</string>
+    <string name="home_create_wallet">ウォレットを作成</string>
+    <string name="home_import_seed">シードをインポート</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">戻る</string>
+    <string name="explorer_reload">再読み込み</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">シードをインポート</string>
+    <string name="import_wallet_hint">復元フレーズ（12語または24語）を貼り付けてください。</string>
+    <string name="import_seed_label">復元フレーズ</string>
+    <string name="import_clipboard_empty">クリップボードが空です</string>
+    <string name="import_paste_button">クリップボードから貼り付け</string>
+    <string name="import_public_key_preview_title">公開鍵のプレビュー</string>
+    <string name="import_confirm_checkbox">このシードが正しいことを確認します</string>
+    <string name="import_invalid_seed_words_fmt">無効なシード：12語または24語が必要です（現在：%1$d）。</string>
+    <string name="import_invalid_seed_format">無効なシード（形式が正しくありません）。</string>
+    <string name="import_confirm_before_import">インポート前にシードを確認してください</string>
+    <string name="import_wallet_imported">ウォレットをインポートしました ✅</string>
+    <string name="import_button_import">インポート</string>
+    <string name="import_warning">⚠️ スクリーンショットを撮らないでください。シードは絶対に共有しないでください。</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">シードをインポート</string>
+    <string name="import_seed_desc">復元フレーズ（12語または24語）を貼り付けてください。</string>
+    <string name="import_seed_paste">クリップボードから貼り付け</string>
+    <string name="import_seed_clipboard_empty">クリップボードが空です</string>
+    <string name="import_seed_pubkey_preview">公開鍵のプレビュー</string>
+    <string name="import_seed_confirm_checkbox">このシードが正しいことを確認します</string>
+    <string name="import_seed_confirm_required_toast">インポート前にシードを確認してください</string>
+    <string name="import_seed_imported_toast">ウォレットをインポートしました ✅</string>
+    <string name="import_seed_warning">⚠️ スクリーンショットを撮らないでください。シードは絶対に共有しないでください。</string>
+    <string name="import_seed_action">インポート</string>
+    <string name="import_seed_error_words_fmt">無効なシード：12語または24語が必要です（現在：%1$d）。</string>
+    <string name="import_seed_error_format">無効なシード（形式が正しくありません）。</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">ウォレットを作成</string>
+    <string name="create_wallet_seed_label">復元フレーズ（12語）</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">表示</string>
+    <string name="create_wallet_hide">非表示</string>
+    <string name="create_wallet_tip">この12語を紙に書き留めてください。絶対に共有しないでください。</string>
+    <string name="create_wallet_confirm_saved">シードを保存しました</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">シードを保存しました</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">ウォレット</string>
+    <string name="wallet_not_initialized">ウォレットが初期化されていません</string>
+    <string name="address_generating">アドレス：生成中…</string>
+    <string name="address_title">PHC アドレス</string>
+    <string name="address_copy_hint">アドレスを使うには「コピー」をタップしてください。</string>
+    <string name="address_copied">アドレスをコピーしました ✅</string>
+    <string name="address_new_or_not_indexed">新しい、または未インデックスのアドレス</string>
+
+    <!-- Balance -->
+    <string name="available">利用可能</string>
+    <string name="pending">保留中</string>
+    <string name="pending_txs_fmt">保留中の取引：%1$d</string>
+    <string name="balance_unavailable">残高を取得できません</string>
+    <string name="balance_unavailable_node_offline">残高を取得できません（ノードがオフライン）</string>
+    <string name="loading_balance">残高を読み込み中…</string>
+
+    <!-- Network -->
+    <string name="network_title">ネットワーク</string>
+    <string name="node_fmt">ノード：%1$s</string>
+    <string name="node_unreachable">ノードに接続できません</string>
+    <string name="loading_network">ネットワークを読み込み中…</string>
+    <string name="tap_for_details">タップして詳細 ▼</string>
+    <string name="tap_to_collapse">折りたたむ ▲</string>
+    <string name="net_height">高さ</string>
+    <string name="net_miners_10m">マイナー（10分）</string>
+    <string name="net_difficulty">難易度</string>
+    <string name="net_eff_difficulty">実効難易度</string>
+    <string name="net_mempool_hb">メンプール HB</string>
+    <string name="net_mempool_tx">メンプール TX</string>
+    <string name="net_target_block">目標ブロック</string>
+    <string name="net_hb_threshold">HB しきい値</string>
+    <string name="net_issued">発行済み</string>
+    <string name="net_cap">上限</string>
+    <string name="integrity_fmt">整合性：%1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">マイニング</string>
+    <string name="mining_active_badge">● マイニング稼働中</string>
+    <string name="mining_pop">PoP マイニング</string>
+    <string name="mining_pop_active">PoP マイニング（稼働中）</string>
+    <string name="mining_rejected_fmt">拒否：%1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">PoP マイニング準備完了</string>
+    <string name="mining_started">PoP マイニングを開始しました</string>
+    <string name="mining_stopped">PoP マイニングを停止しました</string>
+    <string name="mining_notif_channel_name">PoP マイニング</string>
+    <string name="mining_notif_title">PHONCOIN • PoP マイニング</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">ノード</string>
+    <string name="mining_status">ステータス</string>
+    <string name="mining_accepted">承認</string>
+    <string name="mining_rejected">拒否</string>
+    <string name="mining_diff">難易度</string>
+    <string name="mining_last_submit">最終送信</string>
+    <string name="mining_last_reason">最終理由</string>
+    <string name="mining_start">開始</string>
+    <string name="mining_stop">停止</string>
+    <string name="mining_copy_payload">最新ペイロードをコピー</string>
+    <string name="mining_running_foreground">マイニング（フォアグラウンドサービス）</string>
+    <string name="mining_stopped_badge">停止</string>
+    <string name="mining_notif_perm_title">通知が必要です</string>
+    <string name="mining_notif_perm_text">プレミアム PoP マイニング（安定したバックグラウンドサービス）のため、Android 13+ では通知権限が必要です。</string>
+    <string name="mining_notif_perm_allow">許可</string>
+    <string name="mining_notif_perm_later">後で</string>
+    <string name="mining_help_text">このサービスは PoP-S4 のハートビートを送信します（PoW + 署名 + フィンガープリント + device_info v4）。</string>
+
+    <!-- Actions -->
+    <string name="send">送信</string>
+    <string name="receive">受信</string>
+    <string name="transactions">取引</string>
+    <string name="explorer">エクスプローラー</string>
+
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_security">セキュリティ（PIN / 生体認証）</string>
+    <string name="settings_seed_backup">復元フレーズ</string>
+    <string name="settings_network_node">ネットワーク（ノード）</string>
+    <string name="settings_language">言語</string>
+
+    <!-- Language -->
+    <string name="language_title">言語</string>
+    <string name="language_english">英語</string>
+    <string name="language_french">フランス語</string>
+
+    <!-- Security -->
+    <string name="security_title">セキュリティ</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">ロックコード（4～12桁）</string>
+    <string name="security_create_pin_hint_toast">ロック画面で PIN を作成してください ✅</string>
+    <string name="security_biometrics_title">生体認証</string>
+    <string name="security_biometrics_unavailable_toast">生体認証は利用できません</string>
+    <string name="security_enable_pin_first_toast">先に PIN を有効にしてください ✅</string>
+    <string name="security_autolock_title">自動ロック</string>
+    <string name="security_delay_label">遅延</string>
+    <string name="security_delay_30s">30秒</string>
+    <string name="security_delay_1min">1分</string>
+    <string name="security_delay_5min">5分</string>
+    <string name="security_delay_15min">15分</string>
+    <string name="security_privacy_mode_title">プライバシーモード</string>
+    <string name="security_privacy_mode_desc">UI 上の機密情報を非表示にする</string>
+    <string name="security_delete_pin">PIN を削除</string>
+    <string name="security_pin_deleted_toast">PIN を削除しました ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">復元フレーズ</string>
+    <string name="seed_backup_warning">⚠️ フレーズは絶対に共有しないでください。知っている人はウォレットを空にできます。</string>
+    <string name="seed_wallet_not_initialized">ウォレットが初期化されていません。</string>
+    <string name="seed_show_phrase">フレーズを表示</string>
+    <string name="seed_phrase_label">フレーズ：</string>
+    <string name="seed_hide_phrase">非表示</string>
+    <string name="seed_backup_tip">ヒント：紙に書き、2部（別々に）保管してください。</string>
+    <string name="seed_copied_toast">フレーズをコピーしました ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">先にシードを表示してください ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">復元フレーズ</string>
+    <string name="seed_recovery_warning">⚠️ このフレーズは絶対に共有しないでください。ウォレットへの完全なアクセスを与えます。</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">表示</string>
+    <string name="seed_recovery_hide">非表示</string>
+    <string name="seed_recovery_must_reveal_toast">先にシードを表示してください ✅</string>
+    <string name="seed_recovery_copied_toast">シードをコピーしました ✅</string>
+    <string name="seed_recovery_tip">ヒント：オフラインで（紙に）書き留めてください。スクリーンショットは避けてください。</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">ノード / VPS</string>
+    <string name="node_settings_url_label">ノード URL</string>
+    <string name="node_settings_example">例：https://api.phonchain.org</string>
+    <string name="node_settings_auto">自動（推奨）</string>
+    <string name="node_settings_save">保存</string>
+
+    <!-- Send -->
+    <string name="send_title">送信</string>
+    <string name="send_from">送信元</string>
+    <string name="send_recipient_label">宛先アドレス（pubkey hex）</string>
+    <string name="send_amount_label">金額（PHC）</string>
+    <string name="send_sending">送信中…</string>
+    <string name="send_qr_scanned_toast">アドレスをスキャンしました ✅</string>
+    <string name="send_qr_invalid_toast">無効な QR（hex アドレスではありません）</string>
+    <string name="send_scan_prompt">アドレスをスキャン（QR）</string>
+    <string name="send_error_recipient_invalid">宛先アドレスが無効です</string>
+    <string name="send_error_self_send">自分宛の送信は禁止されています</string>
+    <string name="send_error_amount_invalid">金額が無効です</string>
+    <string name="send_error_insufficient_fmt">残高不足（利用可能：%1$s PHC）</string>
+    <string name="send_tx_sent_fmt">取引を送信しました ✅（%1$s / %2$s）</string>
+    <string name="send_rejected_fmt">拒否：%1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">PHC を受信</string>
+    <string name="receive_qr_cd">PHC アドレスの QR</string>
+    <string name="receive_qr_unavailable">QR は利用できません</string>
+    <string name="receive_address_unavailable">アドレスは利用できません</string>
+    <string name="receive_open_explorer">エクスプローラーを開く</string>
+
+    <!-- Lock -->
+    <string name="lock_title">セキュリティ</string>
+    <string name="lock_subtitle">ウォレットのロックを解除</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4～12桁</string>
+    <string name="lock_error_pin_too_short">PIN が短すぎます</string>
+    <string name="lock_pin_created_toast">PIN を作成しました ✅</string>
+    <string name="lock_error_pin_incorrect">PIN が正しくありません</string>
+    <string name="lock_create_pin">PIN を作成</string>
+    <string name="lock_unlock">ロック解除</string>
+    <string name="lock_dialog_title">PHONCOIN をロック解除</string>
+    <string name="lock_dialog_no_locking">ロックが有効になっていません（PIN/生体認証）。</string>
+    <string name="lock_dialog_enable_hint">設定 → セキュリティ で PIN と生体認証を有効にしてください。</string>
+    <string name="lock_biometric_subtitle">指紋または顔で確認してください</string>
+    <string name="lock_biometric_label">生体認証</string>
+    <string name="lock_biometric_loading">生体認証（読み込み中…）</string>
+    <string name="lock_biometric_not_available">この端末では生体認証を利用できません（または未設定です）。</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">保留中（%1$d）</string>
+    <string name="transactions_tab_confirmed_fmt">確定（%1$d）</string>
+    <string name="transactions_unavailable">取引を取得できません（ノードがオフライン / 形式）</string>
+    <string name="tx_empty_pending">保留中の取引はありません</string>
+    <string name="tx_empty_confirmed">確定済みの取引はありません</string>
+    <string name="tx_amount">金額</string>
+    <string name="tx_from">送信元</string>
+    <string name="tx_to">送信先</string>
+    <string name="tx_time">日時</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">Txid をコピー</string>
+    <string name="tx_copy_json">JSON をコピー</string>
+    <string name="tx_hint_open_explorer">ヒント：カードをタップするとエクスプローラーで開きます。</string>
+    <string name="tx_txid_unavailable">Txid を取得できません</string>
+    <string name="tx_txid_copied">Txid をコピーしました ✅</string>
+    <string name="tx_json_unavailable">JSON を取得できません</string>
+    <string name="tx_json_copied">JSON をコピーしました ✅</string>
+    <string name="tx_status_confirmed">確定</string>
+    <string name="tx_status_pending">保留中</string>
+    <string name="tx_direction_in">受信</string>
+    <string name="tx_direction_out">送信</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">エラー：%1$s</string>
+	
+<string name="mining_bg_title">バックグラウンド動作</string>
+<string name="mining_bg_body">安定したProof-of-Phone参加のため、バックグラウンド動作を許可し、端末設定でPHONCOINのバッテリー制限を無効にしてください。Androidがバックグラウンド動作を制限すると参加が一時停止する場合があります。</string>
+<string name="mining_bg_open_settings">アプリ設定を開く</string>
+<string name="mining_bg_optimized">バックグラウンド制限：ON（参加が一時停止する場合あり）</string>
+<string name="mining_bg_unrestricted">バックグラウンド制限：OFF</string>
+
+</resources>

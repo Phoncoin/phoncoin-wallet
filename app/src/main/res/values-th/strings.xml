@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">“โทรศัพท์หนึ่งเครื่องเพื่อโลกทั้งใบ”</string>
+
+    <!-- Global -->
+    <string name="back">ย้อนกลับ</string>
+    <string name="close">ปิด</string>
+    <string name="copy">คัดลอก</string>
+    <string name="view">ดู</string>
+    <string name="refresh">รีเฟรช</string>
+    <string name="refreshing">กำลังรีเฟรช…</string>
+    <string name="online">ออนไลน์</string>
+    <string name="offline">ออฟไลน์</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">โลโก้ Phoncoin</string>
+    <string name="cd_settings">การตั้งค่า</string>
+    <string name="cd_refresh">รีเฟรช</string>
+    <string name="cd_lock">ล็อก</string>
+    <string name="cd_back">ย้อนกลับ</string>
+    <string name="cd_scan_qr">สแกน QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">กระเป๋า • ขุด • เอ็กซ์พลอเรอร์</string>
+    <string name="home_wallet_detected">ตรวจพบกระเป๋า</string>
+    <string name="home_setup_wallet">ตั้งค่ากระเป๋าของคุณ</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">ปลดล็อกเพื่อเข้าถึงกระเป๋าของคุณและเปิดใช้งานการขุด PoP</string>
+    <string name="home_setup_desc">สร้างหรือนำเข้าวลีการกู้คืนของคุณ คีย์ของคุณจะอยู่บนโทรศัพท์</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">ปลดล็อกเพื่อเข้าถึงกระเป๋าของคุณและเปิดใช้งานการขุด PoP</string>
+    <string name="home_desc_not_initialized">สร้างหรือนำเข้าวลีการกู้คืนของคุณ คีย์ของคุณจะอยู่บนโทรศัพท์</string>
+
+    <string name="home_unlock">ปลดล็อก</string>
+    <string name="home_create_wallet">สร้างกระเป๋า</string>
+    <string name="home_import_seed">นำเข้า seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">ย้อนกลับ</string>
+    <string name="explorer_reload">โหลดใหม่</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">นำเข้า seed</string>
+    <string name="import_wallet_hint">วางวลีการกู้คืนของคุณ (12 หรือ 24 คำ)</string>
+    <string name="import_seed_label">วลีการกู้คืน</string>
+    <string name="import_clipboard_empty">คลิปบอร์ดว่าง</string>
+    <string name="import_paste_button">วางจากคลิปบอร์ด</string>
+    <string name="import_public_key_preview_title">ตัวอย่างคีย์สาธารณะ</string>
+    <string name="import_confirm_checkbox">ฉันยืนยันว่า seed นี้ถูกต้อง</string>
+    <string name="import_invalid_seed_words_fmt">seed ไม่ถูกต้อง: ต้องมี 12 หรือ 24 คำ (ปัจจุบัน: %1$d)</string>
+    <string name="import_invalid_seed_format">seed ไม่ถูกต้อง (รูปแบบผิด)</string>
+    <string name="import_confirm_before_import">ยืนยัน seed ก่อนนำเข้า</string>
+    <string name="import_wallet_imported">นำเข้ากระเป๋าแล้ว ✅</string>
+    <string name="import_button_import">นำเข้า</string>
+    <string name="import_warning">⚠️ อย่าถ่ายภาพหน้าจอ อย่าแชร์ seed ของคุณเด็ดขาด</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">นำเข้า seed</string>
+    <string name="import_seed_desc">วางวลีการกู้คืนของคุณ (12 หรือ 24 คำ)</string>
+    <string name="import_seed_paste">วางจากคลิปบอร์ด</string>
+    <string name="import_seed_clipboard_empty">คลิปบอร์ดว่าง</string>
+    <string name="import_seed_pubkey_preview">ตัวอย่างคีย์สาธารณะ</string>
+    <string name="import_seed_confirm_checkbox">ฉันยืนยันว่า seed นี้ถูกต้อง</string>
+    <string name="import_seed_confirm_required_toast">ยืนยัน seed ก่อนนำเข้า</string>
+    <string name="import_seed_imported_toast">นำเข้ากระเป๋าแล้ว ✅</string>
+    <string name="import_seed_warning">⚠️ อย่าถ่ายภาพหน้าจอ อย่าแชร์ seed ของคุณเด็ดขาด</string>
+    <string name="import_seed_action">นำเข้า</string>
+    <string name="import_seed_error_words_fmt">seed ไม่ถูกต้อง: ต้องมี 12 หรือ 24 คำ (ปัจจุบัน: %1$d)</string>
+    <string name="import_seed_error_format">seed ไม่ถูกต้อง (รูปแบบผิด)</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">สร้างกระเป๋า</string>
+    <string name="create_wallet_seed_label">วลีการกู้คืน (12 คำ)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">แสดง</string>
+    <string name="create_wallet_hide">ซ่อน</string>
+    <string name="create_wallet_tip">จด 12 คำนี้ลงบนกระดาษ อย่าแชร์เด็ดขาด</string>
+    <string name="create_wallet_confirm_saved">ฉันได้บันทึก seed แล้ว</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">ฉันได้บันทึก seed แล้ว</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">กระเป๋า</string>
+    <string name="wallet_not_initialized">ยังไม่ได้เริ่มต้นกระเป๋า</string>
+    <string name="address_generating">ที่อยู่: กำลังสร้าง…</string>
+    <string name="address_title">ที่อยู่ PHC</string>
+    <string name="address_copy_hint">แตะคัดลอกเพื่อใช้ที่อยู่</string>
+    <string name="address_copied">คัดลอกที่อยู่แล้ว ✅</string>
+    <string name="address_new_or_not_indexed">ที่อยู่ใหม่หรือยังไม่ถูกจัดทำดัชนี</string>
+
+    <!-- Balance -->
+    <string name="available">พร้อมใช้</string>
+    <string name="pending">รอดำเนินการ</string>
+    <string name="pending_txs_fmt">ธุรกรรมที่รอดำเนินการ: %1$d</string>
+    <string name="balance_unavailable">ไม่สามารถแสดงยอดคงเหลือ</string>
+    <string name="balance_unavailable_node_offline">ไม่สามารถแสดงยอดคงเหลือ (โหนดออฟไลน์)</string>
+    <string name="loading_balance">กำลังโหลดยอดคงเหลือ…</string>
+
+    <!-- Network -->
+    <string name="network_title">เครือข่าย</string>
+    <string name="node_fmt">โหนด: %1$s</string>
+    <string name="node_unreachable">ไม่สามารถเข้าถึงโหนด</string>
+    <string name="loading_network">กำลังโหลดเครือข่าย…</string>
+    <string name="tap_for_details">แตะเพื่อดูรายละเอียด ▼</string>
+    <string name="tap_to_collapse">ย่อ ▲</string>
+    <string name="net_height">ความสูง</string>
+    <string name="net_miners_10m">นักขุด (10 นาที)</string>
+    <string name="net_difficulty">ความยาก</string>
+    <string name="net_eff_difficulty">ความยากที่มีผล</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">บล็อกเป้าหมาย</string>
+    <string name="net_hb_threshold">เกณฑ์ HB</string>
+    <string name="net_issued">ออกแล้ว</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">ความสมบูรณ์: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">การขุด</string>
+    <string name="mining_active_badge">● การขุดกำลังทำงาน</string>
+    <string name="mining_pop">การขุด PoP</string>
+    <string name="mining_pop_active">การขุด PoP (ทำงาน)</string>
+    <string name="mining_rejected_fmt">ถูกปฏิเสธ: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">การขุด PoP พร้อมแล้ว</string>
+    <string name="mining_started">เริ่มการขุด PoP แล้ว</string>
+    <string name="mining_stopped">หยุดการขุด PoP แล้ว</string>
+    <string name="mining_notif_channel_name">การขุด PoP</string>
+    <string name="mining_notif_title">PHONCOIN • การขุด PoP</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">โหนด</string>
+    <string name="mining_status">สถานะ</string>
+    <string name="mining_accepted">ยอมรับแล้ว</string>
+    <string name="mining_rejected">ถูกปฏิเสธ</string>
+    <string name="mining_diff">ความยาก</string>
+    <string name="mining_last_submit">ส่งล่าสุด</string>
+    <string name="mining_last_reason">เหตุผลล่าสุด</string>
+    <string name="mining_start">เริ่ม</string>
+    <string name="mining_stop">หยุด</string>
+    <string name="mining_copy_payload">คัดลอก payload ล่าสุด</string>
+    <string name="mining_running_foreground">การขุด (บริการเบื้องหน้า)</string>
+    <string name="mining_stopped_badge">หยุดแล้ว</string>
+    <string name="mining_notif_perm_title">ต้องการการแจ้งเตือน</string>
+    <string name="mining_notif_perm_text">สำหรับการขุด PoP แบบพรีเมียม (บริการเบื้องหลังที่เสถียร) Android 13+ ต้องอนุญาตการแจ้งเตือน</string>
+    <string name="mining_notif_perm_allow">อนุญาต</string>
+    <string name="mining_notif_perm_later">ภายหลัง</string>
+    <string name="mining_help_text">บริการจะส่ง PoP-S4 heartbeats (PoW + ลายเซ็น + ลายนิ้วมือ + device_info v4)</string>
+
+    <!-- Actions -->
+    <string name="send">ส่ง</string>
+    <string name="receive">รับ</string>
+    <string name="transactions">ธุรกรรม</string>
+    <string name="explorer">เอ็กซ์พลอเรอร์</string>
+
+    <!-- Settings -->
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="settings_security">ความปลอดภัย (PIN / ไบโอเมตริก)</string>
+    <string name="settings_seed_backup">วลีการกู้คืน</string>
+    <string name="settings_network_node">เครือข่าย (โหนด)</string>
+    <string name="settings_language">ภาษา</string>
+
+    <!-- Language -->
+    <string name="language_title">ภาษา</string>
+    <string name="language_english">อังกฤษ</string>
+    <string name="language_french">ฝรั่งเศส</string>
+
+    <!-- Security -->
+    <string name="security_title">ความปลอดภัย</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">รหัสล็อก (4 ถึง 12 หลัก)</string>
+    <string name="security_create_pin_hint_toast">สร้าง PIN ที่หน้าจอล็อก ✅</string>
+    <string name="security_biometrics_title">ไบโอเมตริก</string>
+    <string name="security_biometrics_unavailable_toast">ไม่รองรับไบโอเมตริก</string>
+    <string name="security_enable_pin_first_toast">เปิดใช้งาน PIN ก่อน ✅</string>
+    <string name="security_autolock_title">ล็อกอัตโนมัติ</string>
+    <string name="security_delay_label">หน่วงเวลา</string>
+    <string name="security_delay_30s">30 วินาที</string>
+    <string name="security_delay_1min">1 นาที</string>
+    <string name="security_delay_5min">5 นาที</string>
+    <string name="security_delay_15min">15 นาที</string>
+    <string name="security_privacy_mode_title">โหมดความเป็นส่วนตัว</string>
+    <string name="security_privacy_mode_desc">ซ่อนข้อมูลที่ละเอียดอ่อนใน UI</string>
+    <string name="security_delete_pin">ลบ PIN</string>
+    <string name="security_pin_deleted_toast">ลบ PIN แล้ว ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">วลีการกู้คืน</string>
+    <string name="seed_backup_warning">⚠️ อย่าแชร์วลีของคุณเด็ดขาด ใครก็ตามที่มีมันสามารถถอนเงินในกระเป๋าของคุณได้</string>
+    <string name="seed_wallet_not_initialized">ยังไม่ได้เริ่มต้นกระเป๋า</string>
+    <string name="seed_show_phrase">แสดงวลี</string>
+    <string name="seed_phrase_label">วลี:</string>
+    <string name="seed_hide_phrase">ซ่อน</string>
+    <string name="seed_backup_tip">เคล็ดลับ: เขียนลงบนกระดาษและเก็บไว้ 2 ชุด (แยกกัน)</string>
+    <string name="seed_copied_toast">คัดลอกวลีแล้ว ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">แสดง seed ก่อน ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">วลีการกู้คืน</string>
+    <string name="seed_recovery_warning">⚠️ อย่าแชร์วลีนี้เด็ดขาด มันให้สิทธิ์เข้าถึงกระเป๋าของคุณทั้งหมด</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">แสดง</string>
+    <string name="seed_recovery_hide">ซ่อน</string>
+    <string name="seed_recovery_must_reveal_toast">แสดง seed ก่อน ✅</string>
+    <string name="seed_recovery_copied_toast">คัดลอก seed แล้ว ✅</string>
+    <string name="seed_recovery_tip">เคล็ดลับ: จดไว้แบบออฟไลน์ (กระดาษ) หลีกเลี่ยงการถ่ายภาพหน้าจอ</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">โหนด / VPS</string>
+    <string name="node_settings_url_label">URL โหนด</string>
+    <string name="node_settings_example">ตัวอย่าง: https://api.phonchain.org</string>
+    <string name="node_settings_auto">อัตโนมัติ (แนะนำ)</string>
+    <string name="node_settings_save">บันทึก</string>
+
+    <!-- Send -->
+    <string name="send_title">ส่ง</string>
+    <string name="send_from">จาก</string>
+    <string name="send_recipient_label">ที่อยู่ผู้รับ (pubkey hex)</string>
+    <string name="send_amount_label">จำนวน (PHC)</string>
+    <string name="send_sending">กำลังส่ง…</string>
+    <string name="send_qr_scanned_toast">สแกนที่อยู่แล้ว ✅</string>
+    <string name="send_qr_invalid_toast">QR ไม่ถูกต้อง (ไม่ใช่ที่อยู่แบบ hex)</string>
+    <string name="send_scan_prompt">สแกนที่อยู่ (QR)</string>
+    <string name="send_error_recipient_invalid">ที่อยู่ผู้รับไม่ถูกต้อง</string>
+    <string name="send_error_self_send">ห้ามส่งให้ตัวเอง</string>
+    <string name="send_error_amount_invalid">จำนวนไม่ถูกต้อง</string>
+    <string name="send_error_insufficient_fmt">ยอดเงินไม่พอ (มีอยู่: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">ส่งธุรกรรมแล้ว ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">ถูกปฏิเสธ: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">รับ PHC</string>
+    <string name="receive_qr_cd">QR ของที่อยู่ PHC</string>
+    <string name="receive_qr_unavailable">ไม่สามารถใช้ QR ได้</string>
+    <string name="receive_address_unavailable">ไม่สามารถใช้ที่อยู่ได้</string>
+    <string name="receive_open_explorer">เปิดเอ็กซ์พลอเรอร์</string>
+
+    <!-- Lock -->
+    <string name="lock_title">ความปลอดภัย</string>
+    <string name="lock_subtitle">ปลดล็อกกระเป๋าของคุณ</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 ถึง 12 หลัก</string>
+    <string name="lock_error_pin_too_short">PIN สั้นเกินไป</string>
+    <string name="lock_pin_created_toast">สร้าง PIN แล้ว ✅</string>
+    <string name="lock_error_pin_incorrect">PIN ไม่ถูกต้อง</string>
+    <string name="lock_create_pin">สร้าง PIN</string>
+    <string name="lock_unlock">ปลดล็อก</string>
+    <string name="lock_dialog_title">ปลดล็อก PHONCOIN</string>
+    <string name="lock_dialog_no_locking">ไม่ได้เปิดการล็อก (PIN/ไบโอเมตริก)</string>
+    <string name="lock_dialog_enable_hint">เปิดใช้ PIN และไบโอเมตริกที่ การตั้งค่า → ความปลอดภัย</string>
+    <string name="lock_biometric_subtitle">ยืนยันด้วยลายนิ้วมือหรือใบหน้า</string>
+    <string name="lock_biometric_label">ไบโอเมตริก</string>
+    <string name="lock_biometric_loading">ไบโอเมตริก (กำลังโหลด…)</string>
+    <string name="lock_biometric_not_available">ไบโอเมตริกไม่พร้อมใช้งานบนอุปกรณ์นี้ (หรือยังไม่ได้ตั้งค่า)</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">รอดำเนินการ (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">ยืนยันแล้ว (%1$d)</string>
+    <string name="transactions_unavailable">ไม่สามารถใช้ธุรกรรมได้ (โหนดออฟไลน์ / รูปแบบ)</string>
+    <string name="tx_empty_pending">ไม่มีธุรกรรมที่รอดำเนินการ</string>
+    <string name="tx_empty_confirmed">ไม่มีธุรกรรมที่ยืนยันแล้ว</string>
+    <string name="tx_amount">จำนวน</string>
+    <string name="tx_from">จาก</string>
+    <string name="tx_to">ถึง</string>
+    <string name="tx_time">วันที่</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">คัดลอก txid</string>
+    <string name="tx_copy_json">คัดลอก JSON</string>
+    <string name="tx_hint_open_explorer">เคล็ดลับ: แตะการ์ดเพื่อเปิดในเอ็กซ์พลอเรอร์</string>
+    <string name="tx_txid_unavailable">ไม่พบ txid</string>
+    <string name="tx_txid_copied">คัดลอก txid แล้ว ✅</string>
+    <string name="tx_json_unavailable">ไม่พบ JSON</string>
+    <string name="tx_json_copied">คัดลอก JSON แล้ว ✅</string>
+    <string name="tx_status_confirmed">ยืนยันแล้ว</string>
+    <string name="tx_status_pending">รอดำเนินการ</string>
+    <string name="tx_direction_in">ขาเข้า</string>
+    <string name="tx_direction_out">ขาออก</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">ข้อผิดพลาด: %1$s</string>
+	
+<string name="mining_bg_title">การทำงานเบื้องหลัง</string>
+<string name="mining_bg_body">เพื่อการมีส่วนร่วม Proof-of-Phone ที่เสถียร ให้อนุญาตการทำงานเบื้องหลังและปิดข้อจำกัดแบตเตอรี่สำหรับ PHONCOIN ในการตั้งค่าอุปกรณ์ การมีส่วนร่วมอาจหยุดชั่วคราวหาก Android จำกัดการทำงานเบื้องหลัง</string>
+<string name="mining_bg_open_settings">เปิดการตั้งค่าแอป</string>
+<string name="mining_bg_optimized">ข้อจำกัดเบื้องหลัง: เปิด (การมีส่วนร่วมอาจหยุดชั่วคราว)</string>
+<string name="mining_bg_unrestricted">ข้อจำกัดเบื้องหลัง: ปิด</string>
+
+</resources>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">« هاتف واحد للعالم. »</string>
+
+    <!-- Global -->
+    <string name="back">رجوع</string>
+    <string name="close">إغلاق</string>
+    <string name="copy">نسخ</string>
+    <string name="view">عرض</string>
+    <string name="refresh">تحديث</string>
+    <string name="refreshing">جارٍ التحديث…</string>
+    <string name="online">متصل</string>
+    <string name="offline">غير متصل</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">شعار فونكوين</string>
+    <string name="cd_settings">الإعدادات</string>
+    <string name="cd_refresh">تحديث</string>
+    <string name="cd_lock">قفل</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_scan_qr">مسح رمز QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">محفظة • تعدين • مستكشف</string>
+    <string name="home_wallet_detected">تم اكتشاف المحفظة</string>
+    <string name="home_setup_wallet">إعداد محفظتك</string>
+
+    <!-- keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">افتح للوصول إلى محفظتك وتفعيل تعدين PoP.</string>
+    <string name="home_setup_desc">أنشئ أو استورد عبارة الاسترداد. مفاتيحك تبقى على هاتفك.</string>
+
+    <!-- kept for compatibility -->
+    <string name="home_desc_initialized">افتح للوصول إلى محفظتك وتفعيل تعدين PoP.</string>
+    <string name="home_desc_not_initialized">أنشئ أو استورد عبارة الاسترداد. مفاتيحك تبقى على هاتفك.</string>
+
+    <string name="home_unlock">فتح</string>
+    <string name="home_create_wallet">إنشاء محفظة</string>
+    <string name="home_import_seed">استيراد Seed</string>
+    <string name="home_footer">PoP Secure v4 • غير وصائية • مخصصة للهاتف</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">رجوع</string>
+    <string name="explorer_reload">إعادة تحميل</string>
+
+    <!-- Onboarding - Import wallet -->
+    <string name="import_wallet_title">استيراد Seed</string>
+    <string name="import_wallet_hint">الصق عبارة الاسترداد (12 أو 24 كلمة).</string>
+    <string name="import_seed_label">عبارة الاسترداد</string>
+    <string name="import_clipboard_empty">الحافظة فارغة</string>
+    <string name="import_paste_button">لصق من الحافظة</string>
+    <string name="import_public_key_preview_title">معاينة المفتاح العام</string>
+    <string name="import_confirm_checkbox">أؤكد أن هذه الـ seed صحيحة</string>
+    <string name="import_invalid_seed_words_fmt">Seed غير صالحة: مطلوب 12 أو 24 كلمة (الحالي: %1$d).</string>
+    <string name="import_invalid_seed_format">Seed غير صالحة (تنسيق غير صحيح).</string>
+    <string name="import_confirm_before_import">أكد الـ seed قبل الاستيراد</string>
+    <string name="import_wallet_imported">تم استيراد المحفظة ✅</string>
+    <string name="import_button_import">استيراد</string>
+    <string name="import_warning">⚠️ لا تلتقط لقطات شاشة. لا تشارك الـ seed أبدًا.</string>
+
+    <!-- Import wallet aliases -->
+    <string name="import_seed_title">استيراد Seed</string>
+    <string name="import_seed_desc">الصق عبارة الاسترداد (12 أو 24 كلمة).</string>
+    <string name="import_seed_paste">لصق من الحافظة</string>
+    <string name="import_seed_clipboard_empty">الحافظة فارغة</string>
+    <string name="import_seed_pubkey_preview">معاينة المفتاح العام</string>
+    <string name="import_seed_confirm_checkbox">أؤكد أن هذه الـ seed صحيحة</string>
+    <string name="import_seed_confirm_required_toast">أكد الـ seed قبل الاستيراد</string>
+    <string name="import_seed_imported_toast">تم استيراد المحفظة ✅</string>
+    <string name="import_seed_warning">⚠️ لا تلتقط لقطات شاشة. لا تشارك الـ seed أبدًا.</string>
+    <string name="import_seed_action">استيراد</string>
+    <string name="import_seed_error_words_fmt">Seed غير صالحة: مطلوب 12 أو 24 كلمة (الحالي: %1$d).</string>
+    <string name="import_seed_error_format">Seed غير صالحة (تنسيق غير صحيح).</string>
+
+    <!-- Create wallet -->
+    <string name="create_wallet_title">إنشاء محفظة</string>
+    <string name="create_wallet_seed_label">عبارة الاسترداد (12 كلمة)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">إظهار</string>
+    <string name="create_wallet_hide">إخفاء</string>
+    <string name="create_wallet_tip">اكتب هذه الكلمات على ورق. لا تشاركها أبدًا.</string>
+    <string name="create_wallet_confirm_saved">لقد حفظت الـ seed</string>
+
+    <!-- Create wallet aliases -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">لقد حفظت الـ seed</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">المحفظة</string>
+    <string name="wallet_not_initialized">المحفظة غير مهيأة</string>
+    <string name="address_generating">العنوان: جارٍ الإنشاء…</string>
+    <string name="address_title">عنوان PHC</string>
+    <string name="address_copy_hint">اضغط على نسخ لاستخدام العنوان.</string>
+    <string name="address_copied">تم نسخ العنوان ✅</string>
+    <string name="address_new_or_not_indexed">عنوان جديد أو غير مفهرس</string>
+
+    <!-- Balance -->
+    <string name="available">متاح</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="pending_txs_fmt">المعاملات المعلقة: %1$d</string>
+    <string name="balance_unavailable">الرصيد غير متاح</string>
+    <string name="balance_unavailable_node_offline">الرصيد غير متاح (العقدة غير متصلة)</string>
+    <string name="loading_balance">جارٍ تحميل الرصيد…</string>
+
+    <!-- Network -->
+    <string name="network_title">الشبكة</string>
+    <string name="node_fmt">العقدة: %1$s</string>
+    <string name="node_unreachable">العقدة غير قابلة للوصول</string>
+    <string name="loading_network">جارٍ تحميل الشبكة…</string>
+    <string name="tap_for_details">اضغط للتفاصيل ▼</string>
+    <string name="tap_to_collapse">طي ▲</string>
+    <string name="net_height">الارتفاع</string>
+    <string name="net_miners_10m">المعدّنون (10 دقائق)</string>
+    <string name="net_difficulty">الصعوبة</string>
+    <string name="net_eff_difficulty">الصعوبة الفعلية</string>
+    <string name="net_mempool_hb">مسبح الذاكرة HB</string>
+    <string name="net_mempool_tx">مسبح الذاكرة TX</string>
+    <string name="net_target_block">الكتلة المستهدفة</string>
+    <string name="net_hb_threshold">حد HB</string>
+    <string name="net_issued">المُصدَر</string>
+    <string name="net_cap">الحد الأقصى</string>
+    <string name="integrity_fmt">السلامة: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">التعدين</string>
+    <string name="mining_active_badge">● التعدين نشط</string>
+    <string name="mining_pop">تعدين PoP</string>
+    <string name="mining_pop_active">تعدين PoP (نشط)</string>
+    <string name="mining_rejected_fmt">مرفوض: %1$d</string>
+
+    <!-- Mining notifications -->
+    <string name="mining_ready">تعدين PoP جاهز</string>
+    <string name="mining_started">تم بدء تعدين PoP</string>
+    <string name="mining_stopped">تم إيقاف تعدين PoP</string>
+    <string name="mining_notif_channel_name">تعدين PoP</string>
+    <string name="mining_notif_title">PHONCOIN • تعدين PoP</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">العقدة</string>
+    <string name="mining_status">الحالة</string>
+    <string name="mining_accepted">مقبول</string>
+    <string name="mining_rejected">مرفوض</string>
+    <string name="mining_diff">الصعوبة</string>
+    <string name="mining_last_submit">آخر إرسال</string>
+    <string name="mining_last_reason">آخر سبب</string>
+    <string name="mining_start">بدء</string>
+    <string name="mining_stop">إيقاف</string>
+    <string name="mining_copy_payload">نسخ آخر payload</string>
+    <string name="mining_running_foreground">التعدين (خدمة في الواجهة)</string>
+    <string name="mining_stopped_badge">متوقف</string>
+    <string name="mining_notif_perm_title">الإشعارات مطلوبة</string>
+    <string name="mining_notif_perm_text">لتعدين PoP مستقر في الخلفية، يتطلب Android 13+ إذن الإشعارات.</string>
+    <string name="mining_notif_perm_allow">سماح</string>
+    <string name="mining_notif_perm_later">لاحقًا</string>
+    <string name="mining_help_text">ترسل الخدمة heartbeats PoP-S4 (PoW + توقيع + بصمة + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">إرسال</string>
+    <string name="receive">استقبال</string>
+    <string name="transactions">المعاملات</string>
+    <string name="explorer">المستكشف</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_security">الأمان (PIN / بصمة)</string>
+    <string name="settings_seed_backup">عبارة الاسترداد</string>
+    <string name="settings_network_node">الشبكة (العقدة)</string>
+    <string name="settings_language">اللغة</string>
+
+    <!-- Language -->
+    <string name="language_title">اللغة</string>
+    <string name="language_english">الإنجليزية</string>
+    <string name="language_french">الفرنسية</string>
+
+    <!-- Security -->
+    <string name="security_title">الأمان</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">رمز القفل (4 إلى 12 رقمًا)</string>
+    <string name="security_create_pin_hint_toast">أنشئ PIN من شاشة القفل ✅</string>
+    <string name="security_biometrics_title">القياسات الحيوية</string>
+    <string name="security_biometrics_unavailable_toast">القياسات الحيوية غير متاحة</string>
+    <string name="security_enable_pin_first_toast">فعّل PIN أولًا ✅</string>
+    <string name="security_autolock_title">القفل التلقائي</string>
+    <string name="security_delay_label">المدة</string>
+    <string name="security_delay_30s">30 ثانية</string>
+    <string name="security_delay_1min">دقيقة واحدة</string>
+    <string name="security_delay_5min">5 دقائق</string>
+    <string name="security_delay_15min">15 دقيقة</string>
+    <string name="security_privacy_mode_title">وضع الخصوصية</string>
+    <string name="security_privacy_mode_desc">إخفاء المعلومات الحساسة في الواجهة</string>
+    <string name="security_delete_pin">حذف PIN</string>
+    <string name="security_pin_deleted_toast">تم حذف PIN ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">عبارة الاسترداد</string>
+    <string name="seed_backup_warning">⚠️ لا تشارك عبارتك أبدًا. من يملكها يملك محفظتك.</string>
+    <string name="seed_wallet_not_initialized">المحفظة غير مهيأة.</string>
+    <string name="seed_show_phrase">إظهار العبارة</string>
+    <string name="seed_phrase_label">العبارة:</string>
+    <string name="seed_hide_phrase">إخفاء</string>
+    <string name="seed_backup_tip">نصيحة: اكتبها على ورق واحتفظ بنسختين منفصلتين.</string>
+    <string name="seed_copied_toast">تم نسخ العبارة ✅</string>
+
+    <!-- Added -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">اعرض الـ seed أولًا ✅</string>
+
+    <!-- Seed recovery -->
+    <string name="seed_recovery_title">عبارة الاسترداد</string>
+    <string name="seed_recovery_warning">⚠️ لا تشارك هذه العبارة أبدًا. تمنح وصولًا كاملًا للمحفظة.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">إظهار</string>
+    <string name="seed_recovery_hide">إخفاء</string>
+    <string name="seed_recovery_must_reveal_toast">اعرض الـ seed أولًا ✅</string>
+    <string name="seed_recovery_copied_toast">تم نسخ الـ seed ✅</string>
+    <string name="seed_recovery_tip">نصيحة: دوّنها دون اتصال. تجنب لقطات الشاشة.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">العقدة / VPS</string>
+    <string name="node_settings_url_label">رابط العقدة</string>
+    <string name="node_settings_example">مثال: https://api.phonchain.org</string>
+    <string name="node_settings_auto">تلقائي (موصى به)</string>
+    <string name="node_settings_save">حفظ</string>
+
+    <!-- Send -->
+    <string name="send_title">إرسال</string>
+    <string name="send_from">من</string>
+    <string name="send_recipient_label">عنوان المستلم (pubkey hex)</string>
+    <string name="send_amount_label">المبلغ (PHC)</string>
+    <string name="send_sending">جارٍ الإرسال…</string>
+    <string name="send_qr_scanned_toast">تم مسح العنوان ✅</string>
+    <string name="send_qr_invalid_toast">رمز QR غير صالح</string>
+    <string name="send_scan_prompt">مسح العنوان (QR)</string>
+    <string name="send_error_recipient_invalid">عنوان المستلم غير صالح</string>
+    <string name="send_error_self_send">الإرسال إلى نفسك غير مسموح</string>
+    <string name="send_error_amount_invalid">مبلغ غير صالح</string>
+    <string name="send_error_insufficient_fmt">رصيد غير كافٍ (المتاح: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">تم إرسال المعاملة ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">مرفوض: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">استقبال PHC</string>
+    <string name="receive_qr_cd">رمز QR لعنوان PHC</string>
+    <string name="receive_qr_unavailable">رمز QR غير متاح</string>
+    <string name="receive_address_unavailable">العنوان غير متاح</string>
+    <string name="receive_open_explorer">فتح المستكشف</string>
+
+    <!-- Lock -->
+    <string name="lock_title">الأمان</string>
+    <string name="lock_subtitle">افتح محفظتك</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 إلى 12 رقمًا</string>
+    <string name="lock_error_pin_too_short">PIN قصير جدًا</string>
+    <string name="lock_pin_created_toast">تم إنشاء PIN ✅</string>
+    <string name="lock_error_pin_incorrect">PIN غير صحيح</string>
+    <string name="lock_create_pin">إنشاء PIN</string>
+    <string name="lock_unlock">فتح</string>
+    <string name="lock_dialog_title">فتح PHONCOIN</string>
+    <string name="lock_dialog_no_locking">لا يوجد قفل مفعّل (PIN / بصمة).</string>
+    <string name="lock_dialog_enable_hint">فعّل PIN والبصمة من الإعدادات → الأمان.</string>
+    <string name="lock_biometric_subtitle">أكد باستخدام بصمتك أو وجهك</string>
+    <string name="lock_biometric_label">القياسات الحيوية</string>
+    <string name="lock_biometric_loading">القياسات الحيوية (جارٍ التحميل…)</string>
+    <string name="lock_biometric_not_available">القياسات الحيوية غير متاحة على هذا الجهاز.</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">قيد الانتظار (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">مؤكدة (%1$d)</string>
+    <string name="transactions_unavailable">المعاملات غير متاحة</string>
+    <string name="tx_empty_pending">لا توجد معاملات معلقة</string>
+    <string name="tx_empty_confirmed">لا توجد معاملات مؤكدة</string>
+    <string name="tx_amount">المبلغ</string>
+    <string name="tx_from">من</string>
+    <string name="tx_to">إلى</string>
+    <string name="tx_time">التاريخ</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">نسخ txid</string>
+    <string name="tx_copy_json">نسخ JSON</string>
+    <string name="tx_hint_open_explorer">نصيحة: اضغط على البطاقة لفتحها في المستكشف.</string>
+    <string name="tx_txid_unavailable">Txid غير متاح</string>
+    <string name="tx_txid_copied">تم نسخ txid ✅</string>
+    <string name="tx_json_unavailable">JSON غير متاح</string>
+    <string name="tx_json_copied">تم نسخ JSON ✅</string>
+    <string name="tx_status_confirmed">مؤكدة</string>
+    <string name="tx_status_pending">قيد الانتظار</string>
+    <string name="tx_direction_in">وارد</string>
+    <string name="tx_direction_out">صادر</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">خطأ: %1$s</string>
+	
+<string name="mining_bg_title">النشاط في الخلفية</string>
+<string name="mining_bg_body">لضمان مشاركة Proof-of-Phone بشكل مستقر، اسمح بالنشاط في الخلفية وأوقف قيود البطارية لتطبيق PHONCOIN من إعدادات جهازك. قد تتوقف المشاركة مؤقتًا إذا قيّد Android النشاط في الخلفية.</string>
+<string name="mining_bg_open_settings">فتح إعدادات التطبيق</string>
+<string name="mining_bg_optimized">قيود الخلفية: مفعّلة (قد تتوقف المشاركة)</string>
+<string name="mining_bg_unrestricted">قيود الخلفية: معطّلة</string>
+
+</resources>

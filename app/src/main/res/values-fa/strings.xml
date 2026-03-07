@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">« یک تلفن برای جهان. »</string>
+
+    <!-- Global -->
+    <string name="back">بازگشت</string>
+    <string name="close">بستن</string>
+    <string name="copy">کپی</string>
+    <string name="view">مشاهده</string>
+    <string name="refresh">به‌روزرسانی</string>
+    <string name="refreshing">در حال به‌روزرسانی…</string>
+    <string name="online">آنلاین</string>
+    <string name="offline">آفلاین</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">لوگوی فون‌کوین</string>
+    <string name="cd_settings">تنظیمات</string>
+    <string name="cd_refresh">به‌روزرسانی</string>
+    <string name="cd_lock">قفل</string>
+    <string name="cd_back">بازگشت</string>
+    <string name="cd_scan_qr">اسکن QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">کیف‌پول • استخراج • اکسپلورر</string>
+    <string name="home_wallet_detected">کیف‌پول شناسایی شد</string>
+    <string name="home_setup_wallet">راه‌اندازی کیف‌پول</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">برای دسترسی به کیف‌پول و فعال‌سازی استخراج PoP، قفل را باز کنید.</string>
+    <string name="home_setup_desc">عبارت بازیابی را ایجاد یا وارد کنید. کلیدهای شما روی تلفن شما می‌مانند.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">برای دسترسی به کیف‌پول و فعال‌سازی استخراج PoP، قفل را باز کنید.</string>
+    <string name="home_desc_not_initialized">عبارت بازیابی را ایجاد یا وارد کنید. کلیدهای شما روی تلفن شما می‌مانند.</string>
+
+    <string name="home_unlock">باز کردن قفل</string>
+    <string name="home_create_wallet">ایجاد کیف‌پول</string>
+    <string name="home_import_seed">وارد کردن seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">بازگشت</string>
+    <string name="explorer_reload">بارگذاری مجدد</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">وارد کردن seed</string>
+    <string name="import_wallet_hint">عبارت بازیابی خود را وارد کنید (۱۲ یا ۲۴ کلمه).</string>
+    <string name="import_seed_label">عبارت بازیابی</string>
+    <string name="import_clipboard_empty">کلیپ‌بورد خالی است</string>
+    <string name="import_paste_button">چسباندن از کلیپ‌بورد</string>
+    <string name="import_public_key_preview_title">پیش‌نمایش کلید عمومی</string>
+    <string name="import_confirm_checkbox">تأیید می‌کنم که این seed صحیح است</string>
+    <string name="import_invalid_seed_words_fmt">Seed نامعتبر: ۱۲ یا ۲۴ کلمه لازم است (فعلی: %1$d).</string>
+    <string name="import_invalid_seed_format">Seed نامعتبر (فرمت نادرست).</string>
+    <string name="import_confirm_before_import">قبل از وارد کردن، seed را تأیید کنید</string>
+    <string name="import_wallet_imported">کیف‌پول وارد شد ✅</string>
+    <string name="import_button_import">وارد کردن</string>
+    <string name="import_warning">⚠️ اسکرین‌شات نگیرید. هرگز seed خود را به اشتراک نگذارید.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">وارد کردن seed</string>
+    <string name="import_seed_desc">عبارت بازیابی خود را وارد کنید (۱۲ یا ۲۴ کلمه).</string>
+    <string name="import_seed_paste">چسباندن از کلیپ‌بورد</string>
+    <string name="import_seed_clipboard_empty">کلیپ‌بورد خالی است</string>
+    <string name="import_seed_pubkey_preview">پیش‌نمایش کلید عمومی</string>
+    <string name="import_seed_confirm_checkbox">تأیید می‌کنم که این seed صحیح است</string>
+    <string name="import_seed_confirm_required_toast">قبل از وارد کردن، seed را تأیید کنید</string>
+    <string name="import_seed_imported_toast">کیف‌پول وارد شد ✅</string>
+    <string name="import_seed_warning">⚠️ اسکرین‌شات نگیرید. هرگز seed خود را به اشتراک نگذارید.</string>
+    <string name="import_seed_action">وارد کردن</string>
+    <string name="import_seed_error_words_fmt">Seed نامعتبر: ۱۲ یا ۲۴ کلمه لازم است (فعلی: %1$d).</string>
+    <string name="import_seed_error_format">Seed نامعتبر (فرمت نادرست).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">ایجاد کیف‌پول</string>
+    <string name="create_wallet_seed_label">عبارت بازیابی (۱۲ کلمه)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">نمایش</string>
+    <string name="create_wallet_hide">مخفی کردن</string>
+    <string name="create_wallet_tip">این ۱۲ کلمه را روی کاغذ بنویسید. هرگز به اشتراک نگذارید.</string>
+    <string name="create_wallet_confirm_saved">Seed خود را ذخیره کردم</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">Seed خود را ذخیره کردم</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">کیف‌پول</string>
+    <string name="wallet_not_initialized">کیف‌پول راه‌اندازی نشده</string>
+    <string name="address_generating">آدرس: در حال تولید…</string>
+    <string name="address_title">آدرس PHC</string>
+    <string name="address_copy_hint">برای استفاده از آدرس، روی کپی بزنید.</string>
+    <string name="address_copied">آدرس کپی شد ✅</string>
+    <string name="address_new_or_not_indexed">آدرس جدید یا ایندکس نشده</string>
+
+    <!-- Balance -->
+    <string name="available">در دسترس</string>
+    <string name="pending">در انتظار</string>
+    <string name="pending_txs_fmt">تراکنش‌های در انتظار: %1$d</string>
+    <string name="balance_unavailable">موجودی در دسترس نیست</string>
+    <string name="balance_unavailable_node_offline">موجودی در دسترس نیست (نود آفلاین)</string>
+    <string name="loading_balance">در حال بارگذاری موجودی…</string>
+
+    <!-- Network -->
+    <string name="network_title">شبکه</string>
+    <string name="node_fmt">نود: %1$s</string>
+    <string name="node_unreachable">نود در دسترس نیست</string>
+    <string name="loading_network">در حال بارگذاری شبکه…</string>
+    <string name="tap_for_details">برای جزئیات بزنید ▼</string>
+    <string name="tap_to_collapse">جمع کردن ▲</string>
+    <string name="net_height">ارتفاع</string>
+    <string name="net_miners_10m">ماینرها (۱۰ دقیقه)</string>
+    <string name="net_difficulty">سختی</string>
+    <string name="net_eff_difficulty">سختی مؤثر</string>
+    <string name="net_mempool_hb">مِمپول HB</string>
+    <string name="net_mempool_tx">مِمپول TX</string>
+    <string name="net_target_block">بلاک هدف</string>
+    <string name="net_hb_threshold">آستانه HB</string>
+    <string name="net_issued">منتشر شده</string>
+    <string name="net_cap">سقف</string>
+    <string name="integrity_fmt">یکپارچگی: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">استخراج</string>
+    <string name="mining_active_badge">● استخراج فعال</string>
+    <string name="mining_pop">استخراج PoP</string>
+    <string name="mining_pop_active">استخراج PoP (فعال)</string>
+    <string name="mining_rejected_fmt">رد شده: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">استخراج PoP آماده است</string>
+    <string name="mining_started">استخراج PoP شروع شد</string>
+    <string name="mining_stopped">استخراج PoP متوقف شد</string>
+    <string name="mining_notif_channel_name">استخراج PoP</string>
+    <string name="mining_notif_title">PHONCOIN • استخراج PoP</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">نود</string>
+    <string name="mining_status">وضعیت</string>
+    <string name="mining_accepted">پذیرفته‌شده</string>
+    <string name="mining_rejected">رد شده</string>
+    <string name="mining_diff">سختی</string>
+    <string name="mining_last_submit">آخرین ارسال</string>
+    <string name="mining_last_reason">آخرین دلیل</string>
+    <string name="mining_start">شروع</string>
+    <string name="mining_stop">توقف</string>
+    <string name="mining_copy_payload">کپی آخرین payload</string>
+    <string name="mining_running_foreground">استخراج (سرویس پیش‌زمینه)</string>
+    <string name="mining_stopped_badge">متوقف</string>
+    <string name="mining_notif_perm_title">اعلان‌ها لازم است</string>
+    <string name="mining_notif_perm_text">برای استخراج پریمیوم PoP (سرویس پایدار در پس‌زمینه)، اندروید ۱۳+ به مجوز اعلان نیاز دارد.</string>
+    <string name="mining_notif_perm_allow">اجازه دادن</string>
+    <string name="mining_notif_perm_later">بعداً</string>
+    <string name="mining_help_text">سرویس heartbeats های PoP-S4 را ارسال می‌کند (PoW + امضا + اثرانگشت + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">ارسال</string>
+    <string name="receive">دریافت</string>
+    <string name="transactions">تراکنش‌ها</string>
+    <string name="explorer">اکسپلورر</string>
+
+    <!-- Settings -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_security">امنیت (PIN / بیومتریک)</string>
+    <string name="settings_seed_backup">عبارت بازیابی</string>
+    <string name="settings_network_node">شبکه (نود)</string>
+    <string name="settings_language">زبان</string>
+
+    <!-- Language -->
+    <string name="language_title">زبان</string>
+    <string name="language_english">انگلیسی</string>
+    <string name="language_french">فرانسوی</string>
+
+    <!-- Security -->
+    <string name="security_title">امنیت</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">کد قفل (۴ تا ۱۲ رقم)</string>
+    <string name="security_create_pin_hint_toast">PIN خود را در صفحه قفل ایجاد کنید ✅</string>
+    <string name="security_biometrics_title">بیومتریک</string>
+    <string name="security_biometrics_unavailable_toast">بیومتریک در دسترس نیست</string>
+    <string name="security_enable_pin_first_toast">ابتدا PIN را فعال کنید ✅</string>
+    <string name="security_autolock_title">قفل خودکار</string>
+    <string name="security_delay_label">تاخیر</string>
+    <string name="security_delay_30s">۳۰ ثانیه</string>
+    <string name="security_delay_1min">۱ دقیقه</string>
+    <string name="security_delay_5min">۵ دقیقه</string>
+    <string name="security_delay_15min">۱۵ دقیقه</string>
+    <string name="security_privacy_mode_title">حالت حریم خصوصی</string>
+    <string name="security_privacy_mode_desc">پنهان کردن اطلاعات حساس در رابط کاربری</string>
+    <string name="security_delete_pin">حذف PIN</string>
+    <string name="security_pin_deleted_toast">PIN حذف شد ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">عبارت بازیابی</string>
+    <string name="seed_backup_warning">⚠️ هرگز عبارت خود را به اشتراک نگذارید. هر کسی آن را داشته باشد می‌تواند کیف‌پول شما را خالی کند.</string>
+    <string name="seed_wallet_not_initialized">کیف‌پول راه‌اندازی نشده است.</string>
+    <string name="seed_show_phrase">نمایش عبارت</string>
+    <string name="seed_phrase_label">عبارت:</string>
+    <string name="seed_hide_phrase">مخفی کردن</string>
+    <string name="seed_backup_tip">نکته: آن را روی کاغذ بنویسید و ۲ نسخه (جداگانه) نگه دارید.</string>
+    <string name="seed_copied_toast">عبارت کپی شد ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">اول seed را نمایش دهید ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">عبارت بازیابی</string>
+    <string name="seed_recovery_warning">⚠️ هرگز این عبارت را به اشتراک نگذارید. دسترسی کامل به کیف‌پول شما می‌دهد.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">نمایش</string>
+    <string name="seed_recovery_hide">مخفی کردن</string>
+    <string name="seed_recovery_must_reveal_toast">اول seed را نمایش دهید ✅</string>
+    <string name="seed_recovery_copied_toast">Seed کپی شد ✅</string>
+    <string name="seed_recovery_tip">نکته: آن را آفلاین یادداشت کنید (کاغذ). از اسکرین‌شات خودداری کنید.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">نود / VPS</string>
+    <string name="node_settings_url_label">URL نود</string>
+    <string name="node_settings_example">مثال: https://api.phonchain.org</string>
+    <string name="node_settings_auto">خودکار (پیشنهادی)</string>
+    <string name="node_settings_save">ذخیره</string>
+
+    <!-- Send -->
+    <string name="send_title">ارسال</string>
+    <string name="send_from">از</string>
+    <string name="send_recipient_label">آدرس گیرنده (pubkey hex)</string>
+    <string name="send_amount_label">مقدار (PHC)</string>
+    <string name="send_sending">در حال ارسال…</string>
+    <string name="send_qr_scanned_toast">آدرس اسکن شد ✅</string>
+    <string name="send_qr_invalid_toast">QR نامعتبر (آدرس hex نیست)</string>
+    <string name="send_scan_prompt">اسکن آدرس (QR)</string>
+    <string name="send_error_recipient_invalid">آدرس گیرنده نامعتبر است</string>
+    <string name="send_error_self_send">ارسال به خودتان ممنوع است</string>
+    <string name="send_error_amount_invalid">مقدار نامعتبر است</string>
+    <string name="send_error_insufficient_fmt">موجودی ناکافی (در دسترس: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">تراکنش ارسال شد ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">رد شد: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">دریافت PHC</string>
+    <string name="receive_qr_cd">QR آدرس PHC</string>
+    <string name="receive_qr_unavailable">QR در دسترس نیست</string>
+    <string name="receive_address_unavailable">آدرس در دسترس نیست</string>
+    <string name="receive_open_explorer">باز کردن اکسپلورر</string>
+
+    <!-- Lock -->
+    <string name="lock_title">امنیت</string>
+    <string name="lock_subtitle">کیف‌پول خود را باز کنید</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">۴ تا ۱۲ رقم</string>
+    <string name="lock_error_pin_too_short">PIN خیلی کوتاه است</string>
+    <string name="lock_pin_created_toast">PIN ایجاد شد ✅</string>
+    <string name="lock_error_pin_incorrect">PIN اشتباه است</string>
+    <string name="lock_create_pin">ایجاد PIN</string>
+    <string name="lock_unlock">باز کردن</string>
+    <string name="lock_dialog_title">باز کردن PHONCOIN</string>
+    <string name="lock_dialog_no_locking">هیچ قفلی فعال نیست (PIN/بیومتریک).</string>
+    <string name="lock_dialog_enable_hint">PIN و بیومتریک را در تنظیمات → امنیت فعال کنید.</string>
+    <string name="lock_biometric_subtitle">با اثرانگشت یا چهره تأیید کنید</string>
+    <string name="lock_biometric_label">بیومتریک</string>
+    <string name="lock_biometric_loading">بیومتریک (در حال بارگذاری…)</string>
+    <string name="lock_biometric_not_available">بیومتریک در این دستگاه در دسترس نیست (یا تنظیم نشده است).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">در انتظار (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">تأییدشده (%1$d)</string>
+    <string name="transactions_unavailable">تراکنش‌ها در دسترس نیستند (نود آفلاین / فرمت)</string>
+    <string name="tx_empty_pending">هیچ تراکنش در انتظاری نیست</string>
+    <string name="tx_empty_confirmed">هیچ تراکنش تأییدشده‌ای نیست</string>
+    <string name="tx_amount">مقدار</string>
+    <string name="tx_from">از</string>
+    <string name="tx_to">به</string>
+    <string name="tx_time">تاریخ</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">کپی txid</string>
+    <string name="tx_copy_json">کپی JSON</string>
+    <string name="tx_hint_open_explorer">نکته: برای باز کردن در اکسپلورر روی کارت بزنید.</string>
+    <string name="tx_txid_unavailable">Txid در دسترس نیست</string>
+    <string name="tx_txid_copied">Txid کپی شد ✅</string>
+    <string name="tx_json_unavailable">JSON در دسترس نیست</string>
+    <string name="tx_json_copied">JSON کپی شد ✅</string>
+    <string name="tx_status_confirmed">تأییدشده</string>
+    <string name="tx_status_pending">در انتظار</string>
+    <string name="tx_direction_in">ورودی</string>
+    <string name="tx_direction_out">خروجی</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">خطا: %1$s</string>
+	
+<string name="mining_bg_title">فعالیت در پس‌زمینه</string>
+<string name="mining_bg_body">برای مشارکت پایدار Proof-of-Phone، فعالیت در پس‌زمینه را مجاز کنید و محدودیت‌های باتری برای PHONCOIN را در تنظیمات دستگاه غیرفعال کنید. اگر اندروید فعالیت پس‌زمینه را محدود کند، مشارکت ممکن است متوقف شود.</string>
+<string name="mining_bg_open_settings">باز کردن تنظیمات برنامه</string>
+<string name="mining_bg_optimized">محدودیت‌های پس‌زمینه: روشن (ممکن است مشارکت متوقف شود)</string>
+<string name="mining_bg_unrestricted">محدودیت‌های پس‌زمینه: خاموش</string>
+
+</resources>

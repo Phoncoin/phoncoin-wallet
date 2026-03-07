@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">“一部手机连接世界。”</string>
+
+    <!-- Global -->
+    <string name="back">返回</string>
+    <string name="close">关闭</string>
+    <string name="copy">复制</string>
+    <string name="view">查看</string>
+    <string name="refresh">刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="online">在线</string>
+    <string name="offline">离线</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Phoncoin 标志</string>
+    <string name="cd_settings">设置</string>
+    <string name="cd_refresh">刷新</string>
+    <string name="cd_lock">锁定</string>
+    <string name="cd_back">返回</string>
+    <string name="cd_scan_qr">扫描二维码</string>
+
+    <!-- Home -->
+    <string name="home_tagline">钱包 • 挖矿 • 浏览器</string>
+    <string name="home_wallet_detected">已检测到钱包</string>
+    <string name="home_setup_wallet">设置你的钱包</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">解锁以访问你的钱包并启用 PoP 挖矿。</string>
+    <string name="home_setup_desc">创建或导入你的恢复短语。你的密钥保存在手机中。</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">解锁以访问你的钱包并启用 PoP 挖矿。</string>
+    <string name="home_desc_not_initialized">创建或导入你的恢复短语。你的密钥保存在手机中。</string>
+
+    <string name="home_unlock">解锁</string>
+    <string name="home_create_wallet">创建钱包</string>
+    <string name="home_import_seed">导入 seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">返回</string>
+    <string name="explorer_reload">重新加载</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">导入 seed</string>
+    <string name="import_wallet_hint">粘贴你的恢复短语（12 或 24 个单词）。</string>
+    <string name="import_seed_label">恢复短语</string>
+    <string name="import_clipboard_empty">剪贴板为空</string>
+    <string name="import_paste_button">从剪贴板粘贴</string>
+    <string name="import_public_key_preview_title">公钥预览</string>
+    <string name="import_confirm_checkbox">我确认该 seed 正确无误</string>
+    <string name="import_invalid_seed_words_fmt">seed 无效：需要 12 或 24 个单词（当前：%1$d）。</string>
+    <string name="import_invalid_seed_format">seed 无效（格式不正确）。</string>
+    <string name="import_confirm_before_import">导入前请先确认 seed</string>
+    <string name="import_wallet_imported">钱包已导入 ✅</string>
+    <string name="import_button_import">导入</string>
+    <string name="import_warning">⚠️ 不要截图。切勿分享你的 seed。</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">导入 seed</string>
+    <string name="import_seed_desc">粘贴你的恢复短语（12 或 24 个单词）。</string>
+    <string name="import_seed_paste">从剪贴板粘贴</string>
+    <string name="import_seed_clipboard_empty">剪贴板为空</string>
+    <string name="import_seed_pubkey_preview">公钥预览</string>
+    <string name="import_seed_confirm_checkbox">我确认该 seed 正确无误</string>
+    <string name="import_seed_confirm_required_toast">导入前请先确认 seed</string>
+    <string name="import_seed_imported_toast">钱包已导入 ✅</string>
+    <string name="import_seed_warning">⚠️ 不要截图。切勿分享你的 seed。</string>
+    <string name="import_seed_action">导入</string>
+    <string name="import_seed_error_words_fmt">seed 无效：需要 12 或 24 个单词（当前：%1$d）。</string>
+    <string name="import_seed_error_format">seed 无效（格式不正确）。</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">创建钱包</string>
+    <string name="create_wallet_seed_label">恢复短语（12 个单词）</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">显示</string>
+    <string name="create_wallet_hide">隐藏</string>
+    <string name="create_wallet_tip">请把这 12 个单词写在纸上。切勿分享。</string>
+    <string name="create_wallet_confirm_saved">我已保存我的 seed</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">我已保存我的 seed</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">钱包</string>
+    <string name="wallet_not_initialized">钱包未初始化</string>
+    <string name="address_generating">地址：生成中…</string>
+    <string name="address_title">PHC 地址</string>
+    <string name="address_copy_hint">点击“复制”以使用该地址。</string>
+    <string name="address_copied">地址已复制 ✅</string>
+    <string name="address_new_or_not_indexed">地址为新地址或未索引</string>
+
+    <!-- Balance -->
+    <string name="available">可用</string>
+    <string name="pending">待处理</string>
+    <string name="pending_txs_fmt">待处理交易：%1$d</string>
+    <string name="balance_unavailable">余额不可用</string>
+    <string name="balance_unavailable_node_offline">余额不可用（节点离线）</string>
+    <string name="loading_balance">正在加载余额…</string>
+
+    <!-- Network -->
+    <string name="network_title">网络</string>
+    <string name="node_fmt">节点：%1$s</string>
+    <string name="node_unreachable">节点不可达</string>
+    <string name="loading_network">正在加载网络…</string>
+    <string name="tap_for_details">点击查看详情 ▼</string>
+    <string name="tap_to_collapse">收起 ▲</string>
+    <string name="net_height">高度</string>
+    <string name="net_miners_10m">矿工（10 分钟）</string>
+    <string name="net_difficulty">难度</string>
+    <string name="net_eff_difficulty">有效难度</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">目标区块</string>
+    <string name="net_hb_threshold">HB 阈值</string>
+    <string name="net_issued">已发行</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">完整性：%1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">挖矿</string>
+    <string name="mining_active_badge">● 挖矿中</string>
+    <string name="mining_pop">PoP 挖矿</string>
+    <string name="mining_pop_active">PoP 挖矿（运行中）</string>
+    <string name="mining_rejected_fmt">被拒绝：%1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">PoP 挖矿就绪</string>
+    <string name="mining_started">PoP 挖矿已开始</string>
+    <string name="mining_stopped">PoP 挖矿已停止</string>
+    <string name="mining_notif_channel_name">PoP 挖矿</string>
+    <string name="mining_notif_title">PHONCOIN • PoP 挖矿</string>
+    <string name="mining_status_fmt">PoP：%1$d ✅ / %2$d ❌ • 难度 %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">节点</string>
+    <string name="mining_status">状态</string>
+    <string name="mining_accepted">已接受</string>
+    <string name="mining_rejected">被拒绝</string>
+    <string name="mining_diff">难度</string>
+    <string name="mining_last_submit">上次提交</string>
+    <string name="mining_last_reason">上次原因</string>
+    <string name="mining_start">开始</string>
+    <string name="mining_stop">停止</string>
+    <string name="mining_copy_payload">复制最后一次 payload</string>
+    <string name="mining_running_foreground">挖矿（前台服务）</string>
+    <string name="mining_stopped_badge">已停止</string>
+    <string name="mining_notif_perm_title">需要通知权限</string>
+    <string name="mining_notif_perm_text">为获得高品质 PoP 挖矿体验（稳定后台服务），Android 13+ 需要通知权限。</string>
+    <string name="mining_notif_perm_allow">允许</string>
+    <string name="mining_notif_perm_later">稍后</string>
+    <string name="mining_help_text">服务会发送 PoP-S4 heartbeats（PoW + 签名 + 指纹 + device_info v4）。</string>
+
+    <!-- Actions -->
+    <string name="send">发送</string>
+    <string name="receive">接收</string>
+    <string name="transactions">交易</string>
+    <string name="explorer">浏览器</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_security">安全（PIN / 生物识别）</string>
+    <string name="settings_seed_backup">恢复短语</string>
+    <string name="settings_network_node">网络（节点）</string>
+    <string name="settings_language">语言</string>
+
+    <!-- Language -->
+    <string name="language_title">语言</string>
+    <string name="language_english">英语</string>
+    <string name="language_french">法语</string>
+
+    <!-- Security -->
+    <string name="security_title">安全</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">锁屏码（4 到 12 位数字）</string>
+    <string name="security_create_pin_hint_toast">请在锁屏界面创建 PIN ✅</string>
+    <string name="security_biometrics_title">生物识别</string>
+    <string name="security_biometrics_unavailable_toast">生物识别不可用</string>
+    <string name="security_enable_pin_first_toast">请先启用 PIN ✅</string>
+    <string name="security_autolock_title">自动锁定</string>
+    <string name="security_delay_label">延迟</string>
+    <string name="security_delay_30s">30 秒</string>
+    <string name="security_delay_1min">1 分钟</string>
+    <string name="security_delay_5min">5 分钟</string>
+    <string name="security_delay_15min">15 分钟</string>
+    <string name="security_privacy_mode_title">隐私模式</string>
+    <string name="security_privacy_mode_desc">在界面中隐藏敏感信息</string>
+    <string name="security_delete_pin">删除 PIN</string>
+    <string name="security_pin_deleted_toast">PIN 已删除 ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">恢复短语</string>
+    <string name="seed_backup_warning">⚠️ 切勿分享你的短语。任何拥有它的人都可以清空你的钱包。</string>
+    <string name="seed_wallet_not_initialized">钱包未初始化。</string>
+    <string name="seed_show_phrase">显示短语</string>
+    <string name="seed_phrase_label">短语：</string>
+    <string name="seed_hide_phrase">隐藏</string>
+    <string name="seed_backup_tip">提示：写在纸上并保存 2 份副本（分开存放）。</string>
+    <string name="seed_copied_toast">短语已复制 ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">请先显示 seed ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">恢复短语</string>
+    <string name="seed_recovery_warning">⚠️ 切勿分享该短语。它将提供对你钱包的完全访问权限。</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">显示</string>
+    <string name="seed_recovery_hide">隐藏</string>
+    <string name="seed_recovery_must_reveal_toast">请先显示 seed ✅</string>
+    <string name="seed_recovery_copied_toast">Seed 已复制 ✅</string>
+    <string name="seed_recovery_tip">提示：离线记录（纸质）。避免截图。</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">节点 / VPS</string>
+    <string name="node_settings_url_label">节点 URL</string>
+    <string name="node_settings_example">示例：https://api.phonchain.org</string>
+    <string name="node_settings_auto">自动（推荐）</string>
+    <string name="node_settings_save">保存</string>
+
+    <!-- Send -->
+    <string name="send_title">发送</string>
+    <string name="send_from">从</string>
+    <string name="send_recipient_label">收款地址（pubkey hex）</string>
+    <string name="send_amount_label">金额（PHC）</string>
+    <string name="send_sending">发送中…</string>
+    <string name="send_qr_scanned_toast">地址已扫描 ✅</string>
+    <string name="send_qr_invalid_toast">二维码无效（不是 hex 地址）</string>
+    <string name="send_scan_prompt">扫描地址（二维码）</string>
+    <string name="send_error_recipient_invalid">收款地址无效</string>
+    <string name="send_error_self_send">禁止给自己转账</string>
+    <string name="send_error_amount_invalid">金额无效</string>
+    <string name="send_error_insufficient_fmt">余额不足（可用：%1$s PHC）</string>
+    <string name="send_tx_sent_fmt">交易已发送 ✅（%1$s / %2$s）</string>
+    <string name="send_rejected_fmt">被拒绝：%1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">接收 PHC</string>
+    <string name="receive_qr_cd">PHC 地址二维码</string>
+    <string name="receive_qr_unavailable">二维码不可用</string>
+    <string name="receive_address_unavailable">地址不可用</string>
+    <string name="receive_open_explorer">打开浏览器</string>
+
+    <!-- Lock -->
+    <string name="lock_title">安全</string>
+    <string name="lock_subtitle">解锁你的钱包</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 到 12 位数字</string>
+    <string name="lock_error_pin_too_short">PIN 太短</string>
+    <string name="lock_pin_created_toast">PIN 已创建 ✅</string>
+    <string name="lock_error_pin_incorrect">PIN 不正确</string>
+    <string name="lock_create_pin">创建 PIN</string>
+    <string name="lock_unlock">解锁</string>
+    <string name="lock_dialog_title">解锁 PHONCOIN</string>
+    <string name="lock_dialog_no_locking">未启用锁定（PIN/生物识别）。</string>
+    <string name="lock_dialog_enable_hint">请在 设置 → 安全 中启用 PIN 和生物识别。</string>
+    <string name="lock_biometric_subtitle">使用指纹或面部确认</string>
+    <string name="lock_biometric_label">生物识别</string>
+    <string name="lock_biometric_loading">生物识别（加载中…）</string>
+    <string name="lock_biometric_not_available">该设备不支持生物识别（或未设置）。</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">待处理（%1$d）</string>
+    <string name="transactions_tab_confirmed_fmt">已确认（%1$d）</string>
+    <string name="transactions_unavailable">交易不可用（节点离线 / 格式）</string>
+    <string name="tx_empty_pending">没有待处理交易</string>
+    <string name="tx_empty_confirmed">没有已确认交易</string>
+    <string name="tx_amount">金额</string>
+    <string name="tx_from">从</string>
+    <string name="tx_to">到</string>
+    <string name="tx_time">日期</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">复制 txid</string>
+    <string name="tx_copy_json">复制 JSON</string>
+    <string name="tx_hint_open_explorer">提示：点击卡片可在浏览器中打开。</string>
+    <string name="tx_txid_unavailable">Txid 不可用</string>
+    <string name="tx_txid_copied">Txid 已复制 ✅</string>
+    <string name="tx_json_unavailable">JSON 不可用</string>
+    <string name="tx_json_copied">JSON 已复制 ✅</string>
+    <string name="tx_status_confirmed">已确认</string>
+    <string name="tx_status_pending">待处理</string>
+    <string name="tx_direction_in">转入</string>
+    <string name="tx_direction_out">转出</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">错误：%1$s</string>
+	
+<string name="mining_bg_title">后台活动</string>
+<string name="mining_bg_body">为保证稳定的 Proof-of-Phone 参与，请允许后台活动，并在设备设置中关闭 PHONCOIN 的电池限制。若 Android 限制后台活动，参与可能会暂停。</string>
+<string name="mining_bg_open_settings">打开应用设置</string>
+<string name="mining_bg_optimized">后台限制：开启（参与可能暂停）</string>
+<string name="mining_bg_unrestricted">后台限制：关闭</string>
+
+</resources>

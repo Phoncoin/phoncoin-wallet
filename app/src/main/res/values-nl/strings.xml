@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">“Eén telefoon voor de wereld.”</string>
+
+    <!-- Global -->
+    <string name="back">Terug</string>
+    <string name="close">Sluiten</string>
+    <string name="copy">Kopiëren</string>
+    <string name="view">Bekijken</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="refreshing">Bezig met vernieuwen…</string>
+    <string name="online">ONLINE</string>
+    <string name="offline">OFFLINE</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Phoncoin-logo</string>
+    <string name="cd_settings">Instellingen</string>
+    <string name="cd_refresh">Vernieuwen</string>
+    <string name="cd_lock">Vergrendelen</string>
+    <string name="cd_back">Terug</string>
+    <string name="cd_scan_qr">QR scannen</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Wallet • Minen • Explorer</string>
+    <string name="home_wallet_detected">Wallet gedetecteerd</string>
+    <string name="home_setup_wallet">Je wallet instellen</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">Ontgrendel om toegang te krijgen tot je wallet en PoP-mining te activeren.</string>
+    <string name="home_setup_desc">Maak of importeer je herstelzin. Je sleutels blijven op je telefoon.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">Ontgrendel om toegang te krijgen tot je wallet en PoP-mining te activeren.</string>
+    <string name="home_desc_not_initialized">Maak of importeer je herstelzin. Je sleutels blijven op je telefoon.</string>
+
+    <string name="home_unlock">Ontgrendelen</string>
+    <string name="home_create_wallet">Wallet maken</string>
+    <string name="home_import_seed">Seed importeren</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">Terug</string>
+    <string name="explorer_reload">Opnieuw laden</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">Seed importeren</string>
+    <string name="import_wallet_hint">Plak je herstelzin (12 of 24 woorden).</string>
+    <string name="import_seed_label">Herstelzin</string>
+    <string name="import_clipboard_empty">Het klembord is leeg</string>
+    <string name="import_paste_button">Plakken vanaf klembord</string>
+    <string name="import_public_key_preview_title">Voorbeeld van openbare sleutel</string>
+    <string name="import_confirm_checkbox">Ik bevestig dat deze seed correct is</string>
+    <string name="import_invalid_seed_words_fmt">Ongeldige seed: 12 of 24 woorden vereist (huidig: %1$d).</string>
+    <string name="import_invalid_seed_format">Ongeldige seed (verkeerd formaat).</string>
+    <string name="import_confirm_before_import">Bevestig de seed vóór het importeren</string>
+    <string name="import_wallet_imported">Wallet geïmporteerd ✅</string>
+    <string name="import_button_import">Importeren</string>
+    <string name="import_warning">⚠️ Maak geen screenshot. Deel je seed nooit.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">Seed importeren</string>
+    <string name="import_seed_desc">Plak je herstelzin (12 of 24 woorden).</string>
+    <string name="import_seed_paste">Plakken vanaf klembord</string>
+    <string name="import_seed_clipboard_empty">Het klembord is leeg</string>
+    <string name="import_seed_pubkey_preview">Voorbeeld van openbare sleutel</string>
+    <string name="import_seed_confirm_checkbox">Ik bevestig dat deze seed correct is</string>
+    <string name="import_seed_confirm_required_toast">Bevestig de seed vóór het importeren</string>
+    <string name="import_seed_imported_toast">Wallet geïmporteerd ✅</string>
+    <string name="import_seed_warning">⚠️ Maak geen screenshot. Deel je seed nooit.</string>
+    <string name="import_seed_action">Importeren</string>
+    <string name="import_seed_error_words_fmt">Ongeldige seed: 12 of 24 woorden vereist (huidig: %1$d).</string>
+    <string name="import_seed_error_format">Ongeldige seed (verkeerd formaat).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">Wallet maken</string>
+    <string name="create_wallet_seed_label">Herstelzin (12 woorden)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">Tonen</string>
+    <string name="create_wallet_hide">Verbergen</string>
+    <string name="create_wallet_tip">Schrijf deze 12 woorden op papier. Deel ze nooit.</string>
+    <string name="create_wallet_confirm_saved">Ik heb mijn seed opgeslagen</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">Ik heb mijn seed opgeslagen</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">Wallet</string>
+    <string name="wallet_not_initialized">Wallet niet geïnitialiseerd</string>
+    <string name="address_generating">Adres: genereren…</string>
+    <string name="address_title">PHC-adres</string>
+    <string name="address_copy_hint">Tik op Kopiëren om het adres te gebruiken.</string>
+    <string name="address_copied">Adres gekopieerd ✅</string>
+    <string name="address_new_or_not_indexed">Nieuw of niet-geïndexeerd adres</string>
+
+    <!-- Balance -->
+    <string name="available">Beschikbaar</string>
+    <string name="pending">In afwachting</string>
+    <string name="pending_txs_fmt">Transacties in afwachting: %1$d</string>
+    <string name="balance_unavailable">Saldo niet beschikbaar</string>
+    <string name="balance_unavailable_node_offline">Saldo niet beschikbaar (node offline)</string>
+    <string name="loading_balance">Saldo laden…</string>
+
+    <!-- Network -->
+    <string name="network_title">Netwerk</string>
+    <string name="node_fmt">Node: %1$s</string>
+    <string name="node_unreachable">Node onbereikbaar</string>
+    <string name="loading_network">Netwerk laden…</string>
+    <string name="tap_for_details">Tik voor details ▼</string>
+    <string name="tap_to_collapse">Inklappen ▲</string>
+    <string name="net_height">Hoogte</string>
+    <string name="net_miners_10m">Miners (10 min)</string>
+    <string name="net_difficulty">Moeilijkheid</string>
+    <string name="net_eff_difficulty">Effectieve moeilijkheid</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">Doelblok</string>
+    <string name="net_hb_threshold">HB-drempel</string>
+    <string name="net_issued">Uitgegeven</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">Integriteit: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">Mining</string>
+    <string name="mining_active_badge">● MINING ACTIEF</string>
+    <string name="mining_pop">PoP-mining</string>
+    <string name="mining_pop_active">PoP-mining (actief)</string>
+    <string name="mining_rejected_fmt">Afgewezen: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">PoP-mining klaar</string>
+    <string name="mining_started">PoP-mining gestart</string>
+    <string name="mining_stopped">PoP-mining gestopt</string>
+    <string name="mining_notif_channel_name">PoP-mining</string>
+    <string name="mining_notif_title">PHONCOIN • PoP-mining</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">Node</string>
+    <string name="mining_status">Status</string>
+    <string name="mining_accepted">Geaccepteerd</string>
+    <string name="mining_rejected">Afgewezen</string>
+    <string name="mining_diff">Moeilijkheid</string>
+    <string name="mining_last_submit">Laatste inzending</string>
+    <string name="mining_last_reason">Laatste reden</string>
+    <string name="mining_start">Starten</string>
+    <string name="mining_stop">Stoppen</string>
+    <string name="mining_copy_payload">Laatste payload kopiëren</string>
+    <string name="mining_running_foreground">MINING (foreground-service)</string>
+    <string name="mining_stopped_badge">GESTOPT</string>
+    <string name="mining_notif_perm_title">Meldingen vereist</string>
+    <string name="mining_notif_perm_text">Voor premium PoP-mining (stabiele achtergrondservice) vereist Android 13+ meldingsrechten.</string>
+    <string name="mining_notif_perm_allow">Toestaan</string>
+    <string name="mining_notif_perm_later">Later</string>
+    <string name="mining_help_text">De service verstuurt PoP-S4 heartbeats (PoW + handtekening + vingerafdruk + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">Versturen</string>
+    <string name="receive">Ontvangen</string>
+    <string name="transactions">Transacties</string>
+    <string name="explorer">Explorer</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Instellingen</string>
+    <string name="settings_security">Beveiliging (PIN / Biometrie)</string>
+    <string name="settings_seed_backup">Herstelzin</string>
+    <string name="settings_network_node">Netwerk (Node)</string>
+    <string name="settings_language">Taal</string>
+
+    <!-- Language -->
+    <string name="language_title">Taal</string>
+    <string name="language_english">Engels</string>
+    <string name="language_french">Frans</string>
+
+    <!-- Security -->
+    <string name="security_title">Beveiliging</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">Vergrendelcode (4 tot 12 cijfers)</string>
+    <string name="security_create_pin_hint_toast">Maak je PIN op het vergrendelscherm ✅</string>
+    <string name="security_biometrics_title">Biometrie</string>
+    <string name="security_biometrics_unavailable_toast">Biometrie niet beschikbaar</string>
+    <string name="security_enable_pin_first_toast">Schakel eerst PIN in ✅</string>
+    <string name="security_autolock_title">Automatisch vergrendelen</string>
+    <string name="security_delay_label">Vertraging</string>
+    <string name="security_delay_30s">30 s</string>
+    <string name="security_delay_1min">1 min</string>
+    <string name="security_delay_5min">5 min</string>
+    <string name="security_delay_15min">15 min</string>
+    <string name="security_privacy_mode_title">Privacymodus</string>
+    <string name="security_privacy_mode_desc">Gevoelige info in de UI verbergen</string>
+    <string name="security_delete_pin">PIN verwijderen</string>
+    <string name="security_pin_deleted_toast">PIN verwijderd ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">Herstelzin</string>
+    <string name="seed_backup_warning">⚠️ Deel je zin nooit. Iedereen die hem heeft kan je wallet leegmaken.</string>
+    <string name="seed_wallet_not_initialized">Wallet niet geïnitialiseerd.</string>
+    <string name="seed_show_phrase">Zin tonen</string>
+    <string name="seed_phrase_label">Zin:</string>
+    <string name="seed_hide_phrase">Verbergen</string>
+    <string name="seed_backup_tip">Tip: schrijf hem op papier en bewaar 2 kopieën (gescheiden).</string>
+    <string name="seed_copied_toast">Zin gekopieerd ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">Toon eerst de seed ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">Herstelzin</string>
+    <string name="seed_recovery_warning">⚠️ Deel deze zin nooit. Het geeft volledige toegang tot je wallet.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">Tonen</string>
+    <string name="seed_recovery_hide">Verbergen</string>
+    <string name="seed_recovery_must_reveal_toast">Toon eerst de seed ✅</string>
+    <string name="seed_recovery_copied_toast">Seed gekopieerd ✅</string>
+    <string name="seed_recovery_tip">Tip: schrijf hem offline op (papier). Vermijd screenshots.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">Node / VPS</string>
+    <string name="node_settings_url_label">Node-URL</string>
+    <string name="node_settings_example">Voorbeeld: https://api.phonchain.org</string>
+    <string name="node_settings_auto">Auto (aanbevolen)</string>
+    <string name="node_settings_save">Opslaan</string>
+
+    <!-- Send -->
+    <string name="send_title">Versturen</string>
+    <string name="send_from">Van</string>
+    <string name="send_recipient_label">Adres van ontvanger (pubkey hex)</string>
+    <string name="send_amount_label">Bedrag (PHC)</string>
+    <string name="send_sending">Verzenden…</string>
+    <string name="send_qr_scanned_toast">Adres gescand ✅</string>
+    <string name="send_qr_invalid_toast">Ongeldige QR (geen hex-adres)</string>
+    <string name="send_scan_prompt">Adres scannen (QR)</string>
+    <string name="send_error_recipient_invalid">Ongeldig ontvangeradres</string>
+    <string name="send_error_self_send">Naar jezelf versturen is verboden</string>
+    <string name="send_error_amount_invalid">Ongeldig bedrag</string>
+    <string name="send_error_insufficient_fmt">Onvoldoende saldo (beschikbaar: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">Transactie verzonden ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">Afgewezen: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">PHC ontvangen</string>
+    <string name="receive_qr_cd">QR van het PHC-adres</string>
+    <string name="receive_qr_unavailable">QR niet beschikbaar</string>
+    <string name="receive_address_unavailable">Adres niet beschikbaar</string>
+    <string name="receive_open_explorer">Explorer openen</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Beveiliging</string>
+    <string name="lock_subtitle">Ontgrendel je wallet</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 tot 12 cijfers</string>
+    <string name="lock_error_pin_too_short">PIN is te kort</string>
+    <string name="lock_pin_created_toast">PIN aangemaakt ✅</string>
+    <string name="lock_error_pin_incorrect">Onjuiste PIN</string>
+    <string name="lock_create_pin">PIN aanmaken</string>
+    <string name="lock_unlock">Ontgrendelen</string>
+    <string name="lock_dialog_title">PHONCOIN ontgrendelen</string>
+    <string name="lock_dialog_no_locking">Geen vergrendeling ingeschakeld (PIN/Biometrie).</string>
+    <string name="lock_dialog_enable_hint">Schakel PIN en biometrie in via Instellingen → Beveiliging.</string>
+    <string name="lock_biometric_subtitle">Bevestig met je vingerafdruk of gezicht</string>
+    <string name="lock_biometric_label">Biometrie</string>
+    <string name="lock_biometric_loading">Biometrie (laden…)</string>
+    <string name="lock_biometric_not_available">Biometrie is niet beschikbaar op dit apparaat (of niet ingesteld).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">In afwachting (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">Bevestigd (%1$d)</string>
+    <string name="transactions_unavailable">Transacties niet beschikbaar (node offline / formaat)</string>
+    <string name="tx_empty_pending">Geen transacties in afwachting</string>
+    <string name="tx_empty_confirmed">Geen bevestigde transacties</string>
+    <string name="tx_amount">Bedrag</string>
+    <string name="tx_from">Van</string>
+    <string name="tx_to">Naar</string>
+    <string name="tx_time">Datum</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">Txid kopiëren</string>
+    <string name="tx_copy_json">JSON kopiëren</string>
+    <string name="tx_hint_open_explorer">Tip: tik op de kaart om te openen in de explorer.</string>
+    <string name="tx_txid_unavailable">Txid niet beschikbaar</string>
+    <string name="tx_txid_copied">Txid gekopieerd ✅</string>
+    <string name="tx_json_unavailable">JSON niet beschikbaar</string>
+    <string name="tx_json_copied">JSON gekopieerd ✅</string>
+    <string name="tx_status_confirmed">Bevestigd</string>
+    <string name="tx_status_pending">In afwachting</string>
+    <string name="tx_direction_in">Inkomend</string>
+    <string name="tx_direction_out">Uitgaand</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">Fout: %1$s</string>
+	
+<string name="mining_bg_title">Achtergrondactiviteit</string>
+<string name="mining_bg_body">Voor stabiele Proof-of-Phone-deelname: sta achtergrondactiviteit toe en schakel batterijbeperkingen voor PHONCOIN uit in de apparaatinstellingen. Deelname kan pauzeren als Android achtergrondactiviteit beperkt.</string>
+<string name="mining_bg_open_settings">App-instellingen openen</string>
+<string name="mining_bg_optimized">Achtergrondbeperkingen: AAN (deelname kan pauzeren)</string>
+<string name="mining_bg_unrestricted">Achtergrondbeperkingen: UIT</string>
+
+</resources>

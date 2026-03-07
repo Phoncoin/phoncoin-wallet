@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">«En telefon for verda.»</string>
+
+    <!-- Global -->
+    <string name="back">Tilbake</string>
+    <string name="close">Lukk</string>
+    <string name="copy">Kopier</string>
+    <string name="view">Vis</string>
+    <string name="refresh">Oppdater</string>
+    <string name="refreshing">Oppdaterer…</string>
+    <string name="online">PÅ NETT</string>
+    <string name="offline">FRAKOBLET</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Phoncoin-logo</string>
+    <string name="cd_settings">Innstillinger</string>
+    <string name="cd_refresh">Oppdater</string>
+    <string name="cd_lock">Lås</string>
+    <string name="cd_back">Tilbake</string>
+    <string name="cd_scan_qr">Skann QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Wallet • Mine • Explorer</string>
+    <string name="home_wallet_detected">Wallet oppdaget</string>
+    <string name="home_setup_wallet">Sett opp walleten din</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">Lås opp for å få tilgang til walleten din og aktivere PoP-mining.</string>
+    <string name="home_setup_desc">Opprett eller importer gjenopprettingsfrasen din. Nøklene dine blir på telefonen.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">Lås opp for å få tilgang til walleten din og aktivere PoP-mining.</string>
+    <string name="home_desc_not_initialized">Opprett eller importer gjenopprettingsfrasen din. Nøklene dine blir på telefonen.</string>
+
+    <string name="home_unlock">Lås opp</string>
+    <string name="home_create_wallet">Opprett wallet</string>
+    <string name="home_import_seed">Importer seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">Tilbake</string>
+    <string name="explorer_reload">Last inn på nytt</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">Importer seed</string>
+    <string name="import_wallet_hint">Lim inn gjenopprettingsfrasen din (12 eller 24 ord).</string>
+    <string name="import_seed_label">Gjenopprettingsfrase</string>
+    <string name="import_clipboard_empty">Utklippstavlen er tom</string>
+    <string name="import_paste_button">Lim inn fra utklippstavle</string>
+    <string name="import_public_key_preview_title">Forhåndsvisning av offentlig nøkkel</string>
+    <string name="import_confirm_checkbox">Jeg bekrefter at denne seed-en er korrekt</string>
+    <string name="import_invalid_seed_words_fmt">Ugyldig seed: 12 eller 24 ord kreves (nå: %1$d).</string>
+    <string name="import_invalid_seed_format">Ugyldig seed (feil format).</string>
+    <string name="import_confirm_before_import">Bekreft seed-en før import</string>
+    <string name="import_wallet_imported">Wallet importert ✅</string>
+    <string name="import_button_import">Importer</string>
+    <string name="import_warning">⚠️ Ikke ta skjermbilde. Del aldri seed-en din.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">Importer seed</string>
+    <string name="import_seed_desc">Lim inn gjenopprettingsfrasen din (12 eller 24 ord).</string>
+    <string name="import_seed_paste">Lim inn fra utklippstavle</string>
+    <string name="import_seed_clipboard_empty">Utklippstavlen er tom</string>
+    <string name="import_seed_pubkey_preview">Forhåndsvisning av offentlig nøkkel</string>
+    <string name="import_seed_confirm_checkbox">Jeg bekrefter at denne seed-en er korrekt</string>
+    <string name="import_seed_confirm_required_toast">Bekreft seed-en før import</string>
+    <string name="import_seed_imported_toast">Wallet importert ✅</string>
+    <string name="import_seed_warning">⚠️ Ikke ta skjermbilde. Del aldri seed-en din.</string>
+    <string name="import_seed_action">Importer</string>
+    <string name="import_seed_error_words_fmt">Ugyldig seed: 12 eller 24 ord kreves (nå: %1$d).</string>
+    <string name="import_seed_error_format">Ugyldig seed (feil format).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">Opprett wallet</string>
+    <string name="create_wallet_seed_label">Gjenopprettingsfrase (12 ord)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">Vis</string>
+    <string name="create_wallet_hide">Skjul</string>
+    <string name="create_wallet_tip">Skriv ned disse 12 ordene på papir. Del dem aldri.</string>
+    <string name="create_wallet_confirm_saved">Jeg har lagret seed-en min</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">Jeg har lagret seed-en min</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">Wallet</string>
+    <string name="wallet_not_initialized">Wallet ikke initialisert</string>
+    <string name="address_generating">Adresse: genererer…</string>
+    <string name="address_title">PHC-adresse</string>
+    <string name="address_copy_hint">Trykk Kopier for å bruke adressen.</string>
+    <string name="address_copied">Adresse kopiert ✅</string>
+    <string name="address_new_or_not_indexed">Ny eller ikke indeksert adresse</string>
+
+    <!-- Balance -->
+    <string name="available">Tilgjengelig</string>
+    <string name="pending">Venter</string>
+    <string name="pending_txs_fmt">Ventende transaksjoner: %1$d</string>
+    <string name="balance_unavailable">Saldo utilgjengelig</string>
+    <string name="balance_unavailable_node_offline">Saldo utilgjengelig (node offline)</string>
+    <string name="loading_balance">Laster saldo…</string>
+
+    <!-- Network -->
+    <string name="network_title">Nettverk</string>
+    <string name="node_fmt">Node: %1$s</string>
+    <string name="node_unreachable">Node utilgjengelig</string>
+    <string name="loading_network">Laster nettverk…</string>
+    <string name="tap_for_details">Trykk for detaljer ▼</string>
+    <string name="tap_to_collapse">Skjul ▲</string>
+    <string name="net_height">Høyde</string>
+    <string name="net_miners_10m">Minere (10 min)</string>
+    <string name="net_difficulty">Vanskelighetsgrad</string>
+    <string name="net_eff_difficulty">Effektiv vanskelighetsgrad</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">Målblokk</string>
+    <string name="net_hb_threshold">HB-terskel</string>
+    <string name="net_issued">Utstedt</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">Integritet: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">Mining</string>
+    <string name="mining_active_badge">● MINING AKTIV</string>
+    <string name="mining_pop">PoP-mining</string>
+    <string name="mining_pop_active">PoP-mining (aktiv)</string>
+    <string name="mining_rejected_fmt">Avvist: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">PoP-mining klar</string>
+    <string name="mining_started">PoP-mining startet</string>
+    <string name="mining_stopped">PoP-mining stoppet</string>
+    <string name="mining_notif_channel_name">PoP-mining</string>
+    <string name="mining_notif_title">PHONCOIN • PoP-mining</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">Node</string>
+    <string name="mining_status">Status</string>
+    <string name="mining_accepted">Godkjent</string>
+    <string name="mining_rejected">Avvist</string>
+    <string name="mining_diff">Vanskelighetsgrad</string>
+    <string name="mining_last_submit">Siste innsending</string>
+    <string name="mining_last_reason">Siste årsak</string>
+    <string name="mining_start">Start</string>
+    <string name="mining_stop">Stopp</string>
+    <string name="mining_copy_payload">Kopier siste payload</string>
+    <string name="mining_running_foreground">MINING (forgrunnstjeneste)</string>
+    <string name="mining_stopped_badge">STOPPET</string>
+    <string name="mining_notif_perm_title">Varsler kreves</string>
+    <string name="mining_notif_perm_text">For premium PoP-mining (stabil bakgrunnstjeneste) krever Android 13+ varslingstillatelse.</string>
+    <string name="mining_notif_perm_allow">Tillat</string>
+    <string name="mining_notif_perm_later">Senere</string>
+    <string name="mining_help_text">Tjenesten sender PoP-S4 heartbeats (PoW + signatur + fingeravtrykk + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">Send</string>
+    <string name="receive">Motta</string>
+    <string name="transactions">Transaksjoner</string>
+    <string name="explorer">Explorer</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Innstillinger</string>
+    <string name="settings_security">Sikkerhet (PIN / Biometri)</string>
+    <string name="settings_seed_backup">Gjenopprettingsfrase</string>
+    <string name="settings_network_node">Nettverk (Node)</string>
+    <string name="settings_language">Språk</string>
+
+    <!-- Language -->
+    <string name="language_title">Språk</string>
+    <string name="language_english">Engelsk</string>
+    <string name="language_french">Fransk</string>
+
+    <!-- Security -->
+    <string name="security_title">Sikkerhet</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">Låsekode (4 til 12 sifre)</string>
+    <string name="security_create_pin_hint_toast">Opprett PIN på låseskjermen ✅</string>
+    <string name="security_biometrics_title">Biometri</string>
+    <string name="security_biometrics_unavailable_toast">Biometri utilgjengelig</string>
+    <string name="security_enable_pin_first_toast">Aktiver PIN først ✅</string>
+    <string name="security_autolock_title">Automatisk låsing</string>
+    <string name="security_delay_label">Forsinkelse</string>
+    <string name="security_delay_30s">30 s</string>
+    <string name="security_delay_1min">1 min</string>
+    <string name="security_delay_5min">5 min</string>
+    <string name="security_delay_15min">15 min</string>
+    <string name="security_privacy_mode_title">Personvernmodus</string>
+    <string name="security_privacy_mode_desc">Skjul sensitiv info i grensesnittet</string>
+    <string name="security_delete_pin">Slett PIN</string>
+    <string name="security_pin_deleted_toast">PIN slettet ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">Gjenopprettingsfrase</string>
+    <string name="seed_backup_warning">⚠️ Del aldri frasen din. Alle som har den kan tømme walleten din.</string>
+    <string name="seed_wallet_not_initialized">Wallet ikke initialisert.</string>
+    <string name="seed_show_phrase">Vis frasen</string>
+    <string name="seed_phrase_label">Frase:</string>
+    <string name="seed_hide_phrase">Skjul</string>
+    <string name="seed_backup_tip">Tips: skriv den ned på papir og oppbevar 2 kopier (separat).</string>
+    <string name="seed_copied_toast">Frase kopiert ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">Vis seed-en først ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">Gjenopprettingsfrase</string>
+    <string name="seed_recovery_warning">⚠️ Del aldri denne frasen. Den gir full tilgang til walleten din.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">Vis</string>
+    <string name="seed_recovery_hide">Skjul</string>
+    <string name="seed_recovery_must_reveal_toast">Vis seed-en først ✅</string>
+    <string name="seed_recovery_copied_toast">Seed kopiert ✅</string>
+    <string name="seed_recovery_tip">Tips: skriv den ned offline (papir). Unngå skjermbilder.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">Node / VPS</string>
+    <string name="node_settings_url_label">Node-URL</string>
+    <string name="node_settings_example">Eksempel: https://api.phonchain.org</string>
+    <string name="node_settings_auto">Auto (anbefalt)</string>
+    <string name="node_settings_save">Lagre</string>
+
+    <!-- Send -->
+    <string name="send_title">Send</string>
+    <string name="send_from">Fra</string>
+    <string name="send_recipient_label">Mottakeradresse (pubkey hex)</string>
+    <string name="send_amount_label">Beløp (PHC)</string>
+    <string name="send_sending">Sender…</string>
+    <string name="send_qr_scanned_toast">Adresse skannet ✅</string>
+    <string name="send_qr_invalid_toast">Ugyldig QR (ikke en hex-adresse)</string>
+    <string name="send_scan_prompt">Skann adresse (QR)</string>
+    <string name="send_error_recipient_invalid">Ugyldig mottakeradresse</string>
+    <string name="send_error_self_send">Det er forbudt å sende til deg selv</string>
+    <string name="send_error_amount_invalid">Ugyldig beløp</string>
+    <string name="send_error_insufficient_fmt">Utilstrekkelige midler (tilgjengelig: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">Transaksjon sendt ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">Avvist: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">Motta PHC</string>
+    <string name="receive_qr_cd">QR for PHC-adressen</string>
+    <string name="receive_qr_unavailable">QR utilgjengelig</string>
+    <string name="receive_address_unavailable">Adresse utilgjengelig</string>
+    <string name="receive_open_explorer">Åpne explorer</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Sikkerhet</string>
+    <string name="lock_subtitle">Lås opp walleten din</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 til 12 sifre</string>
+    <string name="lock_error_pin_too_short">PIN er for kort</string>
+    <string name="lock_pin_created_toast">PIN opprettet ✅</string>
+    <string name="lock_error_pin_incorrect">Feil PIN</string>
+    <string name="lock_create_pin">Opprett PIN</string>
+    <string name="lock_unlock">Lås opp</string>
+    <string name="lock_dialog_title">Lås opp PHONCOIN</string>
+    <string name="lock_dialog_no_locking">Ingen låsing aktivert (PIN/Biometri).</string>
+    <string name="lock_dialog_enable_hint">Aktiver PIN og biometri i Innstillinger → Sikkerhet.</string>
+    <string name="lock_biometric_subtitle">Bekreft med fingeravtrykk eller ansikt</string>
+    <string name="lock_biometric_label">Biometri</string>
+    <string name="lock_biometric_loading">Biometri (laster…)</string>
+    <string name="lock_biometric_not_available">Biometri er ikke tilgjengelig på denne enheten (eller ikke konfigurert).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">Venter (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">Bekreftet (%1$d)</string>
+    <string name="transactions_unavailable">Transaksjoner utilgjengelige (node offline / format)</string>
+    <string name="tx_empty_pending">Ingen ventende transaksjoner</string>
+    <string name="tx_empty_confirmed">Ingen bekreftede transaksjoner</string>
+    <string name="tx_amount">Beløp</string>
+    <string name="tx_from">Fra</string>
+    <string name="tx_to">Til</string>
+    <string name="tx_time">Dato</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">Kopier txid</string>
+    <string name="tx_copy_json">Kopier JSON</string>
+    <string name="tx_hint_open_explorer">Tips: trykk på kortet for å åpne i explorer.</string>
+    <string name="tx_txid_unavailable">Txid utilgjengelig</string>
+    <string name="tx_txid_copied">Txid kopiert ✅</string>
+    <string name="tx_json_unavailable">JSON utilgjengelig</string>
+    <string name="tx_json_copied">JSON kopiert ✅</string>
+    <string name="tx_status_confirmed">Bekreftet</string>
+    <string name="tx_status_pending">Venter</string>
+    <string name="tx_direction_in">Inn</string>
+    <string name="tx_direction_out">Ut</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">Feil: %1$s</string>
+	
+<string name="mining_bg_title">Bakgrunnsaktivitet</string>
+<string name="mining_bg_body">For stabil Proof-of-Phone-deltakelse, tillat bakgrunnsaktivitet og deaktiver batteribegrensninger for PHONCOIN i enhetsinnstillingene. Deltakelsen kan settes på pause hvis Android begrenser bakgrunnsaktivitet.</string>
+<string name="mining_bg_open_settings">Åpne appinnstillinger</string>
+<string name="mining_bg_optimized">Bakgrunnsbegrensninger: PÅ (deltakelse kan pause)</string>
+<string name="mining_bg_unrestricted">Bakgrunnsbegrensninger: AV</string>
+
+</resources>

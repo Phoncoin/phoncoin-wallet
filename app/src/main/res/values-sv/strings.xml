@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">”En telefon för världen.”</string>
+
+    <!-- Global -->
+    <string name="back">Tillbaka</string>
+    <string name="close">Stäng</string>
+    <string name="copy">Kopiera</string>
+    <string name="view">Visa</string>
+    <string name="refresh">Uppdatera</string>
+    <string name="refreshing">Uppdaterar…</string>
+    <string name="online">ONLINE</string>
+    <string name="offline">OFFLINE</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Phoncoin-logotyp</string>
+    <string name="cd_settings">Inställningar</string>
+    <string name="cd_refresh">Uppdatera</string>
+    <string name="cd_lock">Lås</string>
+    <string name="cd_back">Tillbaka</string>
+    <string name="cd_scan_qr">Skanna QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Wallet • Mina • Explorer</string>
+    <string name="home_wallet_detected">Wallet upptäckt</string>
+    <string name="home_setup_wallet">Konfigurera din wallet</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">Lås upp för att få åtkomst till din wallet och aktivera PoP-mining.</string>
+    <string name="home_setup_desc">Skapa eller importera din återställningsfras. Dina nycklar stannar på din telefon.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">Lås upp för att få åtkomst till din wallet och aktivera PoP-mining.</string>
+    <string name="home_desc_not_initialized">Skapa eller importera din återställningsfras. Dina nycklar stannar på din telefon.</string>
+
+    <string name="home_unlock">Lås upp</string>
+    <string name="home_create_wallet">Skapa wallet</string>
+    <string name="home_import_seed">Importera seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">Tillbaka</string>
+    <string name="explorer_reload">Ladda om</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">Importera seed</string>
+    <string name="import_wallet_hint">Klistra in din återställningsfras (12 eller 24 ord).</string>
+    <string name="import_seed_label">Återställningsfras</string>
+    <string name="import_clipboard_empty">Urklipp är tomt</string>
+    <string name="import_paste_button">Klistra in från urklipp</string>
+    <string name="import_public_key_preview_title">Förhandsvisning av offentlig nyckel</string>
+    <string name="import_confirm_checkbox">Jag bekräftar att denna seed är korrekt</string>
+    <string name="import_invalid_seed_words_fmt">Ogiltig seed: 12 eller 24 ord krävs (nu: %1$d).</string>
+    <string name="import_invalid_seed_format">Ogiltig seed (fel format).</string>
+    <string name="import_confirm_before_import">Bekräfta seed innan import</string>
+    <string name="import_wallet_imported">Wallet importerad ✅</string>
+    <string name="import_button_import">Importera</string>
+    <string name="import_warning">⚠️ Ta inga skärmdumpar. Dela aldrig din seed.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">Importera seed</string>
+    <string name="import_seed_desc">Klistra in din återställningsfras (12 eller 24 ord).</string>
+    <string name="import_seed_paste">Klistra in från urklipp</string>
+    <string name="import_seed_clipboard_empty">Urklipp är tomt</string>
+    <string name="import_seed_pubkey_preview">Förhandsvisning av offentlig nyckel</string>
+    <string name="import_seed_confirm_checkbox">Jag bekräftar att denna seed är korrekt</string>
+    <string name="import_seed_confirm_required_toast">Bekräfta seed innan import</string>
+    <string name="import_seed_imported_toast">Wallet importerad ✅</string>
+    <string name="import_seed_warning">⚠️ Ta inga skärmdumpar. Dela aldrig din seed.</string>
+    <string name="import_seed_action">Importera</string>
+    <string name="import_seed_error_words_fmt">Ogiltig seed: 12 eller 24 ord krävs (nu: %1$d).</string>
+    <string name="import_seed_error_format">Ogiltig seed (fel format).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">Skapa wallet</string>
+    <string name="create_wallet_seed_label">Återställningsfras (12 ord)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">Visa</string>
+    <string name="create_wallet_hide">Dölj</string>
+    <string name="create_wallet_tip">Skriv ner dessa 12 ord på papper. Dela dem aldrig.</string>
+    <string name="create_wallet_confirm_saved">Jag har sparat min seed</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">Jag har sparat min seed</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">Wallet</string>
+    <string name="wallet_not_initialized">Wallet inte initierad</string>
+    <string name="address_generating">Adress: genererar…</string>
+    <string name="address_title">PHC-adress</string>
+    <string name="address_copy_hint">Tryck på Kopiera för att använda adressen.</string>
+    <string name="address_copied">Adress kopierad ✅</string>
+    <string name="address_new_or_not_indexed">Ny eller ej indexerad adress</string>
+
+    <!-- Balance -->
+    <string name="available">Tillgängligt</string>
+    <string name="pending">Väntande</string>
+    <string name="pending_txs_fmt">Väntande transaktioner: %1$d</string>
+    <string name="balance_unavailable">Saldo ej tillgängligt</string>
+    <string name="balance_unavailable_node_offline">Saldo ej tillgängligt (nod offline)</string>
+    <string name="loading_balance">Laddar saldo…</string>
+
+    <!-- Network -->
+    <string name="network_title">Nätverk</string>
+    <string name="node_fmt">Nod: %1$s</string>
+    <string name="node_unreachable">Nod ej nåbar</string>
+    <string name="loading_network">Laddar nätverk…</string>
+    <string name="tap_for_details">Tryck för detaljer ▼</string>
+    <string name="tap_to_collapse">Fäll ihop ▲</string>
+    <string name="net_height">Höjd</string>
+    <string name="net_miners_10m">Miners (10 min)</string>
+    <string name="net_difficulty">Svårighet</string>
+    <string name="net_eff_difficulty">Effektiv svårighet</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">Målblock</string>
+    <string name="net_hb_threshold">HB-tröskel</string>
+    <string name="net_issued">Utgivet</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">Integritet: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">Mining</string>
+    <string name="mining_active_badge">● MINING AKTIV</string>
+    <string name="mining_pop">PoP-mining</string>
+    <string name="mining_pop_active">PoP-mining (aktiv)</string>
+    <string name="mining_rejected_fmt">Avvisade: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">PoP-mining redo</string>
+    <string name="mining_started">PoP-mining startad</string>
+    <string name="mining_stopped">PoP-mining stoppad</string>
+    <string name="mining_notif_channel_name">PoP-mining</string>
+    <string name="mining_notif_title">PHONCOIN • PoP-mining</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">Nod</string>
+    <string name="mining_status">Status</string>
+    <string name="mining_accepted">Accepterade</string>
+    <string name="mining_rejected">Avvisade</string>
+    <string name="mining_diff">Svårighet</string>
+    <string name="mining_last_submit">Senaste sändning</string>
+    <string name="mining_last_reason">Senaste anledning</string>
+    <string name="mining_start">Starta</string>
+    <string name="mining_stop">Stoppa</string>
+    <string name="mining_copy_payload">Kopiera senaste payload</string>
+    <string name="mining_running_foreground">MINING (förgrundstjänst)</string>
+    <string name="mining_stopped_badge">STOPPAD</string>
+    <string name="mining_notif_perm_title">Notiser krävs</string>
+    <string name="mining_notif_perm_text">För premium PoP-mining (stabil bakgrundstjänst) kräver Android 13+ notisbehörighet.</string>
+    <string name="mining_notif_perm_allow">Tillåt</string>
+    <string name="mining_notif_perm_later">Senare</string>
+    <string name="mining_help_text">Tjänsten skickar PoP-S4 heartbeats (PoW + signatur + fingeravtryck + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">Skicka</string>
+    <string name="receive">Ta emot</string>
+    <string name="transactions">Transaktioner</string>
+    <string name="explorer">Explorer</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Inställningar</string>
+    <string name="settings_security">Säkerhet (PIN / Biometri)</string>
+    <string name="settings_seed_backup">Återställningsfras</string>
+    <string name="settings_network_node">Nätverk (Nod)</string>
+    <string name="settings_language">Språk</string>
+
+    <!-- Language -->
+    <string name="language_title">Språk</string>
+    <string name="language_english">Engelska</string>
+    <string name="language_french">Franska</string>
+
+    <!-- Security -->
+    <string name="security_title">Säkerhet</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">Låskod (4 till 12 siffror)</string>
+    <string name="security_create_pin_hint_toast">Skapa din PIN på låsskärmen ✅</string>
+    <string name="security_biometrics_title">Biometri</string>
+    <string name="security_biometrics_unavailable_toast">Biometri ej tillgängligt</string>
+    <string name="security_enable_pin_first_toast">Aktivera PIN först ✅</string>
+    <string name="security_autolock_title">Autolås</string>
+    <string name="security_delay_label">Fördröjning</string>
+    <string name="security_delay_30s">30 s</string>
+    <string name="security_delay_1min">1 min</string>
+    <string name="security_delay_5min">5 min</string>
+    <string name="security_delay_15min">15 min</string>
+    <string name="security_privacy_mode_title">Sekretessläge</string>
+    <string name="security_privacy_mode_desc">Dölj känslig info i gränssnittet</string>
+    <string name="security_delete_pin">Ta bort PIN</string>
+    <string name="security_pin_deleted_toast">PIN borttagen ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">Återställningsfras</string>
+    <string name="seed_backup_warning">⚠️ Dela aldrig din fras. Vem som helst som har den kan tömma din wallet.</string>
+    <string name="seed_wallet_not_initialized">Wallet inte initierad.</string>
+    <string name="seed_show_phrase">Visa frasen</string>
+    <string name="seed_phrase_label">Fras:</string>
+    <string name="seed_hide_phrase">Dölj</string>
+    <string name="seed_backup_tip">Tips: skriv ner den på papper och spara 2 kopior (separat).</string>
+    <string name="seed_copied_toast">Fras kopierad ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">Visa seed först ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">Återställningsfras</string>
+    <string name="seed_recovery_warning">⚠️ Dela aldrig denna fras. Den ger full åtkomst till din wallet.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">Visa</string>
+    <string name="seed_recovery_hide">Dölj</string>
+    <string name="seed_recovery_must_reveal_toast">Visa seed först ✅</string>
+    <string name="seed_recovery_copied_toast">Seed kopierad ✅</string>
+    <string name="seed_recovery_tip">Tips: skriv ner den offline (papper). Undvik skärmdumpar.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">Nod / VPS</string>
+    <string name="node_settings_url_label">Nod-URL</string>
+    <string name="node_settings_example">Exempel: https://api.phonchain.org</string>
+    <string name="node_settings_auto">Auto (rekommenderas)</string>
+    <string name="node_settings_save">Spara</string>
+
+    <!-- Send -->
+    <string name="send_title">Skicka</string>
+    <string name="send_from">Från</string>
+    <string name="send_recipient_label">Mottagaradress (pubkey hex)</string>
+    <string name="send_amount_label">Belopp (PHC)</string>
+    <string name="send_sending">Skickar…</string>
+    <string name="send_qr_scanned_toast">Adress skannad ✅</string>
+    <string name="send_qr_invalid_toast">Ogiltig QR (inte en hex-adress)</string>
+    <string name="send_scan_prompt">Skanna adress (QR)</string>
+    <string name="send_error_recipient_invalid">Ogiltig mottagaradress</string>
+    <string name="send_error_self_send">Det är förbjudet att skicka till dig själv</string>
+    <string name="send_error_amount_invalid">Ogiltigt belopp</string>
+    <string name="send_error_insufficient_fmt">Otillräckliga medel (tillgängligt: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">Transaktion skickad ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">Avvisad: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">Ta emot PHC</string>
+    <string name="receive_qr_cd">QR för PHC-adressen</string>
+    <string name="receive_qr_unavailable">QR ej tillgänglig</string>
+    <string name="receive_address_unavailable">Adress ej tillgänglig</string>
+    <string name="receive_open_explorer">Öppna explorer</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Säkerhet</string>
+    <string name="lock_subtitle">Lås upp din wallet</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 till 12 siffror</string>
+    <string name="lock_error_pin_too_short">PIN är för kort</string>
+    <string name="lock_pin_created_toast">PIN skapad ✅</string>
+    <string name="lock_error_pin_incorrect">Fel PIN</string>
+    <string name="lock_create_pin">Skapa PIN</string>
+    <string name="lock_unlock">Lås upp</string>
+    <string name="lock_dialog_title">Lås upp PHONCOIN</string>
+    <string name="lock_dialog_no_locking">Ingen låsning aktiverad (PIN/Biometri).</string>
+    <string name="lock_dialog_enable_hint">Aktivera PIN och biometri i Inställningar → Säkerhet.</string>
+    <string name="lock_biometric_subtitle">Bekräfta med ditt fingeravtryck eller ansikte</string>
+    <string name="lock_biometric_label">Biometri</string>
+    <string name="lock_biometric_loading">Biometri (laddar…)</string>
+    <string name="lock_biometric_not_available">Biometri är inte tillgängligt på den här enheten (eller inte konfigurerat).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">Väntande (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">Bekräftade (%1$d)</string>
+    <string name="transactions_unavailable">Transaktioner ej tillgängliga (nod offline / format)</string>
+    <string name="tx_empty_pending">Inga väntande transaktioner</string>
+    <string name="tx_empty_confirmed">Inga bekräftade transaktioner</string>
+    <string name="tx_amount">Belopp</string>
+    <string name="tx_from">Från</string>
+    <string name="tx_to">Till</string>
+    <string name="tx_time">Datum</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">Kopiera txid</string>
+    <string name="tx_copy_json">Kopiera JSON</string>
+    <string name="tx_hint_open_explorer">Tips: tryck på kortet för att öppna i explorer.</string>
+    <string name="tx_txid_unavailable">Txid ej tillgänglig</string>
+    <string name="tx_txid_copied">Txid kopierad ✅</string>
+    <string name="tx_json_unavailable">JSON ej tillgänglig</string>
+    <string name="tx_json_copied">JSON kopierad ✅</string>
+    <string name="tx_status_confirmed">Bekräftad</string>
+    <string name="tx_status_pending">Väntande</string>
+    <string name="tx_direction_in">Inkommande</string>
+    <string name="tx_direction_out">Utgående</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">Fel: %1$s</string>
+	
+<string name="mining_bg_title">Bakgrundsaktivitet</string>
+<string name="mining_bg_body">För stabil Proof-of-Phone-deltagande: tillåt bakgrundsaktivitet och inaktivera batteribegränsningar för PHONCOIN i enhetens inställningar. Deltagandet kan pausas om Android begränsar bakgrundsaktivitet.</string>
+<string name="mining_bg_open_settings">Öppna appinställningar</string>
+<string name="mining_bg_optimized">Bakgrundsbegränsningar: PÅ (deltagandet kan pausas)</string>
+<string name="mining_bg_unrestricted">Bakgrundsbegränsningar: AV</string>
+
+</resources>

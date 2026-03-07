@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">“Một chiếc điện thoại cho cả thế giới.”</string>
+
+    <!-- Global -->
+    <string name="back">Quay lại</string>
+    <string name="close">Đóng</string>
+    <string name="copy">Sao chép</string>
+    <string name="view">Xem</string>
+    <string name="refresh">Làm mới</string>
+    <string name="refreshing">Đang làm mới…</string>
+    <string name="online">TRỰC TUYẾN</string>
+    <string name="offline">NGOẠI TUYẾN</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Logo Phoncoin</string>
+    <string name="cd_settings">Cài đặt</string>
+    <string name="cd_refresh">Làm mới</string>
+    <string name="cd_lock">Khóa</string>
+    <string name="cd_back">Quay lại</string>
+    <string name="cd_scan_qr">Quét QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Wallet • Đào • Explorer</string>
+    <string name="home_wallet_detected">Đã phát hiện wallet</string>
+    <string name="home_setup_wallet">Thiết lập wallet của bạn</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">Mở khóa để truy cập wallet và kích hoạt đào PoP.</string>
+    <string name="home_setup_desc">Tạo hoặc nhập cụm từ khôi phục. Khóa của bạn luôn nằm trên điện thoại.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">Mở khóa để truy cập wallet và kích hoạt đào PoP.</string>
+    <string name="home_desc_not_initialized">Tạo hoặc nhập cụm từ khôi phục. Khóa của bạn luôn nằm trên điện thoại.</string>
+
+    <string name="home_unlock">Mở khóa</string>
+    <string name="home_create_wallet">Tạo wallet</string>
+    <string name="home_import_seed">Nhập seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">Quay lại</string>
+    <string name="explorer_reload">Tải lại</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">Nhập seed</string>
+    <string name="import_wallet_hint">Dán cụm từ khôi phục (12 hoặc 24 từ).</string>
+    <string name="import_seed_label">Cụm từ khôi phục</string>
+    <string name="import_clipboard_empty">Bộ nhớ tạm trống</string>
+    <string name="import_paste_button">Dán từ bộ nhớ tạm</string>
+    <string name="import_public_key_preview_title">Xem trước khóa công khai</string>
+    <string name="import_confirm_checkbox">Tôi xác nhận seed này là chính xác</string>
+    <string name="import_invalid_seed_words_fmt">Seed không hợp lệ: cần 12 hoặc 24 từ (hiện tại: %1$d).</string>
+    <string name="import_invalid_seed_format">Seed không hợp lệ (định dạng sai).</string>
+    <string name="import_confirm_before_import">Hãy xác nhận seed trước khi nhập</string>
+    <string name="import_wallet_imported">Đã nhập wallet ✅</string>
+    <string name="import_button_import">Nhập</string>
+    <string name="import_warning">⚠️ Không chụp màn hình. Không bao giờ chia sẻ seed của bạn.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">Nhập seed</string>
+    <string name="import_seed_desc">Dán cụm từ khôi phục (12 hoặc 24 từ).</string>
+    <string name="import_seed_paste">Dán từ bộ nhớ tạm</string>
+    <string name="import_seed_clipboard_empty">Bộ nhớ tạm trống</string>
+    <string name="import_seed_pubkey_preview">Xem trước khóa công khai</string>
+    <string name="import_seed_confirm_checkbox">Tôi xác nhận seed này là chính xác</string>
+    <string name="import_seed_confirm_required_toast">Hãy xác nhận seed trước khi nhập</string>
+    <string name="import_seed_imported_toast">Đã nhập wallet ✅</string>
+    <string name="import_seed_warning">⚠️ Không chụp màn hình. Không bao giờ chia sẻ seed của bạn.</string>
+    <string name="import_seed_action">Nhập</string>
+    <string name="import_seed_error_words_fmt">Seed không hợp lệ: cần 12 hoặc 24 từ (hiện tại: %1$d).</string>
+    <string name="import_seed_error_format">Seed không hợp lệ (định dạng sai).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">Tạo wallet</string>
+    <string name="create_wallet_seed_label">Cụm từ khôi phục (12 từ)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">Hiện</string>
+    <string name="create_wallet_hide">Ẩn</string>
+    <string name="create_wallet_tip">Hãy ghi 12 từ này ra giấy. Tuyệt đối không chia sẻ.</string>
+    <string name="create_wallet_confirm_saved">Tôi đã lưu seed của mình</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">Tôi đã lưu seed của mình</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">Wallet</string>
+    <string name="wallet_not_initialized">Wallet chưa được khởi tạo</string>
+    <string name="address_generating">Địa chỉ: đang tạo…</string>
+    <string name="address_title">Địa chỉ PHC</string>
+    <string name="address_copy_hint">Chạm Sao chép để dùng địa chỉ.</string>
+    <string name="address_copied">Đã sao chép địa chỉ ✅</string>
+    <string name="address_new_or_not_indexed">Địa chỉ mới hoặc chưa được lập chỉ mục</string>
+
+    <!-- Balance -->
+    <string name="available">Khả dụng</string>
+    <string name="pending">Đang chờ</string>
+    <string name="pending_txs_fmt">Giao dịch đang chờ: %1$d</string>
+    <string name="balance_unavailable">Không thể hiển thị số dư</string>
+    <string name="balance_unavailable_node_offline">Không thể hiển thị số dư (node ngoại tuyến)</string>
+    <string name="loading_balance">Đang tải số dư…</string>
+
+    <!-- Network -->
+    <string name="network_title">Mạng</string>
+    <string name="node_fmt">Node: %1$s</string>
+    <string name="node_unreachable">Không thể truy cập node</string>
+    <string name="loading_network">Đang tải mạng…</string>
+    <string name="tap_for_details">Chạm để xem chi tiết ▼</string>
+    <string name="tap_to_collapse">Thu gọn ▲</string>
+    <string name="net_height">Chiều cao</string>
+    <string name="net_miners_10m">Thợ đào (10 phút)</string>
+    <string name="net_difficulty">Độ khó</string>
+    <string name="net_eff_difficulty">Độ khó hiệu dụng</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">Khối mục tiêu</string>
+    <string name="net_hb_threshold">Ngưỡng HB</string>
+    <string name="net_issued">Đã phát hành</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">Tính toàn vẹn: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">Đào</string>
+    <string name="mining_active_badge">● ĐANG ĐÀO</string>
+    <string name="mining_pop">Đào PoP</string>
+    <string name="mining_pop_active">Đào PoP (đang chạy)</string>
+    <string name="mining_rejected_fmt">Bị từ chối: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">Đào PoP sẵn sàng</string>
+    <string name="mining_started">Đã bắt đầu đào PoP</string>
+    <string name="mining_stopped">Đã dừng đào PoP</string>
+    <string name="mining_notif_channel_name">Đào PoP</string>
+    <string name="mining_notif_title">PHONCOIN • Đào PoP</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">Node</string>
+    <string name="mining_status">Trạng thái</string>
+    <string name="mining_accepted">Được chấp nhận</string>
+    <string name="mining_rejected">Bị từ chối</string>
+    <string name="mining_diff">Độ khó</string>
+    <string name="mining_last_submit">Gửi lần cuối</string>
+    <string name="mining_last_reason">Lý do gần nhất</string>
+    <string name="mining_start">Bắt đầu</string>
+    <string name="mining_stop">Dừng</string>
+    <string name="mining_copy_payload">Sao chép payload gần nhất</string>
+    <string name="mining_running_foreground">ĐÀO (dịch vụ tiền cảnh)</string>
+    <string name="mining_stopped_badge">ĐÃ DỪNG</string>
+    <string name="mining_notif_perm_title">Cần quyền thông báo</string>
+    <string name="mining_notif_perm_text">Để đào PoP premium (dịch vụ nền ổn định), Android 13+ yêu cầu quyền thông báo.</string>
+    <string name="mining_notif_perm_allow">Cho phép</string>
+    <string name="mining_notif_perm_later">Để sau</string>
+    <string name="mining_help_text">Dịch vụ gửi heartbeats PoP-S4 (PoW + chữ ký + dấu vân tay + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">Gửi</string>
+    <string name="receive">Nhận</string>
+    <string name="transactions">Giao dịch</string>
+    <string name="explorer">Explorer</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_security">Bảo mật (PIN / Sinh trắc)</string>
+    <string name="settings_seed_backup">Cụm từ khôi phục</string>
+    <string name="settings_network_node">Mạng (Node)</string>
+    <string name="settings_language">Ngôn ngữ</string>
+
+    <!-- Language -->
+    <string name="language_title">Ngôn ngữ</string>
+    <string name="language_english">Tiếng Anh</string>
+    <string name="language_french">Tiếng Pháp</string>
+
+    <!-- Security -->
+    <string name="security_title">Bảo mật</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">Mã khóa (4 đến 12 chữ số)</string>
+    <string name="security_create_pin_hint_toast">Tạo PIN trên màn hình khóa ✅</string>
+    <string name="security_biometrics_title">Sinh trắc</string>
+    <string name="security_biometrics_unavailable_toast">Sinh trắc không khả dụng</string>
+    <string name="security_enable_pin_first_toast">Hãy bật PIN trước ✅</string>
+    <string name="security_autolock_title">Tự động khóa</string>
+    <string name="security_delay_label">Độ trễ</string>
+    <string name="security_delay_30s">30 giây</string>
+    <string name="security_delay_1min">1 phút</string>
+    <string name="security_delay_5min">5 phút</string>
+    <string name="security_delay_15min">15 phút</string>
+    <string name="security_privacy_mode_title">Chế độ riêng tư</string>
+    <string name="security_privacy_mode_desc">Ẩn thông tin nhạy cảm trên giao diện</string>
+    <string name="security_delete_pin">Xóa PIN</string>
+    <string name="security_pin_deleted_toast">Đã xóa PIN ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">Cụm từ khôi phục</string>
+    <string name="seed_backup_warning">⚠️ Không bao giờ chia sẻ cụm từ của bạn. Ai có nó đều có thể rút sạch wallet.</string>
+    <string name="seed_wallet_not_initialized">Wallet chưa được khởi tạo.</string>
+    <string name="seed_show_phrase">Hiện cụm từ</string>
+    <string name="seed_phrase_label">Cụm từ:</string>
+    <string name="seed_hide_phrase">Ẩn</string>
+    <string name="seed_backup_tip">Mẹo: viết ra giấy và giữ 2 bản sao (cất riêng).</string>
+    <string name="seed_copied_toast">Đã sao chép cụm từ ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">Hãy hiện seed trước ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">Cụm từ khôi phục</string>
+    <string name="seed_recovery_warning">⚠️ Không bao giờ chia sẻ cụm từ này. Nó cho quyền truy cập toàn bộ wallet.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">Hiện</string>
+    <string name="seed_recovery_hide">Ẩn</string>
+    <string name="seed_recovery_must_reveal_toast">Hãy hiện seed trước ✅</string>
+    <string name="seed_recovery_copied_toast">Đã sao chép seed ✅</string>
+    <string name="seed_recovery_tip">Mẹo: ghi lại offline (giấy). Tránh chụp màn hình.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">Node / VPS</string>
+    <string name="node_settings_url_label">URL node</string>
+    <string name="node_settings_example">Ví dụ: https://api.phonchain.org</string>
+    <string name="node_settings_auto">Tự động (khuyến nghị)</string>
+    <string name="node_settings_save">Lưu</string>
+
+    <!-- Send -->
+    <string name="send_title">Gửi</string>
+    <string name="send_from">Từ</string>
+    <string name="send_recipient_label">Địa chỉ người nhận (pubkey hex)</string>
+    <string name="send_amount_label">Số lượng (PHC)</string>
+    <string name="send_sending">Đang gửi…</string>
+    <string name="send_qr_scanned_toast">Đã quét địa chỉ ✅</string>
+    <string name="send_qr_invalid_toast">QR không hợp lệ (không phải địa chỉ hex)</string>
+    <string name="send_scan_prompt">Quét địa chỉ (QR)</string>
+    <string name="send_error_recipient_invalid">Địa chỉ người nhận không hợp lệ</string>
+    <string name="send_error_self_send">Không được gửi cho chính mình</string>
+    <string name="send_error_amount_invalid">Số lượng không hợp lệ</string>
+    <string name="send_error_insufficient_fmt">Không đủ tiền (khả dụng: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">Đã gửi giao dịch ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">Bị từ chối: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">Nhận PHC</string>
+    <string name="receive_qr_cd">QR địa chỉ PHC</string>
+    <string name="receive_qr_unavailable">QR không khả dụng</string>
+    <string name="receive_address_unavailable">Địa chỉ không khả dụng</string>
+    <string name="receive_open_explorer">Mở explorer</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Bảo mật</string>
+    <string name="lock_subtitle">Mở khóa wallet</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 đến 12 chữ số</string>
+    <string name="lock_error_pin_too_short">PIN quá ngắn</string>
+    <string name="lock_pin_created_toast">Đã tạo PIN ✅</string>
+    <string name="lock_error_pin_incorrect">PIN không đúng</string>
+    <string name="lock_create_pin">Tạo PIN</string>
+    <string name="lock_unlock">Mở khóa</string>
+    <string name="lock_dialog_title">Mở khóa PHONCOIN</string>
+    <string name="lock_dialog_no_locking">Chưa bật khóa (PIN/Sinh trắc).</string>
+    <string name="lock_dialog_enable_hint">Bật PIN và sinh trắc trong Cài đặt → Bảo mật.</string>
+    <string name="lock_biometric_subtitle">Xác nhận bằng vân tay hoặc khuôn mặt</string>
+    <string name="lock_biometric_label">Sinh trắc</string>
+    <string name="lock_biometric_loading">Sinh trắc (đang tải…)</string>
+    <string name="lock_biometric_not_available">Sinh trắc không khả dụng trên thiết bị này (hoặc chưa cấu hình).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">Đang chờ (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">Đã xác nhận (%1$d)</string>
+    <string name="transactions_unavailable">Giao dịch không khả dụng (node ngoại tuyến / định dạng)</string>
+    <string name="tx_empty_pending">Không có giao dịch đang chờ</string>
+    <string name="tx_empty_confirmed">Không có giao dịch đã xác nhận</string>
+    <string name="tx_amount">Số lượng</string>
+    <string name="tx_from">Từ</string>
+    <string name="tx_to">Đến</string>
+    <string name="tx_time">Ngày</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">Sao chép txid</string>
+    <string name="tx_copy_json">Sao chép JSON</string>
+    <string name="tx_hint_open_explorer">Mẹo: chạm vào thẻ để mở trong explorer.</string>
+    <string name="tx_txid_unavailable">Txid không khả dụng</string>
+    <string name="tx_txid_copied">Đã sao chép txid ✅</string>
+    <string name="tx_json_unavailable">JSON không khả dụng</string>
+    <string name="tx_json_copied">Đã sao chép JSON ✅</string>
+    <string name="tx_status_confirmed">Đã xác nhận</string>
+    <string name="tx_status_pending">Đang chờ</string>
+    <string name="tx_direction_in">Vào</string>
+    <string name="tx_direction_out">Ra</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">Lỗi: %1$s</string>
+	
+<string name="mining_bg_title">Hoạt động nền</string>
+<string name="mining_bg_body">Để tham gia Proof-of-Phone ổn định, hãy cho phép hoạt động nền và tắt các hạn chế pin cho PHONCOIN trong cài đặt thiết bị. Việc tham gia có thể tạm dừng nếu Android hạn chế hoạt động nền.</string>
+<string name="mining_bg_open_settings">Mở cài đặt ứng dụng</string>
+<string name="mining_bg_optimized">Hạn chế nền: BẬT (có thể tạm dừng tham gia)</string>
+<string name="mining_bg_unrestricted">Hạn chế nền: TẮT</string>
+
+</resources>

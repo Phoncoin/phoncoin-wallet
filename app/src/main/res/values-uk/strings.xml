@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">«Один телефон для світу.»</string>
+
+    <!-- Global -->
+    <string name="back">Назад</string>
+    <string name="close">Закрити</string>
+    <string name="copy">Копіювати</string>
+    <string name="view">Переглянути</string>
+    <string name="refresh">Оновити</string>
+    <string name="refreshing">Оновлення…</string>
+    <string name="online">ОНЛАЙН</string>
+    <string name="offline">ОФЛАЙН</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Логотип Phoncoin</string>
+    <string name="cd_settings">Налаштування</string>
+    <string name="cd_refresh">Оновити</string>
+    <string name="cd_lock">Заблокувати</string>
+    <string name="cd_back">Назад</string>
+    <string name="cd_scan_qr">Сканувати QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Гаманець • Майнінг • Експлорер</string>
+    <string name="home_wallet_detected">Гаманець виявлено</string>
+    <string name="home_setup_wallet">Налаштувати гаманець</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">Розблокуйте, щоб отримати доступ до гаманця та увімкнути PoP-майнінг.</string>
+    <string name="home_setup_desc">Створіть або імпортуйте фразу відновлення. Ваші ключі залишаються на телефоні.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">Розблокуйте, щоб отримати доступ до гаманця та увімкнути PoP-майнінг.</string>
+    <string name="home_desc_not_initialized">Створіть або імпортуйте фразу відновлення. Ваші ключі залишаються на телефоні.</string>
+
+    <string name="home_unlock">Розблокувати</string>
+    <string name="home_create_wallet">Створити гаманець</string>
+    <string name="home_import_seed">Імпортувати seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">Назад</string>
+    <string name="explorer_reload">Перезавантажити</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">Імпортувати seed</string>
+    <string name="import_wallet_hint">Вставте фразу відновлення (12 або 24 слова).</string>
+    <string name="import_seed_label">Фраза відновлення</string>
+    <string name="import_clipboard_empty">Буфер обміну порожній</string>
+    <string name="import_paste_button">Вставити з буфера</string>
+    <string name="import_public_key_preview_title">Попередній перегляд публічного ключа</string>
+    <string name="import_confirm_checkbox">Підтверджую, що ця seed правильна</string>
+    <string name="import_invalid_seed_words_fmt">Недійсна seed: потрібно 12 або 24 слова (зараз: %1$d).</string>
+    <string name="import_invalid_seed_format">Недійсна seed (неправильний формат).</string>
+    <string name="import_confirm_before_import">Підтвердьте seed перед імпортом</string>
+    <string name="import_wallet_imported">Гаманець імпортовано ✅</string>
+    <string name="import_button_import">Імпортувати</string>
+    <string name="import_warning">⚠️ Не робіть скриншоти. Ніколи не діліться seed.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">Імпортувати seed</string>
+    <string name="import_seed_desc">Вставте фразу відновлення (12 або 24 слова).</string>
+    <string name="import_seed_paste">Вставити з буфера</string>
+    <string name="import_seed_clipboard_empty">Буфер обміну порожній</string>
+    <string name="import_seed_pubkey_preview">Попередній перегляд публічного ключа</string>
+    <string name="import_seed_confirm_checkbox">Підтверджую, що ця seed правильна</string>
+    <string name="import_seed_confirm_required_toast">Підтвердьте seed перед імпортом</string>
+    <string name="import_seed_imported_toast">Гаманець імпортовано ✅</string>
+    <string name="import_seed_warning">⚠️ Не робіть скриншоти. Ніколи не діліться seed.</string>
+    <string name="import_seed_action">Імпортувати</string>
+    <string name="import_seed_error_words_fmt">Недійсна seed: потрібно 12 або 24 слова (зараз: %1$d).</string>
+    <string name="import_seed_error_format">Недійсна seed (неправильний формат).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">Створити гаманець</string>
+    <string name="create_wallet_seed_label">Фраза відновлення (12 слів)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">Показати</string>
+    <string name="create_wallet_hide">Сховати</string>
+    <string name="create_wallet_tip">Запишіть ці 12 слів на папері. Ніколи не діліться ними.</string>
+    <string name="create_wallet_confirm_saved">Я зберіг(ла) свою seed</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">Я зберіг(ла) свою seed</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">Гаманець</string>
+    <string name="wallet_not_initialized">Гаманець не ініціалізовано</string>
+    <string name="address_generating">Адреса: генерується…</string>
+    <string name="address_title">Адреса PHC</string>
+    <string name="address_copy_hint">Натисніть «Копіювати», щоб використати адресу.</string>
+    <string name="address_copied">Адресу скопійовано ✅</string>
+    <string name="address_new_or_not_indexed">Нова або неіндексована адреса</string>
+
+    <!-- Balance -->
+    <string name="available">Доступно</string>
+    <string name="pending">Очікується</string>
+    <string name="pending_txs_fmt">Транзакцій в очікуванні: %1$d</string>
+    <string name="balance_unavailable">Баланс недоступний</string>
+    <string name="balance_unavailable_node_offline">Баланс недоступний (нода офлайн)</string>
+    <string name="loading_balance">Завантаження балансу…</string>
+
+    <!-- Network -->
+    <string name="network_title">Мережа</string>
+    <string name="node_fmt">Нода: %1$s</string>
+    <string name="node_unreachable">Нода недоступна</string>
+    <string name="loading_network">Завантаження мережі…</string>
+    <string name="tap_for_details">Натисніть для деталей ▼</string>
+    <string name="tap_to_collapse">Згорнути ▲</string>
+    <string name="net_height">Висота</string>
+    <string name="net_miners_10m">Майнери (10 хв)</string>
+    <string name="net_difficulty">Складність</string>
+    <string name="net_eff_difficulty">Ефективна складність</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">Цільовий блок</string>
+    <string name="net_hb_threshold">Поріг HB</string>
+    <string name="net_issued">Випущено</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">Цілісність: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">Майнінг</string>
+    <string name="mining_active_badge">● МАЙНІНГ АКТИВНИЙ</string>
+    <string name="mining_pop">PoP-майнінг</string>
+    <string name="mining_pop_active">PoP-майнінг (активний)</string>
+    <string name="mining_rejected_fmt">Відхилено: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">PoP-майнінг готовий</string>
+    <string name="mining_started">PoP-майнінг розпочато</string>
+    <string name="mining_stopped">PoP-майнінг зупинено</string>
+    <string name="mining_notif_channel_name">PoP-майнінг</string>
+    <string name="mining_notif_title">PHONCOIN • PoP-майнінг</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">Нода</string>
+    <string name="mining_status">Статус</string>
+    <string name="mining_accepted">Прийнято</string>
+    <string name="mining_rejected">Відхилено</string>
+    <string name="mining_diff">Складність</string>
+    <string name="mining_last_submit">Останнє надсилання</string>
+    <string name="mining_last_reason">Остання причина</string>
+    <string name="mining_start">Запустити</string>
+    <string name="mining_stop">Зупинити</string>
+    <string name="mining_copy_payload">Копіювати останній payload</string>
+    <string name="mining_running_foreground">МАЙНІНГ (foreground-служба)</string>
+    <string name="mining_stopped_badge">ЗУПИНЕНО</string>
+    <string name="mining_notif_perm_title">Потрібні сповіщення</string>
+    <string name="mining_notif_perm_text">Для преміум PoP-майнінгу (стабільна фонова служба) Android 13+ вимагає дозвіл на сповіщення.</string>
+    <string name="mining_notif_perm_allow">Дозволити</string>
+    <string name="mining_notif_perm_later">Пізніше</string>
+    <string name="mining_help_text">Служба надсилає PoP-S4 heartbeats (PoW + підпис + відбиток + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">Надіслати</string>
+    <string name="receive">Отримати</string>
+    <string name="transactions">Транзакції</string>
+    <string name="explorer">Експлорер</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_security">Безпека (PIN / Біометрія)</string>
+    <string name="settings_seed_backup">Фраза відновлення</string>
+    <string name="settings_network_node">Мережа (Нода)</string>
+    <string name="settings_language">Мова</string>
+
+    <!-- Language -->
+    <string name="language_title">Мова</string>
+    <string name="language_english">Англійська</string>
+    <string name="language_french">Французька</string>
+
+    <!-- Security -->
+    <string name="security_title">Безпека</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">Код блокування (4–12 цифр)</string>
+    <string name="security_create_pin_hint_toast">Створіть PIN на екрані блокування ✅</string>
+    <string name="security_biometrics_title">Біометрія</string>
+    <string name="security_biometrics_unavailable_toast">Біометрія недоступна</string>
+    <string name="security_enable_pin_first_toast">Спочатку увімкніть PIN ✅</string>
+    <string name="security_autolock_title">Автоблокування</string>
+    <string name="security_delay_label">Затримка</string>
+    <string name="security_delay_30s">30 с</string>
+    <string name="security_delay_1min">1 хв</string>
+    <string name="security_delay_5min">5 хв</string>
+    <string name="security_delay_15min">15 хв</string>
+    <string name="security_privacy_mode_title">Режим приватності</string>
+    <string name="security_privacy_mode_desc">Приховувати чутливу інформацію в інтерфейсі</string>
+    <string name="security_delete_pin">Видалити PIN</string>
+    <string name="security_pin_deleted_toast">PIN видалено ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">Фраза відновлення</string>
+    <string name="seed_backup_warning">⚠️ Ніколи не діліться фразою. Будь-хто, хто має її, може спорожнити ваш гаманець.</string>
+    <string name="seed_wallet_not_initialized">Гаманець не ініціалізовано.</string>
+    <string name="seed_show_phrase">Показати фразу</string>
+    <string name="seed_phrase_label">Фраза:</string>
+    <string name="seed_hide_phrase">Сховати</string>
+    <string name="seed_backup_tip">Порада: запишіть на папері та зберігайте 2 копії (окремо).</string>
+    <string name="seed_copied_toast">Фразу скопійовано ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">Спочатку покажіть seed ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">Фраза відновлення</string>
+    <string name="seed_recovery_warning">⚠️ Ніколи не діліться цією фразою. Вона дає повний доступ до вашого гаманця.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">Показати</string>
+    <string name="seed_recovery_hide">Сховати</string>
+    <string name="seed_recovery_must_reveal_toast">Спочатку покажіть seed ✅</string>
+    <string name="seed_recovery_copied_toast">Seed скопійовано ✅</string>
+    <string name="seed_recovery_tip">Порада: запишіть офлайн (на папері). Уникайте скриншотів.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">Нода / VPS</string>
+    <string name="node_settings_url_label">URL ноди</string>
+    <string name="node_settings_example">Приклад: https://api.phonchain.org</string>
+    <string name="node_settings_auto">Авто (рекомендується)</string>
+    <string name="node_settings_save">Зберегти</string>
+
+    <!-- Send -->
+    <string name="send_title">Надіслати</string>
+    <string name="send_from">Від</string>
+    <string name="send_recipient_label">Адреса отримувача (pubkey hex)</string>
+    <string name="send_amount_label">Сума (PHC)</string>
+    <string name="send_sending">Надсилання…</string>
+    <string name="send_qr_scanned_toast">Адресу відскановано ✅</string>
+    <string name="send_qr_invalid_toast">Невірний QR (не hex-адреса)</string>
+    <string name="send_scan_prompt">Сканувати адресу (QR)</string>
+    <string name="send_error_recipient_invalid">Невірна адреса отримувача</string>
+    <string name="send_error_self_send">Надсилання самому собі заборонено</string>
+    <string name="send_error_amount_invalid">Невірна сума</string>
+    <string name="send_error_insufficient_fmt">Недостатньо коштів (доступно: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">Транзакцію надіслано ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">Відхилено: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">Отримати PHC</string>
+    <string name="receive_qr_cd">QR адреси PHC</string>
+    <string name="receive_qr_unavailable">QR недоступний</string>
+    <string name="receive_address_unavailable">Адреса недоступна</string>
+    <string name="receive_open_explorer">Відкрити експлорер</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Безпека</string>
+    <string name="lock_subtitle">Розблокуйте гаманець</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4–12 цифр</string>
+    <string name="lock_error_pin_too_short">PIN занадто короткий</string>
+    <string name="lock_pin_created_toast">PIN створено ✅</string>
+    <string name="lock_error_pin_incorrect">Невірний PIN</string>
+    <string name="lock_create_pin">Створити PIN</string>
+    <string name="lock_unlock">Розблокувати</string>
+    <string name="lock_dialog_title">Розблокувати PHONCOIN</string>
+    <string name="lock_dialog_no_locking">Блокування не увімкнено (PIN/Біометрія).</string>
+    <string name="lock_dialog_enable_hint">Увімкніть PIN та біометрію в Налаштування → Безпека.</string>
+    <string name="lock_biometric_subtitle">Підтвердьте відбитком або обличчям</string>
+    <string name="lock_biometric_label">Біометрія</string>
+    <string name="lock_biometric_loading">Біометрія (завантаження…)</string>
+    <string name="lock_biometric_not_available">Біометрія недоступна на цьому пристрої (або не налаштована).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">Очікується (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">Підтверджено (%1$d)</string>
+    <string name="transactions_unavailable">Транзакції недоступні (нода офлайн / формат)</string>
+    <string name="tx_empty_pending">Немає транзакцій в очікуванні</string>
+    <string name="tx_empty_confirmed">Немає підтверджених транзакцій</string>
+    <string name="tx_amount">Сума</string>
+    <string name="tx_from">Від</string>
+    <string name="tx_to">До</string>
+    <string name="tx_time">Дата</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">Копіювати txid</string>
+    <string name="tx_copy_json">Копіювати JSON</string>
+    <string name="tx_hint_open_explorer">Порада: натисніть на картку, щоб відкрити в експлорері.</string>
+    <string name="tx_txid_unavailable">Txid недоступний</string>
+    <string name="tx_txid_copied">Txid скопійовано ✅</string>
+    <string name="tx_json_unavailable">JSON недоступний</string>
+    <string name="tx_json_copied">JSON скопійовано ✅</string>
+    <string name="tx_status_confirmed">Підтверджено</string>
+    <string name="tx_status_pending">Очікується</string>
+    <string name="tx_direction_in">Вхідна</string>
+    <string name="tx_direction_out">Вихідна</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">Помилка: %1$s</string>
+	
+<string name="mining_bg_title">Фонова активність</string>
+<string name="mining_bg_body">Для стабільної участі Proof-of-Phone дозвольте фонову активність і вимкніть обмеження батареї для PHONCOIN у налаштуваннях пристрою. Участь може призупинятися, якщо Android обмежує фонову активність.</string>
+<string name="mining_bg_open_settings">Відкрити налаштування застосунку</string>
+<string name="mining_bg_optimized">Фонові обмеження: УВІМК (участь може призупинятися)</string>
+<string name="mining_bg_unrestricted">Фонові обмеження: ВИМК</string>
+
+</resources>

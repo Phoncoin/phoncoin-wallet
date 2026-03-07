@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">“Dünya için tek telefon.”</string>
+
+    <!-- Global -->
+    <string name="back">Geri</string>
+    <string name="close">Kapat</string>
+    <string name="copy">Kopyala</string>
+    <string name="view">Görüntüle</string>
+    <string name="refresh">Yenile</string>
+    <string name="refreshing">Yenileniyor…</string>
+    <string name="online">ÇEVRİMİÇİ</string>
+    <string name="offline">ÇEVRİMDIŞI</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Phoncoin logosu</string>
+    <string name="cd_settings">Ayarlar</string>
+    <string name="cd_refresh">Yenile</string>
+    <string name="cd_lock">Kilitle</string>
+    <string name="cd_back">Geri</string>
+    <string name="cd_scan_qr">QR Tara</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Cüzdan • Madencilik • Explorer</string>
+    <string name="home_wallet_detected">Cüzdan algılandı</string>
+    <string name="home_setup_wallet">Cüzdanını kur</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">Cüzdanına erişmek ve PoP madenciliğini etkinleştirmek için kilidi aç.</string>
+    <string name="home_setup_desc">Kurtarma ifadenizi oluşturun veya içe aktarın. Anahtarlarınız telefonunuzda kalır.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">Cüzdanına erişmek ve PoP madenciliğini etkinleştirmek için kilidi aç.</string>
+    <string name="home_desc_not_initialized">Kurtarma ifadenizi oluşturun veya içe aktarın. Anahtarlarınız telefonunuzda kalır.</string>
+
+    <string name="home_unlock">Kilidi aç</string>
+    <string name="home_create_wallet">Cüzdan oluştur</string>
+    <string name="home_import_seed">Seed içe aktar</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">Geri</string>
+    <string name="explorer_reload">Yeniden yükle</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">Seed içe aktar</string>
+    <string name="import_wallet_hint">Kurtarma ifadenizi yapıştırın (12 veya 24 kelime).</string>
+    <string name="import_seed_label">Kurtarma ifadesi</string>
+    <string name="import_clipboard_empty">Pano boş</string>
+    <string name="import_paste_button">Panodan yapıştır</string>
+    <string name="import_public_key_preview_title">Açık anahtar önizlemesi</string>
+    <string name="import_confirm_checkbox">Bu seed’in doğru olduğunu onaylıyorum</string>
+    <string name="import_invalid_seed_words_fmt">Geçersiz seed: 12 veya 24 kelime gerekli (şu an: %1$d).</string>
+    <string name="import_invalid_seed_format">Geçersiz seed (yanlış format).</string>
+    <string name="import_confirm_before_import">İçe aktarmadan önce seed’i onaylayın</string>
+    <string name="import_wallet_imported">Cüzdan içe aktarıldı ✅</string>
+    <string name="import_button_import">İçe aktar</string>
+    <string name="import_warning">⚠️ Ekran görüntüsü almayın. Seed’inizi asla paylaşmayın.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">Seed içe aktar</string>
+    <string name="import_seed_desc">Kurtarma ifadenizi yapıştırın (12 veya 24 kelime).</string>
+    <string name="import_seed_paste">Panodan yapıştır</string>
+    <string name="import_seed_clipboard_empty">Pano boş</string>
+    <string name="import_seed_pubkey_preview">Açık anahtar önizlemesi</string>
+    <string name="import_seed_confirm_checkbox">Bu seed’in doğru olduğunu onaylıyorum</string>
+    <string name="import_seed_confirm_required_toast">İçe aktarmadan önce seed’i onaylayın</string>
+    <string name="import_seed_imported_toast">Cüzdan içe aktarıldı ✅</string>
+    <string name="import_seed_warning">⚠️ Ekran görüntüsü almayın. Seed’inizi asla paylaşmayın.</string>
+    <string name="import_seed_action">İçe aktar</string>
+    <string name="import_seed_error_words_fmt">Geçersiz seed: 12 veya 24 kelime gerekli (şu an: %1$d).</string>
+    <string name="import_seed_error_format">Geçersiz seed (yanlış format).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">Cüzdan oluştur</string>
+    <string name="create_wallet_seed_label">Kurtarma ifadesi (12 kelime)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">Göster</string>
+    <string name="create_wallet_hide">Gizle</string>
+    <string name="create_wallet_tip">Bu 12 kelimeyi kâğıda yazın. Asla paylaşmayın.</string>
+    <string name="create_wallet_confirm_saved">Seed’imi kaydettim</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">Seed’imi kaydettim</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">Cüzdan</string>
+    <string name="wallet_not_initialized">Cüzdan başlatılmadı</string>
+    <string name="address_generating">Adres: oluşturuluyor…</string>
+    <string name="address_title">PHC Adresi</string>
+    <string name="address_copy_hint">Adresi kullanmak için Kopyala’ya dokunun.</string>
+    <string name="address_copied">Adres kopyalandı ✅</string>
+    <string name="address_new_or_not_indexed">Yeni veya indekslenmemiş adres</string>
+
+    <!-- Balance -->
+    <string name="available">Kullanılabilir</string>
+    <string name="pending">Beklemede</string>
+    <string name="pending_txs_fmt">Bekleyen işlemler: %1$d</string>
+    <string name="balance_unavailable">Bakiye kullanılamıyor</string>
+    <string name="balance_unavailable_node_offline">Bakiye kullanılamıyor (node çevrimdışı)</string>
+    <string name="loading_balance">Bakiye yükleniyor…</string>
+
+    <!-- Network -->
+    <string name="network_title">Ağ</string>
+    <string name="node_fmt">Node: %1$s</string>
+    <string name="node_unreachable">Node erişilemez</string>
+    <string name="loading_network">Ağ yükleniyor…</string>
+    <string name="tap_for_details">Ayrıntılar için dokunun ▼</string>
+    <string name="tap_to_collapse">Daralt ▲</string>
+    <string name="net_height">Yükseklik</string>
+    <string name="net_miners_10m">Madenciler (10 dk)</string>
+    <string name="net_difficulty">Zorluk</string>
+    <string name="net_eff_difficulty">Etkin zorluk</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">Hedef blok</string>
+    <string name="net_hb_threshold">HB eşiği</string>
+    <string name="net_issued">Basım</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">Bütünlük: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">Madencilik</string>
+    <string name="mining_active_badge">● MADENCİLİK AKTİF</string>
+    <string name="mining_pop">PoP Madenciliği</string>
+    <string name="mining_pop_active">PoP Madenciliği (aktif)</string>
+    <string name="mining_rejected_fmt">Reddedilen: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">PoP madenciliği hazır</string>
+    <string name="mining_started">PoP madenciliği başladı</string>
+    <string name="mining_stopped">PoP madenciliği durdu</string>
+    <string name="mining_notif_channel_name">PoP Madenciliği</string>
+    <string name="mining_notif_title">PHONCOIN • PoP Madenciliği</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">Node</string>
+    <string name="mining_status">Durum</string>
+    <string name="mining_accepted">Kabul edilen</string>
+    <string name="mining_rejected">Reddedilen</string>
+    <string name="mining_diff">Zorluk</string>
+    <string name="mining_last_submit">Son gönderim</string>
+    <string name="mining_last_reason">Son neden</string>
+    <string name="mining_start">Başlat</string>
+    <string name="mining_stop">Durdur</string>
+    <string name="mining_copy_payload">Son payload’u kopyala</string>
+    <string name="mining_running_foreground">MADENCİLİK (ön plan servisi)</string>
+    <string name="mining_stopped_badge">DURDU</string>
+    <string name="mining_notif_perm_title">Bildirim gerekli</string>
+    <string name="mining_notif_perm_text">Premium PoP madenciliği (stabil arka plan servisi) için Android 13+ bildirim izni ister.</string>
+    <string name="mining_notif_perm_allow">İzin ver</string>
+    <string name="mining_notif_perm_later">Daha sonra</string>
+    <string name="mining_help_text">Servis PoP-S4 heartbeats gönderir (PoW + imza + parmak izi + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">Gönder</string>
+    <string name="receive">Al</string>
+    <string name="transactions">İşlemler</string>
+    <string name="explorer">Explorer</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_security">Güvenlik (PIN / Biyometri)</string>
+    <string name="settings_seed_backup">Kurtarma ifadesi</string>
+    <string name="settings_network_node">Ağ (Node)</string>
+    <string name="settings_language">Dil</string>
+
+    <!-- Language -->
+    <string name="language_title">Dil</string>
+    <string name="language_english">İngilizce</string>
+    <string name="language_french">Fransızca</string>
+
+    <!-- Security -->
+    <string name="security_title">Güvenlik</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">Kilit kodu (4–12 hane)</string>
+    <string name="security_create_pin_hint_toast">Kilit ekranında PIN oluştur ✅</string>
+    <string name="security_biometrics_title">Biyometri</string>
+    <string name="security_biometrics_unavailable_toast">Biyometri kullanılamıyor</string>
+    <string name="security_enable_pin_first_toast">Önce PIN’i etkinleştir ✅</string>
+    <string name="security_autolock_title">Otomatik kilit</string>
+    <string name="security_delay_label">Gecikme</string>
+    <string name="security_delay_30s">30 sn</string>
+    <string name="security_delay_1min">1 dk</string>
+    <string name="security_delay_5min">5 dk</string>
+    <string name="security_delay_15min">15 dk</string>
+    <string name="security_privacy_mode_title">Gizlilik modu</string>
+    <string name="security_privacy_mode_desc">Arayüzde hassas bilgileri gizle</string>
+    <string name="security_delete_pin">PIN’i sil</string>
+    <string name="security_pin_deleted_toast">PIN silindi ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">Kurtarma ifadesi</string>
+    <string name="seed_backup_warning">⚠️ İfadenizi asla paylaşmayın. Sahip olan herkes cüzdanınızı boşaltabilir.</string>
+    <string name="seed_wallet_not_initialized">Cüzdan başlatılmadı.</string>
+    <string name="seed_show_phrase">İfadeyi göster</string>
+    <string name="seed_phrase_label">İfade:</string>
+    <string name="seed_hide_phrase">Gizle</string>
+    <string name="seed_backup_tip">İpucu: kâğıda yazın ve 2 kopya saklayın (ayrı).</string>
+    <string name="seed_copied_toast">İfade kopyalandı ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">Önce seed’i göster ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">Kurtarma ifadesi</string>
+    <string name="seed_recovery_warning">⚠️ Bu ifadeyi asla paylaşmayın. Cüzdanınıza tam erişim sağlar.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">Göster</string>
+    <string name="seed_recovery_hide">Gizle</string>
+    <string name="seed_recovery_must_reveal_toast">Önce seed’i göster ✅</string>
+    <string name="seed_recovery_copied_toast">Seed kopyalandı ✅</string>
+    <string name="seed_recovery_tip">İpucu: çevrimdışı not alın (kâğıt). Ekran görüntülerinden kaçının.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">Node / VPS</string>
+    <string name="node_settings_url_label">Node URL</string>
+    <string name="node_settings_example">Örnek: https://api.phonchain.org</string>
+    <string name="node_settings_auto">Otomatik (önerilir)</string>
+    <string name="node_settings_save">Kaydet</string>
+
+    <!-- Send -->
+    <string name="send_title">Gönder</string>
+    <string name="send_from">Kimden</string>
+    <string name="send_recipient_label">Alıcı adresi (pubkey hex)</string>
+    <string name="send_amount_label">Tutar (PHC)</string>
+    <string name="send_sending">Gönderiliyor…</string>
+    <string name="send_qr_scanned_toast">Adres tarandı ✅</string>
+    <string name="send_qr_invalid_toast">Geçersiz QR (hex adres değil)</string>
+    <string name="send_scan_prompt">Adres tara (QR)</string>
+    <string name="send_error_recipient_invalid">Geçersiz alıcı adresi</string>
+    <string name="send_error_self_send">Kendine gönderim yasak</string>
+    <string name="send_error_amount_invalid">Geçersiz tutar</string>
+    <string name="send_error_insufficient_fmt">Yetersiz bakiye (kullanılabilir: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">İşlem gönderildi ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">Reddedildi: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">PHC Al</string>
+    <string name="receive_qr_cd">PHC adresi için QR</string>
+    <string name="receive_qr_unavailable">QR kullanılamıyor</string>
+    <string name="receive_address_unavailable">Adres kullanılamıyor</string>
+    <string name="receive_open_explorer">Explorer’ı aç</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Güvenlik</string>
+    <string name="lock_subtitle">Cüzdanının kilidini aç</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4–12 hane</string>
+    <string name="lock_error_pin_too_short">PIN çok kısa</string>
+    <string name="lock_pin_created_toast">PIN oluşturuldu ✅</string>
+    <string name="lock_error_pin_incorrect">PIN yanlış</string>
+    <string name="lock_create_pin">PIN oluştur</string>
+    <string name="lock_unlock">Kilidi aç</string>
+    <string name="lock_dialog_title">PHONCOIN Kilidini Aç</string>
+    <string name="lock_dialog_no_locking">Kilit etkin değil (PIN/Biyometri).</string>
+    <string name="lock_dialog_enable_hint">Ayarlar → Güvenlik bölümünden PIN ve biyometriyi etkinleştirin.</string>
+    <string name="lock_biometric_subtitle">Parmak izin veya yüzünle doğrula</string>
+    <string name="lock_biometric_label">Biyometri</string>
+    <string name="lock_biometric_loading">Biyometri (yükleniyor…)</string>
+    <string name="lock_biometric_not_available">Bu cihazda biyometri kullanılamıyor (veya ayarlı değil).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">Beklemede (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">Onaylandı (%1$d)</string>
+    <string name="transactions_unavailable">İşlemler kullanılamıyor (node çevrimdışı / format)</string>
+    <string name="tx_empty_pending">Bekleyen işlem yok</string>
+    <string name="tx_empty_confirmed">Onaylı işlem yok</string>
+    <string name="tx_amount">Tutar</string>
+    <string name="tx_from">Kimden</string>
+    <string name="tx_to">Kime</string>
+    <string name="tx_time">Tarih</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">Txid’i kopyala</string>
+    <string name="tx_copy_json">JSON’u kopyala</string>
+    <string name="tx_hint_open_explorer">İpucu: explorer’da açmak için karta dokunun.</string>
+    <string name="tx_txid_unavailable">Txid kullanılamıyor</string>
+    <string name="tx_txid_copied">Txid kopyalandı ✅</string>
+    <string name="tx_json_unavailable">JSON kullanılamıyor</string>
+    <string name="tx_json_copied">JSON kopyalandı ✅</string>
+    <string name="tx_status_confirmed">Onaylandı</string>
+    <string name="tx_status_pending">Beklemede</string>
+    <string name="tx_direction_in">Gelen</string>
+    <string name="tx_direction_out">Giden</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">Hata: %1$s</string>
+	
+<string name="mining_bg_title">Arka plan etkinliği</string>
+<string name="mining_bg_body">Kararlı Proof-of-Phone katılımı için arka plan etkinliğine izin verin ve cihaz ayarlarında PHONCOIN için pil kısıtlamalarını devre dışı bırakın. Android arka plan etkinliğini kısıtlarsa katılım duraklayabilir.</string>
+<string name="mining_bg_open_settings">Uygulama ayarlarını aç</string>
+<string name="mining_bg_optimized">Arka plan kısıtlamaları: AÇIK (katılım duraklayabilir)</string>
+<string name="mining_bg_unrestricted">Arka plan kısıtlamaları: KAPALI</string>
+
+</resources>

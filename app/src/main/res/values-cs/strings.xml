@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">„Jeden telefon pro celý svět.“</string>
+
+    <!-- Global -->
+    <string name="back">Zpět</string>
+    <string name="close">Zavřít</string>
+    <string name="copy">Kopírovat</string>
+    <string name="view">Zobrazit</string>
+    <string name="refresh">Obnovit</string>
+    <string name="refreshing">Obnovování…</string>
+    <string name="online">ONLINE</string>
+    <string name="offline">OFFLINE</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Logo Phoncoin</string>
+    <string name="cd_settings">Nastavení</string>
+    <string name="cd_refresh">Obnovit</string>
+    <string name="cd_lock">Zamknout</string>
+    <string name="cd_back">Zpět</string>
+    <string name="cd_scan_qr">Skenovat QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Peněženka • Těžba • Průzkumník</string>
+    <string name="home_wallet_detected">Peněženka detekována</string>
+    <string name="home_setup_wallet">Nastavit peněženku</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">Odemkněte pro přístup k peněžence a aktivaci těžby PoP.</string>
+    <string name="home_setup_desc">Vytvořte nebo importujte obnovovací frázi. Vaše klíče zůstávají ve vašem telefonu.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">Odemkněte pro přístup k peněžence a aktivaci těžby PoP.</string>
+    <string name="home_desc_not_initialized">Vytvořte nebo importujte obnovovací frázi. Vaše klíče zůstávají ve vašem telefonu.</string>
+
+    <string name="home_unlock">Odemknout</string>
+    <string name="home_create_wallet">Vytvořit peněženku</string>
+    <string name="home_import_seed">Importovat seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">Zpět</string>
+    <string name="explorer_reload">Znovu načíst</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">Importovat seed</string>
+    <string name="import_wallet_hint">Vložte svou obnovovací frázi (12 nebo 24 slov).</string>
+    <string name="import_seed_label">Obnovovací fráze</string>
+    <string name="import_clipboard_empty">Schránka je prázdná</string>
+    <string name="import_paste_button">Vložit ze schránky</string>
+    <string name="import_public_key_preview_title">Náhled veřejného klíče</string>
+    <string name="import_confirm_checkbox">Potvrzuji, že tato seed je správná</string>
+    <string name="import_invalid_seed_words_fmt">Neplatná seed: je vyžadováno 12 nebo 24 slov (aktuálně: %1$d).</string>
+    <string name="import_invalid_seed_format">Neplatná seed (nesprávný formát).</string>
+    <string name="import_confirm_before_import">Před importem potvrďte seed</string>
+    <string name="import_wallet_imported">Peněženka importována ✅</string>
+    <string name="import_button_import">Importovat</string>
+    <string name="import_warning">⚠️ Nedělejte snímky obrazovky. Nikdy nesdílejte svou seed.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">Importovat seed</string>
+    <string name="import_seed_desc">Vložte svou obnovovací frázi (12 nebo 24 slov).</string>
+    <string name="import_seed_paste">Vložit ze schránky</string>
+    <string name="import_seed_clipboard_empty">Schránka je prázdná</string>
+    <string name="import_seed_pubkey_preview">Náhled veřejného klíče</string>
+    <string name="import_seed_confirm_checkbox">Potvrzuji, že tato seed je správná</string>
+    <string name="import_seed_confirm_required_toast">Před importem potvrďte seed</string>
+    <string name="import_seed_imported_toast">Peněženka importována ✅</string>
+    <string name="import_seed_warning">⚠️ Nedělejte snímky obrazovky. Nikdy nesdílejte svou seed.</string>
+    <string name="import_seed_action">Importovat</string>
+    <string name="import_seed_error_words_fmt">Neplatná seed: je vyžadováno 12 nebo 24 slov (aktuálně: %1$d).</string>
+    <string name="import_seed_error_format">Neplatná seed (nesprávný formát).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">Vytvořit peněženku</string>
+    <string name="create_wallet_seed_label">Obnovovací fráze (12 slov)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">Zobrazit</string>
+    <string name="create_wallet_hide">Skrýt</string>
+    <string name="create_wallet_tip">Zapište si těchto 12 slov na papír. Nikdy je nesdílejte.</string>
+    <string name="create_wallet_confirm_saved">Uložil(a) jsem svou seed</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">Uložil(a) jsem svou seed</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">Peněženka</string>
+    <string name="wallet_not_initialized">Peněženka není inicializována</string>
+    <string name="address_generating">Adresa: generování…</string>
+    <string name="address_title">Adresa PHC</string>
+    <string name="address_copy_hint">Klepněte na Kopírovat pro použití adresy.</string>
+    <string name="address_copied">Adresa zkopírována ✅</string>
+    <string name="address_new_or_not_indexed">Nová nebo neindexovaná adresa</string>
+
+    <!-- Balance -->
+    <string name="available">Dostupné</string>
+    <string name="pending">Čeká na vyřízení</string>
+    <string name="pending_txs_fmt">Čekající transakce: %1$d</string>
+    <string name="balance_unavailable">Zůstatek nedostupný</string>
+    <string name="balance_unavailable_node_offline">Zůstatek nedostupný (uzel je offline)</string>
+    <string name="loading_balance">Načítání zůstatku…</string>
+
+    <!-- Network -->
+    <string name="network_title">Síť</string>
+    <string name="node_fmt">Uzel: %1$s</string>
+    <string name="node_unreachable">Uzel je nedostupný</string>
+    <string name="loading_network">Načítání sítě…</string>
+    <string name="tap_for_details">Klepněte pro detaily ▼</string>
+    <string name="tap_to_collapse">Sbalit ▲</string>
+    <string name="net_height">Výška</string>
+    <string name="net_miners_10m">Těžaři (10 min)</string>
+    <string name="net_difficulty">Obtížnost</string>
+    <string name="net_eff_difficulty">Efektivní obtížnost</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">Cílový blok</string>
+    <string name="net_hb_threshold">Práh HB</string>
+    <string name="net_issued">Vydáno</string>
+    <string name="net_cap">Strop</string>
+    <string name="integrity_fmt">Integrita: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">Těžba</string>
+    <string name="mining_active_badge">● TĚŽBA AKTIVNÍ</string>
+    <string name="mining_pop">Těžba PoP</string>
+    <string name="mining_pop_active">Těžba PoP (aktivní)</string>
+    <string name="mining_rejected_fmt">Odmítnuto: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">Těžba PoP připravena</string>
+    <string name="mining_started">Těžba PoP spuštěna</string>
+    <string name="mining_stopped">Těžba PoP zastavena</string>
+    <string name="mining_notif_channel_name">Těžba PoP</string>
+    <string name="mining_notif_title">PHONCOIN • Těžba PoP</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">Uzel</string>
+    <string name="mining_status">Stav</string>
+    <string name="mining_accepted">Přijato</string>
+    <string name="mining_rejected">Odmítnuto</string>
+    <string name="mining_diff">Obtížnost</string>
+    <string name="mining_last_submit">Poslední odeslání</string>
+    <string name="mining_last_reason">Poslední důvod</string>
+    <string name="mining_start">Spustit</string>
+    <string name="mining_stop">Zastavit</string>
+    <string name="mining_copy_payload">Kopírovat poslední payload</string>
+    <string name="mining_running_foreground">TĚŽBA (služba na popředí)</string>
+    <string name="mining_stopped_badge">ZASTAVENO</string>
+    <string name="mining_notif_perm_title">Vyžadována oznámení</string>
+    <string name="mining_notif_perm_text">Pro prémiovou těžbu PoP (stabilní služba na pozadí) vyžaduje Android 13+ oprávnění k oznámením.</string>
+    <string name="mining_notif_perm_allow">Povolit</string>
+    <string name="mining_notif_perm_later">Později</string>
+    <string name="mining_help_text">Služba odesílá PoP-S4 heartbeats (PoW + podpis + otisk + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">Odeslat</string>
+    <string name="receive">Přijmout</string>
+    <string name="transactions">Transakce</string>
+    <string name="explorer">Průzkumník</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Nastavení</string>
+    <string name="settings_security">Zabezpečení (PIN / Biometrie)</string>
+    <string name="settings_seed_backup">Obnovovací fráze</string>
+    <string name="settings_network_node">Síť (Uzel)</string>
+    <string name="settings_language">Jazyk</string>
+
+    <!-- Language -->
+    <string name="language_title">Jazyk</string>
+    <string name="language_english">Angličtina</string>
+    <string name="language_french">Francouzština</string>
+
+    <!-- Security -->
+    <string name="security_title">Zabezpečení</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">Zamykací kód (4 až 12 číslic)</string>
+    <string name="security_create_pin_hint_toast">Vytvořte si PIN na obrazovce zámku ✅</string>
+    <string name="security_biometrics_title">Biometrie</string>
+    <string name="security_biometrics_unavailable_toast">Biometrie není dostupná</string>
+    <string name="security_enable_pin_first_toast">Nejprve aktivujte PIN ✅</string>
+    <string name="security_autolock_title">Automatické zamknutí</string>
+    <string name="security_delay_label">Prodleva</string>
+    <string name="security_delay_30s">30 s</string>
+    <string name="security_delay_1min">1 min</string>
+    <string name="security_delay_5min">5 min</string>
+    <string name="security_delay_15min">15 min</string>
+    <string name="security_privacy_mode_title">Režim soukromí</string>
+    <string name="security_privacy_mode_desc">Skrýt citlivé informace v rozhraní</string>
+    <string name="security_delete_pin">Odstranit PIN</string>
+    <string name="security_pin_deleted_toast">PIN odstraněn ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">Obnovovací fráze</string>
+    <string name="seed_backup_warning">⚠️ Nikdy nesdílejte svou frázi. Kdokoli ji má, může vyprázdnit vaši peněženku.</string>
+    <string name="seed_wallet_not_initialized">Peněženka není inicializována.</string>
+    <string name="seed_show_phrase">Zobrazit frázi</string>
+    <string name="seed_phrase_label">Fráze:</string>
+    <string name="seed_hide_phrase">Skrýt</string>
+    <string name="seed_backup_tip">Tip: napište ji na papír a uložte 2 kopie (odděleně).</string>
+    <string name="seed_copied_toast">Fráze zkopírována ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">Nejprve zobrazte seed ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">Obnovovací fráze</string>
+    <string name="seed_recovery_warning">⚠️ Nikdy tuto frázi nesdílejte. Dává plný přístup k vaší peněžence.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">Zobrazit</string>
+    <string name="seed_recovery_hide">Skrýt</string>
+    <string name="seed_recovery_must_reveal_toast">Nejprve zobrazte seed ✅</string>
+    <string name="seed_recovery_copied_toast">Seed zkopírována ✅</string>
+    <string name="seed_recovery_tip">Tip: zapište si ji offline (na papír). Vyhněte se snímkům obrazovky.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">Uzel / VPS</string>
+    <string name="node_settings_url_label">URL uzlu</string>
+    <string name="node_settings_example">Příklad: https://api.phonchain.org</string>
+    <string name="node_settings_auto">Auto (doporučeno)</string>
+    <string name="node_settings_save">Uložit</string>
+
+    <!-- Send -->
+    <string name="send_title">Odeslat</string>
+    <string name="send_from">Od</string>
+    <string name="send_recipient_label">Adresa příjemce (pubkey hex)</string>
+    <string name="send_amount_label">Částka (PHC)</string>
+    <string name="send_sending">Odesílání…</string>
+    <string name="send_qr_scanned_toast">Adresa naskenována ✅</string>
+    <string name="send_qr_invalid_toast">Neplatný QR (není hex adresa)</string>
+    <string name="send_scan_prompt">Naskenovat adresu (QR)</string>
+    <string name="send_error_recipient_invalid">Neplatná adresa příjemce</string>
+    <string name="send_error_self_send">Odesílání sám sobě je zakázáno</string>
+    <string name="send_error_amount_invalid">Neplatná částka</string>
+    <string name="send_error_insufficient_fmt">Nedostatečné prostředky (dostupné: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">Transakce odeslána ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">Odmítnuto: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">Přijmout PHC</string>
+    <string name="receive_qr_cd">QR adresa PHC</string>
+    <string name="receive_qr_unavailable">QR není dostupný</string>
+    <string name="receive_address_unavailable">Adresa není dostupná</string>
+    <string name="receive_open_explorer">Otevřít průzkumník</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Zabezpečení</string>
+    <string name="lock_subtitle">Odemkněte svou peněženku</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 až 12 číslic</string>
+    <string name="lock_error_pin_too_short">PIN je příliš krátký</string>
+    <string name="lock_pin_created_toast">PIN vytvořen ✅</string>
+    <string name="lock_error_pin_incorrect">Nesprávný PIN</string>
+    <string name="lock_create_pin">Vytvořit PIN</string>
+    <string name="lock_unlock">Odemknout</string>
+    <string name="lock_dialog_title">Odemknout PHONCOIN</string>
+    <string name="lock_dialog_no_locking">Není aktivní žádné zamykání (PIN/Biometrie).</string>
+    <string name="lock_dialog_enable_hint">Aktivujte PIN a biometrie v Nastavení → Zabezpečení.</string>
+    <string name="lock_biometric_subtitle">Potvrďte otiskem prstu nebo obličejem</string>
+    <string name="lock_biometric_label">Biometrie</string>
+    <string name="lock_biometric_loading">Biometrie (načítání…)</string>
+    <string name="lock_biometric_not_available">Biometrie není na tomto zařízení dostupná (nebo není nastavena).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">Čekající (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">Potvrzené (%1$d)</string>
+    <string name="transactions_unavailable">Transakce nejsou dostupné (uzel offline / formát)</string>
+    <string name="tx_empty_pending">Žádné čekající transakce</string>
+    <string name="tx_empty_confirmed">Žádné potvrzené transakce</string>
+    <string name="tx_amount">Částka</string>
+    <string name="tx_from">Od</string>
+    <string name="tx_to">Komu</string>
+    <string name="tx_time">Datum</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">Kopírovat txid</string>
+    <string name="tx_copy_json">Kopírovat JSON</string>
+    <string name="tx_hint_open_explorer">Tip: klepněte na kartu pro otevření v průzkumníku.</string>
+    <string name="tx_txid_unavailable">Txid není dostupné</string>
+    <string name="tx_txid_copied">Txid zkopírováno ✅</string>
+    <string name="tx_json_unavailable">JSON není dostupný</string>
+    <string name="tx_json_copied">JSON zkopírován ✅</string>
+    <string name="tx_status_confirmed">Potvrzená</string>
+    <string name="tx_status_pending">Čekající</string>
+    <string name="tx_direction_in">Příchozí</string>
+    <string name="tx_direction_out">Odchozí</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">Chyba: %1$s</string>
+	
+<string name="mining_bg_title">Aktivita na pozadí</string>
+<string name="mining_bg_body">Pro stabilní účast Proof-of-Phone povolte aktivitu na pozadí a vypněte omezení baterie pro PHONCOIN v nastavení zařízení. Účast se může pozastavit, pokud Android omezí aktivitu na pozadí.</string>
+<string name="mining_bg_open_settings">Otevřít nastavení aplikace</string>
+<string name="mining_bg_optimized">Omezení na pozadí: ZAPNUTO (účast se může pozastavit)</string>
+<string name="mining_bg_unrestricted">Omezení na pozadí: VYPNUTO</string>
+
+</resources>

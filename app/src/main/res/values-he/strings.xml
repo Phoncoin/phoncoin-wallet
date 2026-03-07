@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">״טלפון אחד לכל העולם.״</string>
+
+    <!-- Global -->
+    <string name="back">חזרה</string>
+    <string name="close">סגירה</string>
+    <string name="copy">העתקה</string>
+    <string name="view">צפייה</string>
+    <string name="refresh">רענון</string>
+    <string name="refreshing">מרענן…</string>
+    <string name="online">מקוון</string>
+    <string name="offline">לא מקוון</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">לוגו Phoncoin</string>
+    <string name="cd_settings">הגדרות</string>
+    <string name="cd_refresh">רענון</string>
+    <string name="cd_lock">נעילה</string>
+    <string name="cd_back">חזרה</string>
+    <string name="cd_scan_qr">סריקת QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">ארנק • כרייה • סייר</string>
+    <string name="home_wallet_detected">הארנק זוהה</string>
+    <string name="home_setup_wallet">הגדרת הארנק</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">פתח כדי לגשת לארנק ולהפעיל כריית PoP.</string>
+    <string name="home_setup_desc">צור או ייבא את משפט השחזור. המפתחות נשארים בטלפון שלך.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">פתח כדי לגשת לארנק ולהפעיל כריית PoP.</string>
+    <string name="home_desc_not_initialized">צור או ייבא את משפט השחזור. המפתחות נשארים בטלפון שלך.</string>
+
+    <string name="home_unlock">פתיחה</string>
+    <string name="home_create_wallet">יצירת ארנק</string>
+    <string name="home_import_seed">ייבוא seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">חזרה</string>
+    <string name="explorer_reload">טעינה מחדש</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">ייבוא seed</string>
+    <string name="import_wallet_hint">הדבק את משפט השחזור (12 או 24 מילים).</string>
+    <string name="import_seed_label">משפט שחזור</string>
+    <string name="import_clipboard_empty">הלוח ריק</string>
+    <string name="import_paste_button">הדבקה מהלוח</string>
+    <string name="import_public_key_preview_title">תצוגה מקדימה של מפתח ציבורי</string>
+    <string name="import_confirm_checkbox">אני מאשר שה־seed הזו נכונה</string>
+    <string name="import_invalid_seed_words_fmt">Seed לא תקינה: נדרשות 12 או 24 מילים (נוכחי: %1$d).</string>
+    <string name="import_invalid_seed_format">Seed לא תקינה (פורמט שגוי).</string>
+    <string name="import_confirm_before_import">אשר את ה־seed לפני הייבוא</string>
+    <string name="import_wallet_imported">הארנק יובא ✅</string>
+    <string name="import_button_import">ייבוא</string>
+    <string name="import_warning">⚠️ אל תצלם מסך. אל תשתף את ה־seed שלך לעולם.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">ייבוא seed</string>
+    <string name="import_seed_desc">הדבק את משפט השחזור (12 או 24 מילים).</string>
+    <string name="import_seed_paste">הדבקה מהלוח</string>
+    <string name="import_seed_clipboard_empty">הלוח ריק</string>
+    <string name="import_seed_pubkey_preview">תצוגה מקדימה של מפתח ציבורי</string>
+    <string name="import_seed_confirm_checkbox">אני מאשר שה־seed הזו נכונה</string>
+    <string name="import_seed_confirm_required_toast">אשר את ה־seed לפני הייבוא</string>
+    <string name="import_seed_imported_toast">הארנק יובא ✅</string>
+    <string name="import_seed_warning">⚠️ אל תצלם מסך. אל תשתף את ה־seed שלך לעולם.</string>
+    <string name="import_seed_action">ייבוא</string>
+    <string name="import_seed_error_words_fmt">Seed לא תקינה: נדרשות 12 או 24 מילים (נוכחי: %1$d).</string>
+    <string name="import_seed_error_format">Seed לא תקינה (פורמט שגוי).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">יצירת ארנק</string>
+    <string name="create_wallet_seed_label">משפט שחזור (12 מילים)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">הצג</string>
+    <string name="create_wallet_hide">הסתר</string>
+    <string name="create_wallet_tip">רשום את 12 המילים על נייר. אל תשתף אותן לעולם.</string>
+    <string name="create_wallet_confirm_saved">שמרתי את ה־seed שלי</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">שמרתי את ה־seed שלי</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">ארנק</string>
+    <string name="wallet_not_initialized">הארנק לא אותחל</string>
+    <string name="address_generating">כתובת: מייצר…</string>
+    <string name="address_title">כתובת PHC</string>
+    <string name="address_copy_hint">לחץ על העתקה כדי להשתמש בכתובת.</string>
+    <string name="address_copied">הכתובת הועתקה ✅</string>
+    <string name="address_new_or_not_indexed">כתובת חדשה או לא מאונדקסת</string>
+
+    <!-- Balance -->
+    <string name="available">זמין</string>
+    <string name="pending">בהמתנה</string>
+    <string name="pending_txs_fmt">עסקאות בהמתנה: %1$d</string>
+    <string name="balance_unavailable">יתרה לא זמינה</string>
+    <string name="balance_unavailable_node_offline">יתרה לא זמינה (צומת לא מקוון)</string>
+    <string name="loading_balance">טוען יתרה…</string>
+
+    <!-- Network -->
+    <string name="network_title">רשת</string>
+    <string name="node_fmt">צומת: %1$s</string>
+    <string name="node_unreachable">הצומת לא נגיש</string>
+    <string name="loading_network">טוען רשת…</string>
+    <string name="tap_for_details">לחץ לפרטים ▼</string>
+    <string name="tap_to_collapse">צמצום ▲</string>
+    <string name="net_height">גובה</string>
+    <string name="net_miners_10m">כורים (10 דק\')</string>
+    <string name="net_difficulty">קושי</string>
+    <string name="net_eff_difficulty">קושי אפקטיבי</string>
+    <string name="net_mempool_hb">ממפול HB</string>
+    <string name="net_mempool_tx">ממפול TX</string>
+    <string name="net_target_block">בלוק יעד</string>
+    <string name="net_hb_threshold">סף HB</string>
+    <string name="net_issued">הונפק</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">שלמות: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">כרייה</string>
+    <string name="mining_active_badge">● כרייה פעילה</string>
+    <string name="mining_pop">כריית PoP</string>
+    <string name="mining_pop_active">כריית PoP (פעילה)</string>
+    <string name="mining_rejected_fmt">נדחו: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">כריית PoP מוכנה</string>
+    <string name="mining_started">כריית PoP התחילה</string>
+    <string name="mining_stopped">כריית PoP נעצרה</string>
+    <string name="mining_notif_channel_name">כריית PoP</string>
+    <string name="mining_notif_title">PHONCOIN • כריית PoP</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">צומת</string>
+    <string name="mining_status">סטטוס</string>
+    <string name="mining_accepted">אושרו</string>
+    <string name="mining_rejected">נדחו</string>
+    <string name="mining_diff">קושי</string>
+    <string name="mining_last_submit">שליחה אחרונה</string>
+    <string name="mining_last_reason">סיבה אחרונה</string>
+    <string name="mining_start">התחל</string>
+    <string name="mining_stop">עצור</string>
+    <string name="mining_copy_payload">העתק את ה־payload האחרון</string>
+    <string name="mining_running_foreground">כרייה (שירות קדמי)</string>
+    <string name="mining_stopped_badge">נעצר</string>
+    <string name="mining_notif_perm_title">נדרשות התראות</string>
+    <string name="mining_notif_perm_text">לכריית PoP פרימיום (שירות יציב ברקע), Android 13+ דורש הרשאת התראות.</string>
+    <string name="mining_notif_perm_allow">אפשר</string>
+    <string name="mining_notif_perm_later">אחר כך</string>
+    <string name="mining_help_text">השירות שולח heartbeats מסוג PoP-S4 (PoW + חתימה + טביעת אצבע + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">שליחה</string>
+    <string name="receive">קבלה</string>
+    <string name="transactions">עסקאות</string>
+    <string name="explorer">סייר</string>
+
+    <!-- Settings -->
+    <string name="settings_title">הגדרות</string>
+    <string name="settings_security">אבטחה (PIN / ביומטריה)</string>
+    <string name="settings_seed_backup">משפט שחזור</string>
+    <string name="settings_network_node">רשת (צומת)</string>
+    <string name="settings_language">שפה</string>
+
+    <!-- Language -->
+    <string name="language_title">שפה</string>
+    <string name="language_english">אנגלית</string>
+    <string name="language_french">צרפתית</string>
+
+    <!-- Security -->
+    <string name="security_title">אבטחה</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">קוד נעילה (4 עד 12 ספרות)</string>
+    <string name="security_create_pin_hint_toast">צור PIN במסך הנעילה ✅</string>
+    <string name="security_biometrics_title">ביומטריה</string>
+    <string name="security_biometrics_unavailable_toast">ביומטריה לא זמינה</string>
+    <string name="security_enable_pin_first_toast">הפעל קודם PIN ✅</string>
+    <string name="security_autolock_title">נעילה אוטומטית</string>
+    <string name="security_delay_label">עיכוב</string>
+    <string name="security_delay_30s">30 שנ׳</string>
+    <string name="security_delay_1min">1 דקה</string>
+    <string name="security_delay_5min">5 דקות</string>
+    <string name="security_delay_15min">15 דקות</string>
+    <string name="security_privacy_mode_title">מצב פרטיות</string>
+    <string name="security_privacy_mode_desc">הסתרת מידע רגיש בממשק</string>
+    <string name="security_delete_pin">מחיקת PIN</string>
+    <string name="security_pin_deleted_toast">PIN נמחק ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">משפט שחזור</string>
+    <string name="seed_backup_warning">⚠️ אל תשתף את המשפט שלך לעולם. כל מי שיש לו אותו יכול לרוקן את הארנק שלך.</string>
+    <string name="seed_wallet_not_initialized">הארנק לא אותחל.</string>
+    <string name="seed_show_phrase">הצג משפט</string>
+    <string name="seed_phrase_label">משפט:</string>
+    <string name="seed_hide_phrase">הסתר</string>
+    <string name="seed_backup_tip">טיפ: כתוב אותו על נייר ושמור 2 עותקים (בנפרד).</string>
+    <string name="seed_copied_toast">המשפט הועתק ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">הצג קודם את ה־seed ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">משפט שחזור</string>
+    <string name="seed_recovery_warning">⚠️ אל תשתף את המשפט הזה לעולם. הוא נותן גישה מלאה לארנק שלך.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">הצג</string>
+    <string name="seed_recovery_hide">הסתר</string>
+    <string name="seed_recovery_must_reveal_toast">הצג קודם את ה־seed ✅</string>
+    <string name="seed_recovery_copied_toast">ה־seed הועתקה ✅</string>
+    <string name="seed_recovery_tip">טיפ: רשום אותה אופליין (על נייר). הימנע מצילומי מסך.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">צומת / VPS</string>
+    <string name="node_settings_url_label">כתובת ה־URL של הצומת</string>
+    <string name="node_settings_example">דוגמה: https://api.phonchain.org</string>
+    <string name="node_settings_auto">אוטומטי (מומלץ)</string>
+    <string name="node_settings_save">שמירה</string>
+
+    <!-- Send -->
+    <string name="send_title">שליחה</string>
+    <string name="send_from">מאת</string>
+    <string name="send_recipient_label">כתובת יעד (pubkey hex)</string>
+    <string name="send_amount_label">סכום (PHC)</string>
+    <string name="send_sending">שולח…</string>
+    <string name="send_qr_scanned_toast">הכתובת נסרקה ✅</string>
+    <string name="send_qr_invalid_toast">QR לא תקין (לא כתובת hex)</string>
+    <string name="send_scan_prompt">סריקת כתובת (QR)</string>
+    <string name="send_error_recipient_invalid">כתובת יעד לא תקינה</string>
+    <string name="send_error_self_send">אסור לשלוח לעצמך</string>
+    <string name="send_error_amount_invalid">סכום לא תקין</string>
+    <string name="send_error_insufficient_fmt">אין מספיק יתרה (זמין: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">העסקה נשלחה ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">נדחה: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">קבלת PHC</string>
+    <string name="receive_qr_cd">QR של כתובת PHC</string>
+    <string name="receive_qr_unavailable">QR לא זמין</string>
+    <string name="receive_address_unavailable">כתובת לא זמינה</string>
+    <string name="receive_open_explorer">פתח סייר</string>
+
+    <!-- Lock -->
+    <string name="lock_title">אבטחה</string>
+    <string name="lock_subtitle">פתח את הארנק</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 עד 12 ספרות</string>
+    <string name="lock_error_pin_too_short">PIN קצר מדי</string>
+    <string name="lock_pin_created_toast">PIN נוצר ✅</string>
+    <string name="lock_error_pin_incorrect">PIN שגוי</string>
+    <string name="lock_create_pin">צור PIN</string>
+    <string name="lock_unlock">פתיחה</string>
+    <string name="lock_dialog_title">פתיחת PHONCOIN</string>
+    <string name="lock_dialog_no_locking">אין נעילה פעילה (PIN/ביומטריה).</string>
+    <string name="lock_dialog_enable_hint">הפעל PIN וביומטריה בהגדרות → אבטחה.</string>
+    <string name="lock_biometric_subtitle">אשר עם טביעת אצבע או פנים</string>
+    <string name="lock_biometric_label">ביומטריה</string>
+    <string name="lock_biometric_loading">ביומטריה (טוען…)</string>
+    <string name="lock_biometric_not_available">ביומטריה לא זמינה במכשיר הזה (או לא הוגדרה).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">בהמתנה (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">מאושרות (%1$d)</string>
+    <string name="transactions_unavailable">עסקאות לא זמינות (צומת לא מקוון / פורמט)</string>
+    <string name="tx_empty_pending">אין עסקאות בהמתנה</string>
+    <string name="tx_empty_confirmed">אין עסקאות מאושרות</string>
+    <string name="tx_amount">סכום</string>
+    <string name="tx_from">מאת</string>
+    <string name="tx_to">אל</string>
+    <string name="tx_time">תאריך</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">העתק txid</string>
+    <string name="tx_copy_json">העתק JSON</string>
+    <string name="tx_hint_open_explorer">טיפ: לחץ על הכרטיס כדי לפתוח בסייר.</string>
+    <string name="tx_txid_unavailable">Txid לא זמין</string>
+    <string name="tx_txid_copied">Txid הועתק ✅</string>
+    <string name="tx_json_unavailable">JSON לא זמין</string>
+    <string name="tx_json_copied">JSON הועתק ✅</string>
+    <string name="tx_status_confirmed">מאושרת</string>
+    <string name="tx_status_pending">בהמתנה</string>
+    <string name="tx_direction_in">נכנסת</string>
+    <string name="tx_direction_out">יוצאת</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">שגיאה: %1$s</string>
+	
+<string name="mining_bg_title">פעילות ברקע</string>
+<string name="mining_bg_body">כדי להשתתף ב-Proof-of-Phone בצורה יציבה, אפשר פעילות ברקע ובטל מגבלות סוללה עבור PHONCOIN בהגדרות המכשיר. ההשתתפות עלולה להיעצר אם Android מגביל פעילות ברקע.</string>
+<string name="mining_bg_open_settings">פתח הגדרות אפליקציה</string>
+<string name="mining_bg_optimized">מגבלות רקע: פועל (ההשתתפות עלולה להיעצר)</string>
+<string name="mining_bg_unrestricted">מגבלות רקע: כבוי</string>
+
+</resources>

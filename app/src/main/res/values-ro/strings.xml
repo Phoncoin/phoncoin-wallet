@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">PHONCOIN</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline_world_phone">„Un telefon pentru lume.”</string>
+
+    <!-- Global -->
+    <string name="back">Înapoi</string>
+    <string name="close">Închide</string>
+    <string name="copy">Copiază</string>
+    <string name="view">Vezi</string>
+    <string name="refresh">Reîmprospătează</string>
+    <string name="refreshing">Se reîmprospătează…</string>
+    <string name="online">ONLINE</string>
+    <string name="offline">OFFLINE</string>
+
+    <!-- Accessibility -->
+    <string name="cd_phoncoin_logo">Logo Phoncoin</string>
+    <string name="cd_settings">Setări</string>
+    <string name="cd_refresh">Reîmprospătează</string>
+    <string name="cd_lock">Blochează</string>
+    <string name="cd_back">Înapoi</string>
+    <string name="cd_scan_qr">Scanează QR</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Wallet • Minerit • Explorer</string>
+    <string name="home_wallet_detected">Wallet detectat</string>
+    <string name="home_setup_wallet">Configurează wallet-ul</string>
+
+    <!-- ✅ keys used by HomeScreen.kt -->
+    <string name="home_unlock_desc">Deblochează pentru a accesa wallet-ul și a activa mineritul PoP.</string>
+    <string name="home_setup_desc">Creează sau importă fraza de recuperare. Cheile rămân pe telefonul tău.</string>
+
+    <!-- (kept for compatibility) -->
+    <string name="home_desc_initialized">Deblochează pentru a accesa wallet-ul și a activa mineritul PoP.</string>
+    <string name="home_desc_not_initialized">Creează sau importă fraza de recuperare. Cheile rămân pe telefonul tău.</string>
+
+    <string name="home_unlock">Deblochează</string>
+    <string name="home_create_wallet">Creează wallet</string>
+    <string name="home_import_seed">Importă seed</string>
+    <string name="home_footer">PoP Secure v4 • Non-custodial • Mobile-native</string>
+
+    <!-- Explorer -->
+    <string name="explorer_back">Înapoi</string>
+    <string name="explorer_reload">Reîncarcă</string>
+
+    <!-- Onboarding - Import wallet (your current keys) -->
+    <string name="import_wallet_title">Importă seed</string>
+    <string name="import_wallet_hint">Lipește fraza ta de recuperare (12 sau 24 de cuvinte).</string>
+    <string name="import_seed_label">Fraza de recuperare</string>
+    <string name="import_clipboard_empty">Clipboard-ul este gol</string>
+    <string name="import_paste_button">Lipește din clipboard</string>
+    <string name="import_public_key_preview_title">Previzualizare cheie publică</string>
+    <string name="import_confirm_checkbox">Confirm că această seed este corectă</string>
+    <string name="import_invalid_seed_words_fmt">Seed invalidă: sunt necesare 12 sau 24 de cuvinte (actual: %1$d).</string>
+    <string name="import_invalid_seed_format">Seed invalidă (format incorect).</string>
+    <string name="import_confirm_before_import">Confirmă seed înainte de import</string>
+    <string name="import_wallet_imported">Wallet importat ✅</string>
+    <string name="import_button_import">Importă</string>
+    <string name="import_warning">⚠️ Nu face capturi de ecran. Nu-ți partaja niciodată seed-ul.</string>
+
+    <!-- Onboarding - Import wallet (ALIASES for your build errors import_seed_*) -->
+    <string name="import_seed_title">Importă seed</string>
+    <string name="import_seed_desc">Lipește fraza ta de recuperare (12 sau 24 de cuvinte).</string>
+    <string name="import_seed_paste">Lipește din clipboard</string>
+    <string name="import_seed_clipboard_empty">Clipboard-ul este gol</string>
+    <string name="import_seed_pubkey_preview">Previzualizare cheie publică</string>
+    <string name="import_seed_confirm_checkbox">Confirm că această seed este corectă</string>
+    <string name="import_seed_confirm_required_toast">Confirmă seed înainte de import</string>
+    <string name="import_seed_imported_toast">Wallet importat ✅</string>
+    <string name="import_seed_warning">⚠️ Nu face capturi de ecran. Nu-ți partaja niciodată seed-ul.</string>
+    <string name="import_seed_action">Importă</string>
+    <string name="import_seed_error_words_fmt">Seed invalidă: sunt necesare 12 sau 24 de cuvinte (actual: %1$d).</string>
+    <string name="import_seed_error_format">Seed invalidă (format incorect).</string>
+
+    <!-- Onboarding - Create wallet (your current keys) -->
+    <string name="create_wallet_title">Creează wallet</string>
+    <string name="create_wallet_seed_label">Fraza de recuperare (12 cuvinte)</string>
+    <string name="create_wallet_seed_hidden">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_show">Afișează</string>
+    <string name="create_wallet_hide">Ascunde</string>
+    <string name="create_wallet_tip">Notează aceste 12 cuvinte pe hârtie. Nu le partaja niciodată.</string>
+    <string name="create_wallet_confirm_saved">Am salvat seed-ul</string>
+
+    <!-- Onboarding - Create wallet (ALIASES used by your CreateWalletScreen.kt) -->
+    <string name="create_wallet_hidden_mask">•••• •••• •••• •••• •••• ••••</string>
+    <string name="create_wallet_confirm">Am salvat seed-ul</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">Wallet</string>
+    <string name="wallet_not_initialized">Wallet neinițializat</string>
+    <string name="address_generating">Adresă: se generează…</string>
+    <string name="address_title">Adresă PHC</string>
+    <string name="address_copy_hint">Apasă Copiază pentru a folosi adresa.</string>
+    <string name="address_copied">Adresă copiată ✅</string>
+    <string name="address_new_or_not_indexed">Adresă nouă sau neindexată</string>
+
+    <!-- Balance -->
+    <string name="available">Disponibil</string>
+    <string name="pending">În așteptare</string>
+    <string name="pending_txs_fmt">Tranzacții în așteptare: %1$d</string>
+    <string name="balance_unavailable">Sold indisponibil</string>
+    <string name="balance_unavailable_node_offline">Sold indisponibil (nod offline)</string>
+    <string name="loading_balance">Se încarcă soldul…</string>
+
+    <!-- Network -->
+    <string name="network_title">Rețea</string>
+    <string name="node_fmt">Nod: %1$s</string>
+    <string name="node_unreachable">Nod inaccesibil</string>
+    <string name="loading_network">Se încarcă rețeaua…</string>
+    <string name="tap_for_details">Apasă pentru detalii ▼</string>
+    <string name="tap_to_collapse">Restrânge ▲</string>
+    <string name="net_height">Înălțime</string>
+    <string name="net_miners_10m">Minieri (10 min)</string>
+    <string name="net_difficulty">Dificultate</string>
+    <string name="net_eff_difficulty">Dificultate efectivă</string>
+    <string name="net_mempool_hb">Mempool HB</string>
+    <string name="net_mempool_tx">Mempool TX</string>
+    <string name="net_target_block">Bloc țintă</string>
+    <string name="net_hb_threshold">Prag HB</string>
+    <string name="net_issued">Emis</string>
+    <string name="net_cap">Cap</string>
+    <string name="integrity_fmt">Integritate: %1$s</string>
+
+    <!-- Mining -->
+    <string name="mining_title">Minerit</string>
+    <string name="mining_active_badge">● MINERIT ACTIV</string>
+    <string name="mining_pop">Minerit PoP</string>
+    <string name="mining_pop_active">Minerit PoP (activ)</string>
+    <string name="mining_rejected_fmt">Respinse: %1$d</string>
+
+    <!-- Mining PoP notifications -->
+    <string name="mining_ready">Minerit PoP gata</string>
+    <string name="mining_started">Minerit PoP pornit</string>
+    <string name="mining_stopped">Minerit PoP oprit</string>
+    <string name="mining_notif_channel_name">Minerit PoP</string>
+    <string name="mining_notif_title">PHONCOIN • Minerit PoP</string>
+    <string name="mining_status_fmt">PoP : %1$d ✅ / %2$d ❌ • diff %3$d • %4$s</string>
+
+    <!-- Mining screen -->
+    <string name="mining_node">Nod</string>
+    <string name="mining_status">Stare</string>
+    <string name="mining_accepted">Acceptate</string>
+    <string name="mining_rejected">Respinse</string>
+    <string name="mining_diff">Dificultate</string>
+    <string name="mining_last_submit">Ultima trimitere</string>
+    <string name="mining_last_reason">Ultimul motiv</string>
+    <string name="mining_start">Pornește</string>
+    <string name="mining_stop">Oprește</string>
+    <string name="mining_copy_payload">Copiază ultimul payload</string>
+    <string name="mining_running_foreground">MINERIT (serviciu în prim-plan)</string>
+    <string name="mining_stopped_badge">OPRIT</string>
+    <string name="mining_notif_perm_title">Notificări necesare</string>
+    <string name="mining_notif_perm_text">Pentru minerit PoP premium (serviciu stabil în fundal), Android 13+ cere permisiunea de notificări.</string>
+    <string name="mining_notif_perm_allow">Permite</string>
+    <string name="mining_notif_perm_later">Mai târziu</string>
+    <string name="mining_help_text">Serviciul trimite heartbeats PoP-S4 (PoW + semnătură + amprentă + device_info v4).</string>
+
+    <!-- Actions -->
+    <string name="send">Trimite</string>
+    <string name="receive">Primește</string>
+    <string name="transactions">Tranzacții</string>
+    <string name="explorer">Explorer</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Setări</string>
+    <string name="settings_security">Securitate (PIN / Biometrie)</string>
+    <string name="settings_seed_backup">Fraza de recuperare</string>
+    <string name="settings_network_node">Rețea (Nod)</string>
+    <string name="settings_language">Limbă</string>
+
+    <!-- Language -->
+    <string name="language_title">Limbă</string>
+    <string name="language_english">Engleză</string>
+    <string name="language_french">Franceză</string>
+
+    <!-- Security -->
+    <string name="security_title">Securitate</string>
+    <string name="security_pin_title">PIN</string>
+    <string name="security_pin_subtitle">Cod de blocare (4 până la 12 cifre)</string>
+    <string name="security_create_pin_hint_toast">Creează PIN-ul pe ecranul de blocare ✅</string>
+    <string name="security_biometrics_title">Biometrie</string>
+    <string name="security_biometrics_unavailable_toast">Biometrie indisponibilă</string>
+    <string name="security_enable_pin_first_toast">Activează mai întâi PIN-ul ✅</string>
+    <string name="security_autolock_title">Blocare automată</string>
+    <string name="security_delay_label">Întârziere</string>
+    <string name="security_delay_30s">30 s</string>
+    <string name="security_delay_1min">1 min</string>
+    <string name="security_delay_5min">5 min</string>
+    <string name="security_delay_15min">15 min</string>
+    <string name="security_privacy_mode_title">Mod confidențialitate</string>
+    <string name="security_privacy_mode_desc">Ascunde informațiile sensibile din interfață</string>
+    <string name="security_delete_pin">Șterge PIN-ul</string>
+    <string name="security_pin_deleted_toast">PIN șters ✅</string>
+
+    <!-- Seed backup -->
+    <string name="seed_backup_title">Fraza de recuperare</string>
+    <string name="seed_backup_warning">⚠️ Nu-ți partaja niciodată fraza. Oricine o are îți poate goli wallet-ul.</string>
+    <string name="seed_wallet_not_initialized">Wallet neinițializat.</string>
+    <string name="seed_show_phrase">Afișează fraza</string>
+    <string name="seed_phrase_label">Frază:</string>
+    <string name="seed_hide_phrase">Ascunde</string>
+    <string name="seed_backup_tip">Sfat: scrie-o pe hârtie și păstrează 2 copii (separat).</string>
+    <string name="seed_copied_toast">Frază copiată ✅</string>
+
+    <!-- ✅ ADDED -->
+    <string name="seed_field_label">Seed</string>
+    <string name="seed_reveal_before_copy">Afișează mai întâi seed-ul ✅</string>
+
+    <!-- ✅ Seed recovery -->
+    <string name="seed_recovery_title">Fraza de recuperare</string>
+    <string name="seed_recovery_warning">⚠️ Nu-ți partaja niciodată această frază. Oferă acces total la wallet.</string>
+    <string name="seed_recovery_seed_label">Seed</string>
+    <string name="seed_recovery_show">Afișează</string>
+    <string name="seed_recovery_hide">Ascunde</string>
+    <string name="seed_recovery_must_reveal_toast">Afișează mai întâi seed-ul ✅</string>
+    <string name="seed_recovery_copied_toast">Seed copiată ✅</string>
+    <string name="seed_recovery_tip">Sfat: noteaz-o offline (pe hârtie). Evită capturile de ecran.</string>
+    <string name="seed_recovery_masked">•••• •••• •••• •••• •••• ••••</string>
+
+    <!-- Node settings -->
+    <string name="node_settings_title">Nod / VPS</string>
+    <string name="node_settings_url_label">URL nod</string>
+    <string name="node_settings_example">Exemplu: https://api.phonchain.org</string>
+    <string name="node_settings_auto">Auto (recomandat)</string>
+    <string name="node_settings_save">Salvează</string>
+
+    <!-- Send -->
+    <string name="send_title">Trimite</string>
+    <string name="send_from">De la</string>
+    <string name="send_recipient_label">Adresa destinatarului (pubkey hex)</string>
+    <string name="send_amount_label">Sumă (PHC)</string>
+    <string name="send_sending">Se trimite…</string>
+    <string name="send_qr_scanned_toast">Adresă scanată ✅</string>
+    <string name="send_qr_invalid_toast">QR invalid (nu este o adresă hex)</string>
+    <string name="send_scan_prompt">Scanează adresa (QR)</string>
+    <string name="send_error_recipient_invalid">Adresă destinatar invalidă</string>
+    <string name="send_error_self_send">Trimiterea către tine este interzisă</string>
+    <string name="send_error_amount_invalid">Sumă invalidă</string>
+    <string name="send_error_insufficient_fmt">Fonduri insuficiente (disponibil: %1$s PHC)</string>
+    <string name="send_tx_sent_fmt">Tranzacție trimisă ✅ (%1$s / %2$s)</string>
+    <string name="send_rejected_fmt">Respins: %1$s</string>
+
+    <!-- Receive -->
+    <string name="receive_title">Primește PHC</string>
+    <string name="receive_qr_cd">QR al adresei PHC</string>
+    <string name="receive_qr_unavailable">QR indisponibil</string>
+    <string name="receive_address_unavailable">Adresă indisponibilă</string>
+    <string name="receive_open_explorer">Deschide explorer</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Securitate</string>
+    <string name="lock_subtitle">Deblochează wallet-ul</string>
+    <string name="lock_pin_label">PIN</string>
+    <string name="lock_pin_placeholder">4 până la 12 cifre</string>
+    <string name="lock_error_pin_too_short">PIN prea scurt</string>
+    <string name="lock_pin_created_toast">PIN creat ✅</string>
+    <string name="lock_error_pin_incorrect">PIN incorect</string>
+    <string name="lock_create_pin">Creează PIN</string>
+    <string name="lock_unlock">Deblochează</string>
+    <string name="lock_dialog_title">Deblochează PHONCOIN</string>
+    <string name="lock_dialog_no_locking">Nicio blocare activă (PIN/Biometrie).</string>
+    <string name="lock_dialog_enable_hint">Activează PIN și biometria în Setări → Securitate.</string>
+    <string name="lock_biometric_subtitle">Confirmă cu amprenta sau fața ta</string>
+    <string name="lock_biometric_label">Biometrie</string>
+    <string name="lock_biometric_loading">Biometrie (se încarcă…)</string>
+    <string name="lock_biometric_not_available">Biometria nu este disponibilă pe acest dispozitiv (sau nu este configurată).</string>
+
+    <!-- Transactions -->
+    <string name="transactions_tab_pending_fmt">În așteptare (%1$d)</string>
+    <string name="transactions_tab_confirmed_fmt">Confirmate (%1$d)</string>
+    <string name="transactions_unavailable">Tranzacții indisponibile (nod offline / format)</string>
+    <string name="tx_empty_pending">Nicio tranzacție în așteptare</string>
+    <string name="tx_empty_confirmed">Nicio tranzacție confirmată</string>
+    <string name="tx_amount">Sumă</string>
+    <string name="tx_from">De la</string>
+    <string name="tx_to">Către</string>
+    <string name="tx_time">Data</string>
+    <string name="tx_txid">Txid</string>
+    <string name="tx_copy_txid">Copiază txid</string>
+    <string name="tx_copy_json">Copiază JSON</string>
+    <string name="tx_hint_open_explorer">Sfat: apasă pe card pentru a deschide în explorer.</string>
+    <string name="tx_txid_unavailable">Txid indisponibil</string>
+    <string name="tx_txid_copied">Txid copiat ✅</string>
+    <string name="tx_json_unavailable">JSON indisponibil</string>
+    <string name="tx_json_copied">JSON copiat ✅</string>
+    <string name="tx_status_confirmed">Confirmată</string>
+    <string name="tx_status_pending">În așteptare</string>
+    <string name="tx_direction_in">Intrare</string>
+    <string name="tx_direction_out">Ieșire</string>
+
+    <!-- Errors -->
+    <string name="error_fmt">Eroare: %1$s</string>
+	
+<string name="mining_bg_title">Activitate în fundal</string>
+<string name="mining_bg_body">Pentru o participare Proof-of-Phone stabilă, permite activitatea în fundal și dezactivează restricțiile de baterie pentru PHONCOIN din setările dispozitivului. Participarea poate fi întreruptă dacă Android restricționează activitatea în fundal.</string>
+<string name="mining_bg_open_settings">Deschide setările aplicației</string>
+<string name="mining_bg_optimized">Restricții în fundal: PORNITE (participarea poate fi întreruptă)</string>
+<string name="mining_bg_unrestricted">Restricții în fundal: OPRITE</string>
+
+</resources>
